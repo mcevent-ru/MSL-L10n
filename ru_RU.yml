@@ -45,7 +45,7 @@ temp_ban: "<red>Вы <i>временно</i> заблокированы по п�
   <b>%2</b> (МСК)\nВы можете обжаловать наказание на нашем Discord сервере:\n<discord><reset>
   <red>(<light_gray>#поддержка</light_gray>)"
 unknown: "<red>Неизвестная ошибка"
-syntax_error: "<red>Ошибка синтаксиса"
+syntax_error: "<red>Ошибка синтаксиса: %1"
 mute: "<red>Вы заглушены и не можете писать в чат по причине: <b>%1</b>. Осталось:
   %2"
 your_rating: "<green>Ваш рейтинг:"
@@ -147,8 +147,8 @@ max_map_count: "<red>Максимальное кол-во карт: %1"
 veto:
   ban_maps: "<yellow>Забаньте <aqua>%1</aqua> карт<end1:у:ы:> от режима %2"
   ban_modes: "<yellow>Забаньте <aqua>%1</aqua> пвп-режим<end1::а:ов>"
-  chosen_modes: "<green>Выбраны режим<end1::ы> %2"
-  chosen_maps: "<green>Выбран<end1:а:ы> карт<end1:а:ы> %2 для режима %3"
+  chosen_modes: "<green>Выбран<end1::ы> режим<end1::ы> %2"
+  chosen_maps: "<green>Выбран<end1:а:ы> карт<end1:а:ы:> %2 для режима %3"
 
 team_already_exists: "<red>Такая команда уже существует"
 team_created: "<lblue>Команда <white>%1 <lblue>была создана"
@@ -566,7 +566,7 @@ sign:
     locations:
     - world 89 56 -4010
     lines:
-    - ""
+    - " "
     - "<b><yellow>Получить"
     - "<b><yellow>подарок"
     - "%msl_nextgift%"

@@ -23,16 +23,23 @@ non_lobby_command_error: "<red>Эту команду нельзя юзать в 
 non_pvp_command_error: "<red>Эту команду нельзя юзать в файте"
 you_cant_go_outside_map: "<red>Ты не можешь ливнуть с мапы"
 action_cooldown: "<red>Погоди %1 секунды"
-accept_deny: "<green><u><hover:show_text:Принять %1><click:run_command:/%1 accept %2>ПРИНЯТЬ<reset>  <red><u><hover:show_text:Отклонить %1><click:run_command:/%1 deny %2>ОТКЛОНИТЬ"
+accept_deny: "<green><u><hover:show_text:Принять %1><click:run_command:/%1 accept
+  %2>ПРИНЯТЬ<reset>  <red><u><hover:show_text:Отклонить %1><click:run_command:/%1
+  deny %2>ОТКЛОНИТЬ"
 reload: "\n<yellow>Релоад...\nЖди\n"
 reload_kick: "<yellow>Перезагрузка <b>MSL</b><br>Перезайди"
 reload_kick_progress: "<yellow>Релоад <b>MSL</b> <white>(%1%)</white><br>Перезайди"
 maintenance_kick: "<yellow>На серве ведутся техработы.\nЗайди потом"
 maintenance_kick_time: "<yellow>На серве тех работы.\nЗайди ближе к <b>%1</b> (МСК)"
-ac_broadcast: "<gray>[<yellow>Античит</yellow>] <red>Игрок %1 забанен за подозрение в использовании %2 (тип %3)"
-ac_ban: "<red>Ты <i>временно</i> забанен античитом по причине:\n<b>%1</b> (тип %2)\nТы можешь перезайти через <b>%3</b> секунд<end3:у:ы:>"
-perm_ban: "<red>Ты забанен по причине:\n<b>%1</b>\nВы можете обжаловать наказание на нашем Discord сервере:\n<discord><reset> <red>(<light_gray>#поддержка</light_gray>)"
-temp_ban: "<red>Вы <i>временно</i> заблокированы по причине:\n<b>%1</b>\nСрок истекает: <b>%2</b> (МСК)\nВы можете обжаловать наказание на нашем Discord сервере:\n<discord><reset> <red>(<light_gray>#поддержка</light_gray>)"
+ac_broadcast: "<gray>[<yellow>Античит</yellow>] <red>Игрок %1 забанен за подозрение
+  в использовании %2 (тип %3)"
+ac_ban: "<red>Ты <i>временно</i> забанен античитом по причине:\n<b>%1</b> (тип %2)\n\
+  Ты можешь перезайти через <b>%3</b> секунд<end3:у:ы:>"
+perm_ban: "<red>Ты забанен по причине:\n<b>%1</b>\nВы можете обжаловать наказание
+  на нашем Discord сервере:\n<discord><reset> <red>(<light_gray>#поддержка</light_gray>)"
+temp_ban: "<red>Вы <i>временно</i> заблокированы по причине:\n<b>%1</b>\nСрок истекает:
+  <b>%2</b> (МСК)\nВы можете обжаловать наказание на нашем Discord сервере:\n<discord><reset>
+  <red>(<light_gray>#поддержка</light_gray>)"
 unknown: "Неизвестно"
 mute: "<red>Ты замучен по причине: <b>%1</b>. Осталось: %2"
 your_rating: "<green>Твоё эло:"
@@ -40,7 +47,8 @@ player_rating: "<green>Эло <yellow>%1</yellow>:"
 
 moderator:
   you_banned: "<red>Вы забанили игрока <aqua>%1</aqua> до %2 (МСК) по причине: <b>%3</b>"
-  you_muted: "<yellow>Вы заглушили игрока <aqua>%1</aqua> до %2 (МСК) по причине: <b>%3</b>"
+  you_muted: "<yellow>Вы заглушили игрока <aqua>%1</aqua> до %2 (МСК) по причине:
+    <b>%3</b>"
   you_unmuted: "<yellow>Вы размутили игрока <aqua>%1</aqua>"
 
 you_left_queue: "<yellow>Ты ливнул с очереди"
@@ -77,11 +85,14 @@ you_not_in_party: "<red>Ты не в пати"
 you_cant_invite: "<red>Ты не можешь заинвайтить %1"
 you_must_be_party_leader: "<red>Только овнер пати может делать это"
 you_already_sent_invite: "<red>Ты уже кинул инвайт, жди"
-party_invite_sent_player: "<yellow>%1 <green>заинвайтил <yellow>%2 <green>в пати! У игрока есть <red>60\n   <green>секунд чтобы принять приглашение"
-party_invite_sent_target: "<yellow>%1 <green>заинвайтил тя в пати! У тя есть <red>60\n   <green>секунд чтобы принять"
+party_invite_sent_player: "<yellow>%1 <green>заинвайтил <yellow>%2 <green>в пати!
+  У игрока есть <red>60\n   <green>секунд чтобы принять приглашение"
+party_invite_sent_target: "<yellow>%1 <green>заинвайтил тя в пати! У тя есть <red>60\n\
+  \   <green>секунд чтобы принять"
 party_you_accepted: "<green>Ты принял приглос в пати от <yellow>%1"
 you_cant_accept: "<green>Ты не можешь принять инвайт"
-inappropriate_party_size_for_queue: "<red>Ты не можешь инвайтнуть его потому что для него нет места в режиме в очереди которого ты щас"
+inappropriate_party_size_for_queue: "<red>Ты не можешь инвайтнуть его потому что для
+  него нет места в режиме в очереди которого ты щас"
 party_you_denied: "<red>Ты заденаил приглос от <yellow>%1"
 party_player_joined: "<green>Игрок <yellow>%1 <green>зашёл в пати"
 party_player_left: "<green>Игрок <yellow>%1 <red>вышел <green>из пати"
@@ -93,7 +104,8 @@ party_disbanded: "<yellow>Пати дисбанднули"
 party_list: "<green>Участники пати (<aqua>%1<green>):<yellow>"
 too_big_party_for_queue: "<red>В твоей пати много игроков для этого мода\n(%1 > %2)"
 party_not_all_members_in_lobby: "<red>Не все члены пати в лобби"
-party_elo_difference: "<red>Ошибка: Рейтинг %1 отличается от рейтинга %2 более, чем на %3.\nНужно кого-то кикать"
+party_elo_difference: "<red>Ошибка: Рейтинг %1 отличается от рейтинга %2 более, чем
+  на %3.\nНужно кого-то кикать"
 party_message_format: " <gold><i>%1<reset>: %2"
 
 cant_invite_yourself: "<red>Ты сам себя не можешь инвайтнуть дебик"
@@ -107,10 +119,15 @@ duel:
   choose_map_count: "<green>Выбери кол-во мап:"
   choose_win_count: "<green>ФТ скоко?"
   choose_win_count1: "<green>ФТ скоко? (мап)"
-  you_invited: "<green>Ты заинвайтил <yellow>%1<green> сыграть в <gold>%2 <green> \n(<aqua>%4<green> мап<end4:а:ы:>, фт <aqua>%5<green> побед<end5:ы::>).\n   У него  <red>60 <green>сек чтоб принять"
-  you_got_invited: "<green>Игрок <yellow>%1 <green>инвайтнул тя сыграть в <gold>%2 <green> \n(<aqua>%4<green> мап<end4:а:ы:>, фт <aqua>%5<green> побед<end5:ы::>).\n   У тя <red>60 <green>сек чтоб принять"
+  you_invited: "<green>Ты заинвайтил <yellow>%1<green> сыграть в <gold>%2 <green>\
+    \ \n(<aqua>%4<green> мап<end4:а:ы:>, фт <aqua>%5<green> побед<end5:ы::>).\n  \
+    \ У него  <red>60 <green>сек чтоб принять"
+  you_got_invited: "<green>Игрок <yellow>%1 <green>инвайтнул тя сыграть в <gold>%2
+    <green> \n(<aqua>%4<green> мап<end4:а:ы:>, фт <aqua>%5<green> побед<end5:ы::>).\n\
+    \   У тя <red>60 <green>сек чтоб принять"
   you_denied: "<yellow>Ты отказался от файта с <green>%1"
-  different_party_size: "<red>Кол-во участников вашей пати (%1) отличается от кол-ва приглащающего (%2)"
+  different_party_size: "<red>Кол-во участников вашей пати (%1) отличается от кол-ва
+    приглащающего (%2)"
   max_players_in_team: "<red>Макс кол-во игроков в пати: %1"
 
 unknown_mode_type: "<red>Неизвестный тип режима: %1"
@@ -131,9 +148,12 @@ you_cant_change_team_settings_at_moment: "<red>Щас ты не можешь м�
 you_left_team: "<red>Ты ливнул с тимы %1"
 are_you_sure_to_disband_team: "<red>Точно?"
 team_disbanded: "<red>Тима %1 <red>делитнута"
-teamname_pattern_error: "<red>Название тимы не может превышать 16 символов и начинаться с цифры; может состоять только из букв, цифр, дефиса и нижнего подчеркивания"
-team_you_invited: "<lblue>Ты заинвайтил <yellow>%1<lblue> в тиму %2<lblue>! У него <red>60 <lblue>сек чтобы принять приглос"
-team_you_got_invited: "<yellow>%1 <lblue>приглашает вас в тиму %2<lblue>! У тя <red>60 <lblue>сек чтобы принять приглос"
+teamname_pattern_error: "<red>Название тимы не может превышать 16 символов и начинаться
+  с цифры; может состоять только из букв, цифр, дефиса и нижнего подчеркивания"
+team_you_invited: "<lblue>Ты заинвайтил <yellow>%1<lblue> в тиму %2<lblue>! У него
+  <red>60 <lblue>сек чтобы принять приглос"
+team_you_got_invited: "<yellow>%1 <lblue>приглашает вас в тиму %2<lblue>! У тя <red>60
+  <lblue>сек чтобы принять приглос"
 team_you_denied: "<lblue>Ты отказался от вступления в %1"
 accept_error_team_not_exist: "Ошибка вступления: Команда игрока %1 уже не существует"
 accept_error_full_team: "<red>Ошибка вступления: Команда %1 уже переполнена"
@@ -144,10 +164,12 @@ team_you_got_kicked: "<red>Ты кикнут из %1"
 team_color_changed: "<lblue>Цвет тимы изменен: %1"
 team_not_found: "<red>Тима %1 не найдена"
 
-match_minutes_left: "<green>ОСТАЛОСЬ <red>%1<green> МИНУТ<end1:а:ы:> до старта запланированного матча:\n %2 <white>VS %3<green>"
+match_minutes_left: "<green>ОСТАЛОСЬ <red>%1<green> МИНУТ<end1:а:ы:> до старта запланированного
+  матча:\n %2 <white>VS %3<green>"
 match_not_found: "<red>Матч не найден. Пробуй позже"
 match_full_error: "<red>%1 игрок(-а) из твоей тимы уже законнектился к матчу"
-match_expired: "<red>Время кончилось. Матч будет засчитан как победа для случайной команды"
+match_expired: "<red>Время кончилось. Матч будет засчитан как победа для случайной
+  команды"
 match_team_won: "<green>Тима %1<green> <u>завинила<reset><yellow>!"
 match_team_won_round: "<green>Тима %1<green> завинила <yellow>%2<green>-й раунд"
 unknown_season: "<red>Неизвестный сезон: %1"
@@ -157,17 +179,22 @@ registration_closed: "<red>Регистрация закрыта"
 not_enough_members: "<red>Надо иметь хотя бы %1 игрок<end1:а:ов> в тиме"
 
 premium:
-  error: "<click:open_url:https://boosty.to/mcevent><hover:show_text:'Клик'><red>У тя должен быть <premium/> <click:open_url:https://boosty.to/mcevent><hover:show_text:'Нажми'><red>[Нажмите для покупки]"
+  error: "<click:open_url:https://boosty.to/mcevent><hover:show_text:'Клик'><red>У
+    тя должен быть <premium/> <click:open_url:https://boosty.to/mcevent><hover:show_text:'Нажми'><red>[Нажмите
+    для покупки]"
   you_got_premium: "<green>Красава, получил <premium/>!"
-  suffix_pattern_error: "<red>Суффикс не должен превышать 18 символов, может состоять только из букв, цифр и следующих знаков: \n ?!.,:;'\"/@[](){}<>#"
+  suffix_pattern_error: "<red>Суффикс не должен превышать 18 символов, может состоять
+    только из букв, цифр и следующих знаков: \n ?!.,:;'\"/@[](){}<>#"
   suffix_set: "<green>Установлен суффикс: %1"
   suffix_removed: "<green>Суффикс удален"
   unknown_mob: "<red>Неизвестный моб: %1"
   you_spawned_mob: "<green>Ты засаммонил %1"
-  already_max_mobs_spawned: "<red>Ты заспавнили макс колво мобов (%1). <u><hover:show_text:/spawnmob removeAll><click:run_command:/spawnmob removeAll>Удалить</u> их?"
+  already_max_mobs_spawned: "<red>Ты заспавнили макс колво мобов (%1). <u><hover:show_text:/spawnmob
+    removeAll><click:run_command:/spawnmob removeAll>Удалить</u> их?"
   mobs_removed: "<green>Удалено <yellow>%1 <green>мобов"
   no_mobs_removed: "<red>Ни одного моба не было удалено"
-  gradient_ad: "<green>Купив <premium/>, ты смог бы юзать <gradient:blue:red:gold><u>градиент</gradient> вместо обычного <%1>цвета</%1><green>!"
+  gradient_ad: "<green>Купив <premium/>, ты смог бы юзать <gradient:blue:red:gold><u>градиент</gradient>
+    вместо обычного <%1>цвета</%1><green>!"
   got_elytra: "<green>Вы получили <msg:item.lobby.elytra><green>!"
   already_have_elytra: "<red>У тя уже есть элики"
 
@@ -179,10 +206,13 @@ zakupka:
 
 discord:
   info: "<green>Дс серв <msl/>: <discord/>"
-  account_status_0: "<green>Акк: <red>не привязан</red>\nПривяжи акк с помощью <u><hover:show_text:'<b>ЛКМ'><click:run_command:'/discord link'>/discord link"
+  account_status_0: "<green>Акк: <red>не привязан</red>\nПривяжи акк с помощью <u><hover:show_text:'<b>ЛКМ'><click:run_command:'/discord
+    link'>/discord link"
   account_status_1: "<green>Акк: <b>привязан</b> (<i>%1</i>)"
   you_already_registered_code: "<red>Ты уже зарегал код, пробуй потом"
-  copy_code: "<green><u><hover:show_text:'<b>ЛКМ</b> для копирования\nДля привязки используй команду /link на <#5865F2>Discord<white> сервере'><click:copy_to_clipboard:%1>Скопировать код"
+  copy_code: "<green><u><hover:show_text:'<b>ЛКМ</b> для копирования\nДля привязки
+    используй команду /link на <#5865F2>Discord<white> сервере'><click:copy_to_clipboard:%1>Скопировать
+    код"
   account_linked: "<green>Ваш <#5865F2>Discord<green> акк был привязан: <i>%1"
 
 timeout:
@@ -191,7 +221,8 @@ timeout:
   auto_requested: "<green>Автоматом запрошен тайм-аут (осталось %1)"
   no_timeouts: "<red>У твоей тимы нет пауз"
   other_team_already_requested: "<red>Блин, другая тима уже заколила паузу"
-  cancel_btn: "<green><u><hover:show_text:'<b>ЛКМ</b> или /timeout cancel'><click:run_command:/timeout cancel>ОТМЕНИТЬ"
+  cancel_btn: "<green><u><hover:show_text:'<b>ЛКМ</b> или /timeout cancel'><click:run_command:/timeout
+    cancel>ОТМЕНИТЬ"
   you_canceled: "<green>Запросы на паузу были отменены (осталось %1)"
   teammate_canceled: "%1 <green>отменил запросы на паузу (осталось %2)"
   nothing_to_cancel: "<red>Твоя тима не запрашивала паузу"
@@ -206,12 +237,14 @@ call_admin:
   success: "<yellow>Ты позвал админа, щас он зайдет в матч"
   offline: "<red>Админов нет"
   cooldown: "<red>Админа можно будет вызвать еще раз через %1 секунд<end1:у:ы:>"
-  join: "<gray>Игроку %2 <gray>нужна помощь админа. <u><hover:show_text:'/spec %1'><click:run_command:/spec %1>Присоединиться?"
+  join: "<gray>Игроку %2 <gray>нужна помощь админа. <u><hover:show_text:'/spec %1'><click:run_command:/spec
+    %1>Присоединиться?"
 
 gift:
-  success: "<green>Ты получил предметы:%1<br><green>Приходи <green>завтра за новым подарком!"
+  success: "<green>Ты получил предметы:%1<br><green>Приходи <green>завтра за новым
+    подарком!"
   namemc: "<yellow>Чтобы получить гифт поставь <red>❤</red> нашему серву!\n <u><gray><hover:show_text:Жмяк><click:open_url:'https://namemc.com/server/msl.su>https://namemc.com/server/msl.su"
-  failure:  "<red>Некст гифт через %1"
+  failure: "<red>Некст гифт через %1"
   open: "<green>ЛОЛОЛОЛ"
 
 language_changed: "<green>Язык изменен на <aqua>%1"
@@ -274,13 +307,9 @@ tab:
     footer: "Выбери режим"
   pvp:
     header: "<white>%1\nФТ <aqua>%2<white> побед"
-    footer1: "Карта %1<reset>\n
-      %4<white> : %5<reset>\n
-      Раунд <aqua>%6"
-    footer2: "Мапа %1<reset> (%7/%8)\n
-      Общий скор %2<white> : %3<reset>\n
-      Скор %4<white> : %5<reset>\n
-      Раунд <aqua>%6"
+    footer1: "Карта %1<reset>\n %4<white> : %5<reset>\n Раунд <aqua>%6"
+    footer2: "Мапа %1<reset> (%7/%8)\n Общий скор %2<white> : %3<reset>\n Скор %4<white>
+      : %5<reset>\n Раунд <aqua>%6"
 
 #   Киты
 kit:
@@ -402,12 +431,12 @@ display:
 #   Если присутствуют плейсхолдеры, то для их обновления координаты таблички нужно записать в config.yml -> lobby.refreshing_signs
 sign:
   gift:
-    locations: [ world 89 56 -4010 ]
+    locations: [world 89 56 -4010]
     lines:
-      - ""
-      - "<b><yellow>Получить"
-      - "<b><yellow>гифт"
-      - "%msl_nextgift%"
+    - ""
+    - "<b><yellow>Получить"
+    - "<b><yellow>гифт"
+    - "%msl_nextgift%"
 
 #   Меню
 menu:
@@ -431,7 +460,8 @@ menu:
     title: "<gradient:#9f8600:#00abb0>Всякие другие режимы"
     title2: "<gradient:#9f8600:#00abb0>Режимы, которые вы просили добавить"
     mhcpvp.lore: "<gray>Примерно так выглядит финальный бой на <green>MHC"
-    modernpvp.lore: "<gray>Кит, на котором сражались <color:#54fa24>Dream<gray> и <gradient:dark_gray:#f35cdf>Daquavis<gray>."
+    modernpvp.lore: "<gray>Кит, на котором сражались <color:#54fa24>Dream<gray> и
+      <gradient:dark_gray:#f35cdf>Daquavis<gray>."
   pvp_teams_ranked:
     title: "<gradient:#9f8600:#00abb0>Тим дуэли"
 
@@ -509,25 +539,35 @@ instruction:
 
 #   Страницы журнала (определяются в journal.yml)
 journal:
-  - |
-    <b>         <black><u>2025 год<reset>
+- |
+  <b>         <black><u>2025 год<reset>
 
-    <gradient:#b55353:#919144>Ну за этот год произошло много вещей. В частности, было добавлено много режимов и для многих из них был одобрен <black>тир-тестинг</black>. Также сервер был переведен на несколько языков. Ну и много чего.
-  - |
-    <b>         <black><u>19.08.2024<reset>
+  <gradient:#b55353:#919144>Ну за этот год произошло много вещей. В частности, было добавлено много режимов и для многих из них был одобрен <black>тир-тестинг</black>. Также сервер был переведен на несколько языков. Ну и много чего.
+- |
+  <b>         <black><u>19.08.2024<reset>
 
-    <black><b> • </black><gradient:#919144:#b55353>Сервер был обновлен до <black>1.21</black>.
-    <black><b> • </black>Теперь во время игры появляется <black>зона</black>, за пределами которой наносится урон.
-    <black><b> • </black>Добавлена команда <black>/calladmin</black>, с помощью которой можно вызвать админа.
-  - |
-    <b>          <black><u>11.01.2024<reset>
+  <black><b> • </black><gradient:#919144:#b55353>Сервер был обновлен до <black>1.21</black>.
+  <black><b> • </black>Теперь во время игры появляется <black>зона</black>, за пределами которой наносится урон.
+  <black><b> • </black>Добавлена команда <black>/calladmin</black>, с помощью которой можно вызвать админа.
+- |
+  <b>          <black><u>11.01.2024<reset>
 
-    <black><b> • </black><gradient:#b55353:#919144>Реализована система <black>тайм-аутов</black> (перерывов) во время игры.
-    <black><b> • </black>Добавлена возможность <black>возвращаться</black> в игру, если вышел из сервера.
+  <black><b> • </black><gradient:#b55353:#919144>Реализована система <black>тайм-аутов</black> (перерывов) во время игры.
+  <black><b> • </black>Добавлена возможность <black>возвращаться</black> в игру, если вышел из сервера.
 
-    Подробнее в <#7289da>Discord</#7289da>:           <dark_gray><u><i><hover:show_text:Ссылка на новость><click:open_url:https://discord.com/channels/1008694439285370910/1187825467986825329/1194782514829598741>ССЫЛКА
-  - |
-    <b>         <black><u>24.12.2023<reset>
+  Подробнее в <#7289da>Discord</#7289da>:           <dark_gray><u><i><hover:show_text:Ссылка на новость><click:open_url:https://discord.com/channels/1008694439285370910/1187825467986825329/1194782514829598741>ССЫЛКА
+- |
+  <b>         <black><u>24.12.2023<reset>
 
-    <b> • </b><gradient:#919144:#b55353>На сервер был добавлен <black>журнал</black>, который вы сейчас читаете. В нем будет оповещаться информация о <black>новостях</black> и <black>обновлениях</black> такого крутого и амбициозного сервера, как <b><gradient:#7a6c05:#a69207>MSL</b>!
-                              <black><i>☺
+  <b> • </b><gradient:#919144:#b55353>На сервер был добавлен <black>журнал</black>, который вы сейчас читаете. В нем будет оповещаться информация о <black>новостях</black> и <black>обновлениях</black> такого крутого и амбициозного сервера, как <b><gradient:#7a6c05:#a69207>MSL</b>!
+                            <black><i>☺
+you_cant_rename: <red>Ты не можешь называть мобов
+you_must_be_in_game: <red>Те надо быть в игре
+kit_not_chosen: <red>Сначала выбери кит
+syntax_error: '<red>Кривой синтаксис: %1'
+veto:
+  ban_maps: <yellow>Забань <aqua>%1</aqua> мап<end1:у:ы:> от мода %2
+  ban_modes: <yellow>Забань <aqua>%1</aqua> пвп-мод<end1::а:ов>
+  chosen_modes: <green>Выбран<end1::ы> мод<end1::ы> %2
+plus_elo: '<green>%4: +%1 Elo, %2->%3'
+minus_elo: '<red>%4: -%1 Elo, %2->%3'
