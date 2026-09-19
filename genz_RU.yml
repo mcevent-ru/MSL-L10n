@@ -569,5 +569,24 @@ veto:
   ban_maps: <yellow>Забань <aqua>%1</aqua> мап<end1:у:ы:> от мода %2
   ban_modes: <yellow>Забань <aqua>%1</aqua> пвп-мод<end1::а:ов>
   chosen_modes: <green>Выбран<end1::ы> мод<end1::ы> %2
+  chosen_maps: <green>Выбран<end1:а:ы> мап<end1:а:ы:> %2 для мода %3
 plus_elo: '<green>%4: +%1 Elo, %2->%3'
 minus_elo: '<red>%4: -%1 Elo, %2->%3'
+matches:
+  pending_matches: '<green>Некст матчи (<aqua>%1</aqua>):'
+  pending_match: |2
+
+      <green>%1 (МСК): %2 — %3
+      %4 <b><white>VS</b> %5  <hover:show_text:'<b>ЛКМ'><click:run_command:'/matches forceStart %6'><u>Начать щас</u>?
+  opponent_notification_error: <red>Твой соперник (<white>%1</white>) должен 
+    находиться на серваке или иметь привязанный дс
+  opponent_notification_forcestart: <green>Ты предложил <white>%1</white> 
+    зафайтиться прям щас. У него есть <red>%2</red> минут<end2:а:ы:> на ответ
+kbsync:
+  'on': <green>ВКЛ</green>
+  disable: |
+    <hover:show_text:/togglekbs><click:run_command:/togglekbs><yellow><u>Вырубить</u>?
+setscore:
+  vote_cancel: |-
+    %1 <yellow>закэнселил свой воут за изменение счета на %2<white>-</white>%3
+    (%4/%5, %6/%7)
