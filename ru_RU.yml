@@ -566,7 +566,7 @@ sign:
     locations:
     - world 89 56 -4010
     lines:
-    - ""
+    - " "
     - "<b><yellow>Получить"
     - "<b><yellow>подарок"
     - "%msl_nextgift%"
