@@ -580,6 +580,8 @@ matches:
       %4 <b><white>VS</b> %5  <hover:show_text:'<b>ЛКМ'><click:run_command:'/matches forceStart %6'><u>Начать щас</u>?
   opponent_notification_error: <red>Твой соперник (<white>%1</white>) должен 
     находиться на серваке или иметь привязанный дс
+  opponent_notification_forcestart: <green>Ты предложил <white>%1</white> 
+    зафайтиться прям щас. У него есть <red>%2</red> минут<end2:а:ы:> на ответ
 kbsync:
   'on': <green>ВКЛ</green>
   disable: |
