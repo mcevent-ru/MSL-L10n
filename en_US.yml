@@ -26,25 +26,36 @@ non_lobby_command_error: "<red>This command cannot be used in the lobby"
 non_pvp_command_error: "<red>This command cannot be used during battle"
 you_cant_go_outside_map: "<red>You can't go outside the map border"
 action_cooldown: "<red>Please wait %1 seconds"
-accept_deny: "<green><u><hover:show_text:Accept %1><click:run_command:/%1 accept %2>ACCEPT<reset>  <red><u><hover:show_text:Deny %1><click:run_command:/%1 deny %2>DENY"
+accept_deny: "<green><u><hover:show_text:Accept %1><click:run_command:/%1 accept %2>ACCEPT<reset>\
+  \  <red><u><hover:show_text:Deny %1><click:run_command:/%1 deny %2>DENY"
 reload: "\n<yellow>Reloading...\nPlease, wait!\n"
 reload_kick: "<yellow>Reloading <b>MSL</b><br>Rejoin the server"
-reload_kick_progress: "<yellow>Reloading <b>MSL</b> <white>(%1%)</white><br>Rejoin the server"
+reload_kick_progress: "<yellow>Reloading <b>MSL</b> <white>(%1%)</white><br>Rejoin
+  the server"
 maintenance_kick: "<yellow>The server is down for maintenance.\nCome back later"
-maintenance_kick_time: "<yellow>The server is down for maintenance.\nCome back around <b>%1</b> (UTC+3)"
-ac_broadcast: "<gray>[<yellow>Anti-Cheat</yellow>] <red>Player %1 has been temporarily banned for suspicion of using %2 (type %3)"
-ac_ban: "<red>You are <i>temporarily</i> banned by anti-cheat for the following reason:\n<b>%1</b> (type %2)\nYou can rejoin after <b>%3</b> second<end3::s>"
-perm_ban: "<red>You are banned for the following reason:\n<b>%1</b>\nYou can appeal the ban on our Discord server:\n<discord><reset> <red>(<light_gray>#support</light_gray>)"
-temp_ban: "<red>You are <i>temporarily</i> banned for the following reason:\n<b>%1</b>\nThe ban expires on: <b>%2</b> (UTC+3)\nYou can appeal the ban on our Discord server:\n<discord><reset> <red>(<light_gray>#support</light_gray>)"
+maintenance_kick_time: "<yellow>The server is down for maintenance.\nCome back around
+  <b>%1</b> (UTC+3)"
+ac_broadcast: "<gray>[<yellow>Anti-Cheat</yellow>] <red>Player %1 has been temporarily
+  banned for suspicion of using %2 (type %3)"
+ac_ban: "<red>You are <i>temporarily</i> banned by anti-cheat for the following reason:\n\
+  <b>%1</b> (type %2)\nYou can rejoin after <b>%3</b> second<end3::s>"
+perm_ban: "<red>You are banned for the following reason:\n<b>%1</b>\nYou can appeal
+  the ban on our Discord server:\n<discord><reset> <red>(<light_gray>#support</light_gray>)"
+temp_ban: "<red>You are <i>temporarily</i> banned for the following reason:\n<b>%1</b>\n\
+  The ban expires on: <b>%2</b> (UTC+3)\nYou can appeal the ban on our Discord server:\n\
+  <discord><reset> <red>(<light_gray>#support</light_gray>)"
 unknown: "<red>Unknown error"
 syntax_error: "<red>Invalid syntax: %1"
-mute: "<red>You are muted and cannot talk in the chat. Reason: <b>%1</b>. Time left: %2"
+mute: "<red>You are muted and cannot talk in the chat. Reason: <b>%1</b>. Time left:
+  %2"
 your_rating: "<green>Your rating:"
 player_rating: "<green><yellow>%1</yellow>'s rating:"
 
 moderator:
-  you_banned: "<red>You have banned player <aqua>%1</aqua> until %2 (UTC+3). Reason: <b>%3</b>"
-  you_muted: "<yellow>You have muted player <aqua>%1</aqua> until %2 (UTC+3). Reason: <b>%3</b>"
+  you_banned: "<red>You have banned player <aqua>%1</aqua> until %2 (UTC+3). Reason:
+    <b>%3</b>"
+  you_muted: "<yellow>You have muted player <aqua>%1</aqua> until %2 (UTC+3). Reason:
+    <b>%3</b>"
   you_unmuted: "<yellow>You have unmuted player <aqua>%1</aqua>"
 
 you_left_queue: "<yellow>You left the queue"
@@ -64,7 +75,8 @@ current_map: "<aqua>Map: <hover:show_text:'%2'><u>%1\n"
 prepare_for_round: "<yellow>Prepare for round <aqua>%1"
 kit_selected: "<green>Kit selected: <yellow>%1"
 your_teammate_left: "<yellow>Your teammate %1 left the server, but they can rejoin"
-you_will_respawn_in_next_round: "<green>Welcome back! You will respawn in the next round"
+you_will_respawn_in_next_round: "<green>Welcome back! You will respawn in the next
+  round"
 first_team_won_round: "<blue>Blue <green>team won round <yellow>%1"
 second_team_won_round: "<red>Red <green>team won round <yellow>%1"
 first_team_won: "\n<blue>Blue <green>team <b>won</b><yellow>!\n"
@@ -79,23 +91,28 @@ you_not_in_party: "<red>You are not in a party"
 you_cant_invite: "<red>You can't invite %1"
 you_must_be_party_leader: "<red>Only the party leader can do this"
 you_already_sent_invite: "<red>You already sent an invitation, please wait"
-party_invite_sent_player: "<yellow>%1 <green>invited <yellow>%2 <green>to the party! They have <red>60\n   <green>seconds to accept"
-party_invite_sent_target: "<yellow>%1 <green>invited you to a party! You have <red>60\n   <green>seconds to accept"
+party_invite_sent_player: "<yellow>%1 <green>invited <yellow>%2 <green>to the party!
+  They have <red>60\n   <green>seconds to accept"
+party_invite_sent_target: "<yellow>%1 <green>invited you to a party! You have <red>60\n\
+  \   <green>seconds to accept"
 party_you_accepted: "<green>You accepted the party invitation from <yellow>%1"
 you_cant_accept: "<green>You can't accept the invitation"
-inappropriate_party_size_for_queue: "<red>You can't invite this player as there won't be enough space for them in the mode you're currently queued for"
+inappropriate_party_size_for_queue: "<red>You can't invite this player as there won't
+  be enough space for them in the mode you're currently queued for"
 party_you_denied: "<red>You declined the party invitation from <yellow>%1"
 party_player_joined: "<green>Player <yellow>%1 <green>joined the party"
 party_player_left: "<green>Player <yellow>%1 <red>left <green>the party"
 player_not_in_party: "<red>Player is not in your party"
-party_player_got_kicked: "<green>Player <yellow>%1 <red>was kicked <green>from the party"
+party_player_got_kicked: "<green>Player <yellow>%1 <red>was kicked <green>from the
+  party"
 party_you_got_kicked: "<red>You were kicked from the party"
 party_you_left: "<green>You left the party"
 party_disbanded: "<yellow>The party has been disbanded"
 party_list: "<green>Party members (<aqua>%1<green>):<yellow>"
 too_big_party_for_queue: "<red>Your party is too big for this mode\n(%1 > %2)"
 party_not_all_members_in_lobby: "<red>Not all party members are in the lobby"
-party_elo_difference: "<red>Error: %1's rating differs from %2's rating by more than %3.\nYou need to kick someone"
+party_elo_difference: "<red>Error: %1's rating differs from %2's rating by more than
+  %3.\nYou need to kick someone"
 party_message_format: " <gold><i>%1<reset>: %2"
 
 cant_invite_yourself: "<red>You can't invite yourself"
@@ -109,8 +126,12 @@ duel:
   choose_map_count: "<green>Choose number of maps:"
   choose_win_count: "<green>Choose required wins on each of <yellow>%1 <green>maps:"
   choose_win_count1: "<green>Choose required wins:"
-  you_invited: "<green>You invited <yellow>%1<green> to play <gold>%2 <green> \n(<aqua>%4<green> map<end4::s>, first to <aqua>%5<green> win<end5::s>).\n   They have <red>60 <green>seconds to accept"
-  you_got_invited: "<green>Player <yellow>%1 <green>invited you to play <gold>%2 <green> \n(<aqua>%4<green> map<end4::s>, first to <aqua>%5<green> win<end5::s>).\n   You have <red>60 <green>seconds to accept"
+  you_invited: "<green>You invited <yellow>%1<green> to play <gold>%2 <green> \n(<aqua>%4<green>
+    map<end4::s>, first to <aqua>%5<green> win<end5::s>).\n   They have <red>60 <green>seconds
+    to accept"
+  you_got_invited: "<green>Player <yellow>%1 <green>invited you to play <gold>%2 <green>\
+    \ \n(<aqua>%4<green> map<end4::s>, first to <aqua>%5<green> win<end5::s>).\n \
+    \  You have <red>60 <green>seconds to accept"
   you_denied: "<yellow>You declined the duel with <green>%1"
   different_party_size: "<red>Your party size (%1) differs from the inviter's (%2)"
   max_players_in_team: "<red>Maximum players in team: %1"
@@ -133,14 +154,20 @@ player_already_in_team: "<red>This player already has a team"
 you_not_in_team: "<red>You are not in a team"
 player_not_in_team: "<red>This player is not in your team"
 you_not_team_leader: "<red>You must be the team leader"
-you_cant_leave_team_bc_alone: "<red>You can't leave the team when you're the only member"
-you_cant_change_team_settings_at_moment: "<red>You can't change team settings and members at this time"
+you_cant_leave_team_bc_alone: "<red>You can't leave the team when you're the only
+  member"
+you_cant_change_team_settings_at_moment: "<red>You can't change team settings and
+  members at this time"
 you_left_team: "<red>You left team %1"
-are_you_sure_to_disband_team: "<red>Are you sure you want to delete the team? Statistics will be erased"
+are_you_sure_to_disband_team: "<red>Are you sure you want to delete the team? Statistics
+  will be erased"
 team_disbanded: "<red>Team %1 <red>has been deleted"
-teamname_pattern_error: "<red>Team name must not exceed 16 characters and start with a number; can only contain letters, numbers, hyphens and underscores"
-team_you_invited: "<lblue>You invited <yellow>%1<lblue> to team %2<lblue>! They have <red>60 <lblue>seconds to accept"
-team_you_got_invited: "<yellow>%1 <lblue>invites you to team %2<lblue>! You have <red>60 <lblue>seconds to accept"
+teamname_pattern_error: "<red>Team name must not exceed 16 characters and start with
+  a number; can only contain letters, numbers, hyphens and underscores"
+team_you_invited: "<lblue>You invited <yellow>%1<lblue> to team %2<lblue>! They have
+  <red>60 <lblue>seconds to accept"
+team_you_got_invited: "<yellow>%1 <lblue>invites you to team %2<lblue>! You have <red>60
+  <lblue>seconds to accept"
 team_you_denied: "<lblue>You declined to join %1"
 accept_error_team_not_exist: "Join error: Player %1's team no longer exists"
 accept_error_full_team: "<red>Join error: Team %1 is already full"
@@ -151,10 +178,12 @@ team_you_got_kicked: "<red>You were kicked from %1"
 team_color_changed: "<lblue>Team color changed: %1"
 team_not_found: "<red>Team %1 not found"
 
-match_minutes_left: "<red>%1<green> MINUTE<end1::s> left until your match:\n %2 <white>VS %3<green>"
+match_minutes_left: "<red>%1<green> MINUTE<end1::s> left until your match:\n %2 <white>VS
+  %3<green>"
 match_not_found: "<red>Match not found. Try again later"
 match_full_error: "<red>%1 player(s) from your team are already connected to the match"
-match_expired: "<red><red>Time expired. The match will be counted as a victory for a random team"
+match_expired: "<red><red>Time expired. The match will be counted as a victory for
+  a random team"
 match_team_won: "\n<green>Team %1<green> <b>won</b><yellow>!\n"
 match_team_won_round: "<green>Team %1<green> won round <yellow>%2"
 unknown_season: "<red>Unknown season: %1"
@@ -165,24 +194,44 @@ not_enough_members: "<red>You need at least %1 player<end1::s> in the team"
 
 matches:
   pending_matches: "<green>Upcoming matches (<aqua>%1</aqua>):"
-  pending_match: "\n  <green>%1 (UTC+3): %2 — %3\n  %4 <b><white>VS</b> %5  <hover:show_text:'<b>LMB'><click:run_command:'/matches forceStart %6'><u>Start now</u>?\n"
-  opponent_notification_error: "<red>Your opponent (<white>%1</white>) must be on the server or have a linked Discord account"
-  opponent_notification_forcestart: "<green>You have offered <white>%1</white> to play the match right now. They have <red>%2</red> minute<end2::s> to respond"
-  you_got_notified_forcestart: "<green>Your opponent <white>%1</white> has offered to play the match right now: %3 — %4. You have <red>%2</red> minute<end2::s> to accept"
-  you_accepted_forcestart: "<green>You have agreed to start the match right now. Wait about a minute and it will begin."
-  opponent_accepted_forcestart: "<green>Your opponent has agreed to start the match right now. Wait about a minute and it will begin"
+  pending_match: "\n  <green>%1 (UTC+3): %2 — %3\n  %4 <b><white>VS</b> %5  <hover:show_text:'<b>LMB'><click:run_command:'/matches
+    forceStart %6'><u>Start now</u>?\n"
+  opponent_notification_error: "<red>Your opponent (<white>%1</white>) must be on
+    the server or have a linked Discord account"
+  opponent_notification_forcestart: "<green>You have offered <white>%1</white> to
+    play the match right now. They have <red>%2</red> minute<end2::s> to respond"
+  you_got_notified_forcestart: "<green>Your opponent <white>%1</white> has offered
+    to play the match right now: %3 — %4. You have <red>%2</red> minute<end2::s> to
+    accept"
+  you_accepted_forcestart: "<green>You have agreed to start the match right now. Wait
+    about a minute and it will begin."
+  opponent_accepted_forcestart: "<green>Your opponent has agreed to start the match
+    right now. Wait about a minute and it will begin"
   you_denied: "<red>You've decided to decline such a tempting offer >:("
   appealable_matches: "<green>Appeal (<aqua>%1</aqua>):"
-  appealable_match: "\n  <green>%2 — %3\n  %4 <b><white>VS</b> %5  <hover:show_text:'<b>LMB'><click:run_command:'/matches appealConfirm %6'><u>Appeal</u>? (<red>%7</red> second<end7::s> left)\n"
-  confirm_appeal: "<red>Are you sure you want to appeal the match result? False admin calls may result in punishment\n<hover:show_text:'<b><red>LMB'><click:run_command:'/matches appeal %1'><u>Submit appeal</u> (<b>%2</b> second<end2::s> left)"
-  appeal: "<yellow><hover:show_text:'<b>LMB</b> if you disagree with the result due to technical reasons or suspect the opponent of using cheats.\nYou have <red>%2</red> minute<end2::s> to click the button'><click:run_command:'/matches appealConfirm %1'><u>Appeal match result</u>\n(you have <red>%2</red> minute<end2::s> to submit an appeal)"
-  player_appealed: "\n<yellow>Player <white>%1</white> has appealed the match result. Please do not leave the server and wait for an admin\n"
+  appealable_match: "\n  <green>%2 — %3\n  %4 <b><white>VS</b> %5  <hover:show_text:'<b>LMB'><click:run_command:'/matches
+    appealConfirm %6'><u>Appeal</u>? (<red>%7</red> second<end7::s> left)\n"
+  confirm_appeal: "<red>Are you sure you want to appeal the match result? False admin
+    calls may result in punishment\n<hover:show_text:'<b><red>LMB'><click:run_command:'/matches
+    appeal %1'><u>Submit appeal</u> (<b>%2</b> second<end2::s> left)"
+  appeal: "<yellow><hover:show_text:'<b>LMB</b> if you disagree with the result due
+    to technical reasons or suspect the opponent of using cheats.\nYou have <red>%2</red>
+    minute<end2::s> to click the button'><click:run_command:'/matches appealConfirm
+    %1'><u>Appeal match result</u>\n(you have <red>%2</red> minute<end2::s> to submit
+    an appeal)"
+  player_appealed: "\n<yellow>Player <white>%1</white> has appealed the match result.
+    Please do not leave the server and wait for an admin\n"
   appeal_error: "<red>The time to appeal has expired or it has already been submitted"
-  reviewed_appeal_same_score: "<green>As a result of the appeal, the match score remains unchanged: %1<white>-</white>%2"
-  reviewed_appeal_changed_score: "<green>As a result of the appeal, the match score has been <b>changed</b>:\n %3<white>-</white>%4 -> %1<white>-</white>%2"
+  reviewed_appeal_same_score: "<green>As a result of the appeal, the match score remains
+    unchanged: %1<white>-</white>%2"
+  reviewed_appeal_changed_score: "<green>As a result of the appeal, the match score
+    has been <b>changed</b>:\n %3<white>-</white>%4 -> %1<white>-</white>%2"
 
 kbsync:
-  warning: "\n<hover:show_text:'<yellow><white>KnockbackSync</white> synchronizes the knockback you receive from damage. It\\'s enabled by default for %2 mode. You can vote to turn it off this game by typing <white>/togglekbsync'><yellow>KnockbackSync: %1"  # %1 = off/on
+  warning: "\n<hover:show_text:'<yellow><white>KnockbackSync</white> synchronizes
+    the knockback you receive from damage. It\\'s enabled by default for %2 mode.
+    You can vote to turn it off this game by typing <white>/togglekbsync'><yellow>KnockbackSync:
+    %1"                                                                                                                                                                                                                                                           # %1 = off/on
   'off': "<red>OFF</red>"
   'on': "<green>ON</green>"
   disable: "<hover:show_text:/togglekbs><click:run_command:/togglekbs><yellow><u>Disable</u>?\n"
@@ -195,26 +244,34 @@ setscore:
   vote: "%1 <yellow>voted to change the score to %2<white>-</white>%3\n(%4/%5, %6/%7)"
   vote_btn: "<hover:show_text:'/setscore %1-%2'><click:run_command:'/setscore %1-%2'><yellow><u>Vote</u>?"
   cancel_btn: "<hover:show_text:'/setscore %1-%2'><click:run_command:'/setscore %1-%2'><yellow><u>Cancel</u>?"
-  vote_cancel: "%1 <yellow>cancelled their vote to change the score to %2<white>-</white>%3\n(%4/%5, %6/%7)"
+  vote_cancel: "%1 <yellow>cancelled their vote to change the score to %2<white>-</white>%3\n\
+    (%4/%5, %6/%7)"
   success: "<yellow>The game score has been changed to %1<white>-</white>%2"
   limit_warning: "<yellow>You can change the score <aqua>%1</aqua> more time<end1::s>"
   limit_error: "<red>In this tournament, the game score can only be changed %1 time<end1::s>"
   range_error: "<red>The score must be in the range from 0 to %1"
   same_score: "<red>The game score is already %1-%2"
-  rollback_error: "<red>Nothing to roll back. Try to manually specify the score in the command"
-  only_rollback: "<red>In this tournament, you can only roll back the round using /rollback"
+  rollback_error: "<red>Nothing to roll back. Try to manually specify the score in
+    the command"
+  only_rollback: "<red>In this tournament, you can only roll back the round using
+    /rollback"
 
 premium:
-  error: "<click:open_url:https://boosty.to/mslsu><hover:show_text:'Click'><red>You need <premium/> <click:open_url:https://boosty.to/mslsu><hover:show_text:'Click'><red>[Click to purchase]"
-  suffix_pattern_error: "<red>Suffix must not exceed 18 characters and can only contain letters, numbers and the following symbols: \n ?!.,:;'\"/@[](){}<>#"
+  error: "<click:open_url:https://boosty.to/mslsu><hover:show_text:'Click'><red>You
+    need <premium/> <click:open_url:https://boosty.to/mslsu><hover:show_text:'Click'><red>[Click
+    to purchase]"
+  suffix_pattern_error: "<red>Suffix must not exceed 18 characters and can only contain
+    letters, numbers and the following symbols: \n ?!.,:;'\"/@[](){}<>#"
   suffix_set: "<green>Suffix set: %1"
   suffix_removed: "<green>Suffix removed"
   unknown_mob: "<red>Unknown mob: %1"
   you_spawned_mob: "<green>You spawned %1"
-  already_max_mobs_spawned: "<red>You spawned maximum number of mobs (%1). <u><hover:show_text:/spawnmob removeAll><click:run_command:/spawnmob removeAll>Remove</u> them?"
+  already_max_mobs_spawned: "<red>You spawned maximum number of mobs (%1). <u><hover:show_text:/spawnmob
+    removeAll><click:run_command:/spawnmob removeAll>Remove</u> them?"
   mobs_removed: "<green>Removed <yellow>%1 <green>mobs"
   no_mobs_removed: "<red>No mobs were removed"
-  gradient_ad: "<green>By purchasing <premium/>, you could use <gradient:blue:red:gold><u>gradient</gradient> instead of plain <%1>color</%1><green>!"
+  gradient_ad: "<green>By purchasing <premium/>, you could use <gradient:blue:red:gold><u>gradient</gradient>
+    instead of plain <%1>color</%1><green>!"
   got_elytra: "<green>You got <msg:item.lobby.elytra><green>!"
   already_have_elytra: "<red>You already have an elytra"
   safe_zone_error_1: "<red>You can't hit %1 because they're in a safe zone"
@@ -228,10 +285,13 @@ zakupka:
 
 discord:
   info: "<green><msl/> Discord server: <discord/>"
-  account_status_0: "<green>Account: <red>not linked</red>\nLink your account with <u><hover:show_text:'<b>LMB'><click:run_command:'/discord link'>/discord link"
+  account_status_0: "<green>Account: <red>not linked</red>\nLink your account with
+    <u><hover:show_text:'<b>LMB'><click:run_command:'/discord link'>/discord link"
   account_status_1: "<green>Account: <b>linked</b> (<i>%1</i>)"
   you_already_registered_code: "<red>You already registered a code, try again later"
-  copy_code: "<green><u><hover:show_text:'<b>LMB</b> to copy\nUse /link command on <#5865F2>Discord<white> server to link'><click:copy_to_clipboard:%1>[Copy code] Use /link on our discord server, dont just type this code in chat!"
+  copy_code: "<green><u><hover:show_text:'<b>LMB</b> to copy\nUse /link command on
+    <#5865F2>Discord<white> server to link'><click:copy_to_clipboard:%1>[Copy code]
+    Use /link on our discord server, dont just type this code in chat!"
   account_linked: "<green>Your <#5865F2>Discord<green> account has been linked: <i>%1"
 
 timeout:
@@ -240,7 +300,8 @@ timeout:
   auto_requested: "<green>Timeout automatically requested (%1 left)"
   no_timeouts: "<red>Your team has no timeouts left"
   other_team_already_requested: "<red>Oops, the other team already requested timeout"
-  cancel_btn: "<green><u><hover:show_text:'<b>LMB</b> or /timeout cancel'><click:run_command:/timeout cancel>CANCEL"
+  cancel_btn: "<green><u><hover:show_text:'<b>LMB</b> or /timeout cancel'><click:run_command:/timeout
+    cancel>CANCEL"
   you_canceled: "<green>Timeout requests were canceled (%1 left)"
   teammate_canceled: "%1 <green>canceled timeout requests (%2 left)"
   nothing_to_cancel: "<red>Your team hasn't requested timeouts"
@@ -254,15 +315,17 @@ zone:
 call_admin:
   success: "<yellow>You called an admin for \"<b>%1</b>\". They will assist you shortly"
   cooldown: "<red>You can call an admin again in %1 second<end1::s>"
-  join: "<gray>Player %2 <gray>needs admin assistance for \"<b>%3</b>\".\n <u><hover:show_text:/assist %1><click:run_command:/assist %1>Join?"
+  join: "<gray>Player %2 <gray>needs admin assistance for \"<b>%3</b>\".\n <u><hover:show_text:/assist
+    %1><click:run_command:/assist %1>Join?"
 assist:
   admin_joined: "\n<green>%1 showed up to assist you\n"
   error: "<red>This player has probably already been assisted"
 
 gift:
   success: "<green>You received items:%1\n<green>Come back tomorrow for a new gift!"
-  namemc: "<yellow>To receive a gift, just <red>❤</red> our server on <white>NameMC<yellow>!\n <u><gray><hover:show_text:Click><click:open_url:'https://namemc.com/server/msl.su>https://namemc.com/server/msl.su"
-  failure:  "<red>You can get the next gift in %1"
+  namemc: "<yellow>To receive a gift, just <red>❤</red> our server on <white>NameMC<yellow>!\n\
+    \ <u><gray><hover:show_text:Click><click:open_url:'https://namemc.com/server/msl.su>https://namemc.com/server/msl.su"
+  failure: "<red>You can get the next gift in %1"
   open: "<green>OPEN LOL"
 
 language_changed: "<green>Changed language to <aqua>%1"
@@ -317,13 +380,15 @@ death:
 
 #   MOTD
 motd:
-  name: "            <bold><gradient:#fcfc6d:#EDC547>Minecraft Sports League</gradient></bold>           <#7d7d7d>1.21+"
+  name: "            <bold><gradient:#fcfc6d:#EDC547>Minecraft Sports League</gradient></bold>\
+    \           <#7d7d7d>1.21+"
   #description: " <#ffff99><italic>🗡</italic> <gradient:white:#cccccc>ᴍsʟ.sᴜ</gradient><green>  ✔ <italic><gradient:white:white>Various modes! <!i><bold>NEW: <!b><gray>Flint Cart PVP"
   #description: "            <#ffff99><italic>🗡</italic> <gradient:white:#cccccc>ᴍsʟ.sᴜ</gradient><green>    ✔ <italic><gradient:white:white>Various modes!"
   maintenance: "                <red>⚠ UNDER MAINTENANCE"
   maintenance_time: "    <red>⚠ UNDER MAINTENANCE TILL %1 (UTC+3)"
   #name: "<#23a18e>MSL Trident Cup <bold><green>LIVE!"
-  description: "      <gradient:#9f8600:#00abb0>Multiduel 3x3 Cup (5000₽) 26.09 17:00 MSK"
+  description: "      <gradient:#9f8600:#00abb0>Multiduel 3x3 Cup (5000₽) 26.09 17:00
+    MSK"
 
 #   Tab
 tab:
@@ -334,13 +399,9 @@ tab:
     header1: "<white>%1\nfirst to <aqua>%2<white> win<end2::s>"
     header2: "<white>%5\n<white> Mode %1\nfirst to <aqua>%2<white> win<end2::s>"
     header3: "<white>%5\n<white>Mode %1(%3/%4)\nfirst to <aqua>%2<white> win<end2::s>"
-    footer1: "Map %1<reset>\n
-      %4<white> : %5<reset>\n
-      Round <aqua>%6"
-    footer2: "Map %1<reset> (%7/%8)\n
-      Global score %2<white> : %3<reset>\n
-      Score %4<white> : %5<reset>\n
-      Round <aqua>%6"
+    footer1: "Map %1<reset>\n %4<white> : %5<reset>\n Round <aqua>%6"
+    footer2: "Map %1<reset> (%7/%8)\n Global score %2<white> : %3<reset>\n Score %4<white>
+      : %5<reset>\n Round <aqua>%6"
 
 #   Kits
 kit:
@@ -481,7 +542,8 @@ hologram:
     3: "<yellow>MSL Kits Cup 7 <red>FINISHED"
     4: "<yellow>MSL Swords 2x2 Cup 5 <red>FINISHED"
     5: "<green>MSL UHC 2x2 Cup 5 <red>FINISHED"
-    6: "<gradient:#9f8600:#00abb0>R9 Series Multiduel 3x3 Cup (5000₽) 26.09 17:00 MSK"
+    6: "<gradient:#9f8600:#00abb0>R9 Series Multiduel 3x3 Cup (5000₽) 26.09 17:00
+      MSK"
     7: "<white>Learn about tournaments at <yellow>ds.msl.su"
   leaderboard:
     page: "Page"
@@ -499,18 +561,19 @@ hologram:
 display:
   ffa: "<yellow>FFA"
   online_ffa: "<green>●<white> %1"
-  parkour: "<white>Please record your run\nto get verified in the top\n<light_gray>(Video / Flashback)</light_gray>"
+  parkour: "<white>Please record your run\nto get verified in the top\n<light_gray>(Video
+    / Flashback)</light_gray>"
 
 #   Signs
 #   If there are placeholders, then to update them, the cords of the sign must be written in config.yml -> lobby.refreshing_signs
 sign:
   gift:
-    locations: [ world 89 56 -4010 ]
+    locations: [world 89 56 -4010]
     lines:
-      - ""
-      - "<b><yellow>Recieve"
-      - "<b><yellow>a gift"
-      - "%msl_nextgift%"
+    - " "
+    - "<b><yellow>Recieve"
+    - "<b><yellow>a gift"
+    - "%msl_nextgift%"
 
 #   Menus
 menu:
@@ -556,8 +619,10 @@ menu:
   pvp_community:
     title: "<gradient:#9f8600:#00abb0>Community-created modes"
     title2: "<gradient:#9f8600:#00abb0>Community suggested modes & SubTiers modes"
-    mhcpvp.lore: "<gray>This is approximately what the final battle looks like on <green>MHC"
-    modernpvp.lore: "<gray>The kit used by <color:#54fa24>Dream<gray> and <gradient:dark_gray:#f35cdf>Daquavis<gray> in their battle."
+    mhcpvp.lore: "<gray>This is approximately what the final battle looks like on
+      <green>MHC"
+    modernpvp.lore: "<gray>The kit used by <color:#54fa24>Dream<gray> and <gradient:dark_gray:#f35cdf>Daquavis<gray>
+      in their battle."
   addyourmode: "<white>Your mode can be there!"
   addyourmodelore: "<white>Ask to add your gamemode in our discord!"
   pvp_teams_ranked:
@@ -607,14 +672,14 @@ menu:
 
 
 prem:
-  - "<yellow>Make unique kit layouts /kitsettings <red>In developement"
-  - "<yellow>Block maps in queue /banmaps <red>In developement"
-  - "<yellow>Select unique trims for armor /trim <red>In developement"
-  - "<yellow>Spawn mobs in lobby!!! /spawnmob"
-  - "<yellow>Advanced stats /stats <red>In developement"
-  - "<yellow>Set your own tag in TAB /suffix"
-  - "<yellow>Attack players in lobby!"
-  - "<yellow><b>1$ monthly"
+- "<yellow>Make unique kit layouts /kitsettings <red>In developement"
+- "<yellow>Block maps in queue /banmaps <red>In developement"
+- "<yellow>Select unique trims for armor /trim <red>In developement"
+- "<yellow>Spawn mobs in lobby!!! /spawnmob"
+- "<yellow>Advanced stats /stats <red>In developement"
+- "<yellow>Set your own tag in TAB /suffix"
+- "<yellow>Attack players in lobby!"
+- "<yellow><b>1$ monthly"
 
 
 #   Action bars
@@ -697,30 +762,30 @@ instruction:
 
 #   Journal pages (defined in journal.yml)
 journal:
-  - |
-    <b>         <black><u>Year 2025<reset>
+- |
+  <b>         <black><u>Year 2025<reset>
 
-    <gradient:#b55353:#919144>Well, a lot has happened this year. Specifically, many game modes were added and <black>tier-testing</black> was approved for most of them. The server was also translated into several languages. And many other things.
-  - |
-    <b>        <black><u>19/08/2024<reset>
+  <gradient:#b55353:#919144>Well, a lot has happened this year. Specifically, many game modes were added and <black>tier-testing</black> was approved for most of them. The server was also translated into several languages. And many other things.
+- |
+  <b>        <black><u>19/08/2024<reset>
 
-    <black><b> • </black><gradient:#919144:#b55353>The server was updated to <black>1.21</black>.
-    <black><b> • </black>A <black>zone</black> now appears during gameplay that causes damage outside of it.
-    <black><b> • </black>Added the <black>/calladmin</black> command to call an admin.
-  - |
-    <b>        <black><u>11/01/2024<reset>
+  <black><b> • </black><gradient:#919144:#b55353>The server was updated to <black>1.21</black>.
+  <black><b> • </black>A <black>zone</black> now appears during gameplay that causes damage outside of it.
+  <black><b> • </black>Added the <black>/calladmin</black> command to call an admin.
+- |
+  <b>        <black><u>11/01/2024<reset>
 
-    <black><b> • </black><gradient:#b55353:#919144>Implemented a <black>timeout</black> (break) system during gameplay.
-    <black><b> • </black>Added the ability to <black>rejoin</black> the game after leaving the server.
+  <black><b> • </black><gradient:#b55353:#919144>Implemented a <black>timeout</black> (break) system during gameplay.
+  <black><b> • </black>Added the ability to <black>rejoin</black> the game after leaving the server.
 
 
 
-    More details on <#7289da>Discord</#7289da>:
-               <dark_gray><u><i><hover:show_text:News link><click:open_url:https://discord.com/channels/1008694439285370910/1187825467986825329/1194782514829598741>LINK
-  - |
-    <b>        <black><u>24/12/2023<reset>
+  More details on <#7289da>Discord</#7289da>:
+             <dark_gray><u><i><hover:show_text:News link><click:open_url:https://discord.com/channels/1008694439285370910/1187825467986825329/1194782514829598741>LINK
+- |
+  <b>        <black><u>24/12/2023<reset>
 
-    <b> • </b><gradient:#919144:#b55353>A <black>journal</black> was added to the server, which you are currently reading. It will notify about <black>news</black> and <black>updates</black> for such a cool and ambitious server as <b><gradient:#7a6c05:#a69207>MSL</b>!
+  <b> • </b><gradient:#919144:#b55353>A <black>journal</black> was added to the server, which you are currently reading. It will notify about <black>news</black> and <black>updates</black> for such a cool and ambitious server as <b><gradient:#7a6c05:#a69207>MSL</b>!
 
-                              <black><i>☺
+                            <black><i>☺
 
