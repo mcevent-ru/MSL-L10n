@@ -1,0 +1,778 @@
+#      ru_RU.yml
+
+#   Messages
+player_joined: "<yellow>%1 зашел на сервер"
+premium_player_joined: "<yellow><b>%1</b> зашел на сервер"
+player_first_joined: "<yellow>%1 <b>впервые <!b><yellow>заходит на сервер!"
+player_left: "[lang]disabled[/lang]"
+you_cant_build: "<red>Ты не можешь ставить блоки"
+you_cant_break: "<red>Ты не можешь ломать блоки"
+you_cant_use_buckets: "<red>Ты не можешь использовать ведра"
+you_cant_edit_signs: "<red>Ты не можешь редактировать таблички"
+you_cant_use: "<red>Ты не можешь использовать это"
+you_cant_take_book: "<red>Ты не можешь просто взять и украсть книгу"
+you_cant_rename: "<red>Вы не можете переименовывать мобов"
+you_must_be_in_lobby: "<red>Вы должны находиться в лобби"
+you_must_be_in_game: "<red>Вы должны быть в игре"
+kit_not_chosen: "<red>Сначала выберите кит"
+player_not_found: "<red>Игрок %1 не найден"
+player_not_playing: "<yellow>Игрок %1 не играет в данный момент"
+player_not_in_lobby: "<yellow>Игрок %1 сейчас не в лобби"
+you_spectating: "<green>Вы наблюдаете за %1"
+player_spectating: "<gray>Игрок %1 наблюдает"
+color_parse_error: "<red>Цвет должен быть в формате HEX (#ffffff)"
+non_console_command_error: "<red>Эту команду нельзя использовать в консоли"
+non_lobby_command_error: "<red>Эту команду нельзя использовать в лобби"
+non_pvp_command_error: "<red>Эту команду нельзя использовать во время битвы"
+you_cant_go_outside_map: "<red>Вы не можете выйти за границу карты"
+action_cooldown: "<red>Пожалуйста, подождите %1 секунды"
+accept_deny: "<green><u><hover:show_text:Принять %1><click:run_command:/%1 accept
+  %2>ПРИНЯТЬ<reset>  <red><u><hover:show_text:Отклонить %1><click:run_command:/%1
+  deny %2>ОТКЛОНИТЬ"
+reload: "\n<yellow>Перезагрузка...\nПожалуйста, подождите!\n"
+reload_kick: "<yellow>Перезагрузка <b>MSL</b><br>Перезайдите"
+reload_kick_progress: "<yellow>Перезагрузка <b>MSL</b> <white>(%1%)</white><br>Перезайдите"
+maintenance_kick: "<yellow>На сервере ведутся технические работы.\nЗайдите позже"
+maintenance_kick_time: "<yellow>На сервере ведутся технические работы.\nЗайдите ближе
+  к <b>%1</b> (МСК)"
+ac_broadcast: "<gray>[<yellow>Античит</yellow>] <red>Игрок %1 был временно заблокирован
+  за подозрение в использовании %2 (тип %3)"
+ac_ban: "<red>Вы <i>временно</i> заблокированы античитом по причине:\n<b>%1</b> (тип
+  %2)\nВы можете перезайти через <b>%3</b> секунд<end3:у:ы:>"
+perm_ban: "<red>Вы заблокированы по причине:\n<b>%1</b>\nВы можете обжаловать наказание
+  на нашем Discord сервере:\n<discord><reset> <red>(<light_gray>#поддержка</light_gray>)"
+temp_ban: "<red>Вы <i>временно</i> заблокированы по причине:\n<b>%1</b>\nСрок истекает:
+  <b>%2</b> (МСК)\nВы можете обжаловать наказание на нашем Discord сервере:\n<discord><reset>
+  <red>(<light_gray>#поддержка</light_gray>)"
+unknown: "<red>Неизвестная ошибка"
+syntax_error: "<red>Ошибка синтаксиса"
+mute: "<red>Вы заглушены и не можете писать в чат по причине: <b>%1</b>. Осталось:
+  %2"
+your_rating: "<green>Ваш рейтинг:"
+player_rating: "<green>Рейтинг игрока <yellow>%1</yellow>:"
+
+moderator:
+  you_banned: "<red>Вы забанили игрока <aqua>%1</aqua> до %2 (МСК) по причине: <b>%3</b>"
+  you_muted: "<yellow>Вы заглушили игрока <aqua>%1</aqua> до %2 (МСК) по причине:
+    <b>%3</b>"
+  you_unmuted: "<yellow>Вы размутили игрока <aqua>%1</aqua>"
+
+you_left_queue: "<yellow>Вы покинули очередь"
+you_cant_leave: "<red>Ты должен быть в очереди или в игре"
+you_already_in_queue: "<red>Ты уже находишься в очереди. Чтобы покинуть, введи /leave"
+only_party_leader_can_join_queue: "<red>Только лидер группы может занять очередь"
+only_party_leader_can_leave_queue: "<red>Только лидер группы может выйти из очереди"
+you_must_leave_queue: "<red>Сначала покиньте очередь"
+someone_joined_queue: "<gray>Кто-то присоединился в очередь (%1/%2)"
+someone_left_queue: "<gray>Кто-то вышел из очереди (%1/%2)"
+you_left_game: "<red>Ты покинул игру, вследствие чего потерял <b>%1 <reset><red>рейтинга!"
+no_maps_available: "<red>Ошибка: Все карты заняты"
+you_joined_queue: "<gray>Вы присоединились к очереди (%1/%2)"
+
+current_map_no_builders: "<aqua>Карта: %1\n"
+current_map: "<aqua>Карта: <hover:show_text:'%2'><u>%1\n"
+prepare_for_round: "<yellow>Подготовьтесь к <aqua>%1-му<yellow> раунду"
+kit_selected: "<green>Выбран кит: <yellow>%1"
+your_teammate_left: "<yellow>Ваш тиммейт %1 покинул сервер, однако он сможет вернуться
+  в игру"
+you_will_respawn_in_next_round: "<green>С возвращением! Вы зареспавнитесь в следующем
+  раунде"
+first_team_won_round: "<blue>Синяя <green>команда выиграла <yellow>%1<green>-й раунд"
+second_team_won_round: "<red>Красная <green>команда выиграла <yellow>%1<green>-й раунд"
+first_team_won: "\n<blue>Синяя <green>команда <b>победила</b><yellow>!\n"
+second_team_won: "\n<red>Красная <green>команда <b>победила</b><yellow>!\n"
+plus_elo: "<green>%4: +%1 Elo, %2->%3"
+minus_elo: "<red>%4: -%1 Elo, %2->%3"
+you_win: "<green>Ты победил!"
+you_lose: "<green>Ты проиграл!"
+game_ended_error: "<red>Игра завершилась"
+
+party_created: "<green>Группа была успешно создана"
+you_already_in_party: "<red>Вы уже находитесь в группе"
+you_not_in_party: "<red>Вы не состоите в группе"
+you_cant_invite: "<red>Вы не можете пригласить %1"
+you_must_be_party_leader: "<red>Только лидер группы может делать это"
+you_already_sent_invite: "<red>Вы уже отправляли приглашение, подождите"
+party_invite_sent_player: "<yellow>%1 <green>пригласил <yellow>%2 <green>в группу!
+  У игрока есть <red>60\n   <green>секунд, чтобы принять приглашение"
+party_invite_sent_target: "<yellow>%1 <green>пригласил Вас в группу! У Вас есть <red>60\n\
+  \   <green>секунд, чтобы принять приглашение"
+party_you_accepted: "<green>Вы приняли приглашение в группу игрока <yellow>%1"
+you_cant_accept: "<green>Вы не можете принять приглашение"
+inappropriate_party_size_for_queue: "<red>Вы не можете пригласить данного игрока,
+  так как для него не хватит места в режиме, в очереди которого вы сейчас находитесь"
+party_you_denied: "<red>Вы отказались от вступления в группу игрока <yellow>%1"
+party_player_joined: "<green>Игрок <yellow>%1 <green>присоединился к группе"
+party_player_left: "<green>Игрок <yellow>%1 <red>вышел <green>из группы"
+player_not_in_party: "<red>Игрок не состоит в вашей группе"
+party_player_got_kicked: "<green>Игрок <yellow>%1 <red>был изгнан <green>из группы"
+party_you_got_kicked: "<red>Вы были изгнаны из группы"
+party_you_left: "<green>Вы вышли из группы"
+party_disbanded: "<yellow>Группа была расформирована"
+party_list: "<green>Участники группы (<aqua>%1<green>):<yellow>"
+too_big_party_for_queue: "<red>В вашей группе слишком много игроков для этого режима\n\
+  (%1 > %2)"
+party_not_all_members_in_lobby: "<red>Не все члены группы находятся в лобби"
+party_elo_difference: "<red>Ошибка: Рейтинг %1 отличается от рейтинга %2 более, чем
+  на %3.\nНужно кого-то кикать"
+party_message_format: " <gold><i>%1<reset>: %2"
+
+cant_invite_yourself: "<red>Вы не можете пригласить самого себя"
+cant_kick_yourself: "<red>Вы не можете изгнать самого себя"
+invitation_expired: "<red>Приглашение, по всей видимости, истекло"
+already_invited: "<red>Вы уже пригласили этого игрока"
+game_didnt_start_bc_player_left: "<red>Игра не начата: игрок %1 вышел"
+
+duel:
+  choose_mode: "<green>Выберите режим:"
+  choose_map_count: "<green>Выберите кол-во карт:"
+  choose_win_count: "<green>Выберите необх. кол-во побед на каждой из <yellow>%1 <green>карт:"
+  choose_win_count1: "<green>Выберите необх. кол-во побед:"
+  you_invited: "<green>Вы пригласили <yellow>%1<green> сыграть в режим <gold>%2 <green>\
+    \ \n(<aqua>%4<green> карт<end4:а:ы:>, до <aqua>%5<green> побед<end5:ы::>).\n \
+    \  У игрока есть <red>60 <green>секунд, чтобы принять"
+  you_got_invited: "<green>Игрок <yellow>%1 <green>пригласил вас сыграть в режим <gold>%2
+    <green> \n(<aqua>%4<green> карт<end4:а:ы:>, до <aqua>%5<green> побед<end5:ы::>).\n\
+    \   У вас есть <red>60 <green>секунд, чтобы принять"
+  you_denied: "<yellow>Вы отказались от дуэли с <green>%1"
+  different_party_size: "<red>Кол-во участников вашей группы (%1) отличается от кол-ва
+    приглащающего (%2)"
+  max_players_in_team: "<red>Маскимальное кол-во игроков в команде: %1"
+
+unknown_mode_type: "<red>Неизвестный тип режима: %1"
+max_win_count: "<red>Максимально возможное кол-во побед: %1"
+map_count_must_be_odd: "<red>Количество карт должно быть нечетным"
+max_map_count: "<red>Максимальное кол-во карт: %1"
+
+veto:
+  ban_maps: "<yellow>Забаньте <aqua>%1</aqua> карт<end1:у:ы:> от режима %2"
+  ban_modes: "<yellow>Забаньте <aqua>%1</aqua> пвп-режим<end1::а:ов>"
+  chosen_modes: "<green>Выбраны режим<end1::ы> %2"
+  chosen_maps: "<green>Выбран<end1:а:ы> карт<end1:а:ы> %2 для режима %3"
+
+team_already_exists: "<red>Такая команда уже существует"
+team_created: "<lblue>Команда <white>%1 <lblue>была создана"
+you_already_in_team: "<red>Вы уже находитесь в команде"
+player_already_in_team: "<red>Этот игрок уже имеет команду"
+you_not_in_team: "<red>Вы не в команде"
+player_not_in_team: "<red>Этого игрока нет в вашей команде"
+you_not_team_leader: "<red>Вы должны быть лидером команды"
+you_cant_leave_team_bc_alone: "<red>Вы не можете покинуть команду, будучи одним в
+  ней"
+you_cant_change_team_settings_at_moment: "<red>В данный момент вы не можете изменять
+  свойства и состав команды"
+you_left_team: "<red>Вы вышли из команды %1"
+are_you_sure_to_disband_team: "<red>Вы уверены, что хотите удалить команду? Статистика
+  будет стерта"
+team_disbanded: "<red>Команда %1 <red>была удалена"
+teamname_pattern_error: "<red>Название команды не должно превышать 16 символов и начинаться
+  с цифры; может состоять только из букв, цифр, дефиса и нижнего подчеркивания"
+team_you_invited: "<lblue>Вы пригласили <yellow>%1<lblue> в команду %2<lblue>! У игрока
+  есть <red>60 <lblue>секунд, чтобы принять приглашение"
+team_you_got_invited: "<yellow>%1 <lblue>приглашает вас в команду %2<lblue>! У вас
+  есть <red>60 <lblue>секунд, чтобы принять приглашение"
+team_you_denied: "<lblue>Вы отказались от вступления в %1"
+accept_error_team_not_exist: "Ошибка вступления: Команда игрока %1 уже не существует"
+accept_error_full_team: "<red>Ошибка вступления: Команда %1 уже переполнена"
+you_joined_team: "<lblue>Вы присоединились в команду %1<lblue>!"
+player_joined_team: "<lblue>Игрок %1 присоединяется в %2<lblue>!"
+team_player_got_kicked: "<lblue>Игрок %1 был изгнан из %2<lblue> :("
+team_you_got_kicked: "<red>Вы были изгнаны из %1"
+team_color_changed: "<lblue>Цвет команды изменен: %1"
+team_not_found: "<red>Команда %1 не найдена"
+
+match_minutes_left: "<green>ОСТАЛОСЬ <red>%1<green> МИНУТ<end1:а:ы:> до начала запланированного
+  матча:\n %2 <white>VS %3<green>"
+match_not_found: "<red>Матч не найден. Попробуйте позже"
+match_full_error: "<red>%1 игрок(-а) из вашей команды уже подключились к матчу"
+match_expired: "<red>Время истекло. Матч будет засчитан как победа для случайной команды"
+match_team_won: "\n<green>Команда %1<green> <b>победила</b><yellow>!\n"
+match_team_won_round: "<green>Команда %1<green> выиграла <yellow>%2<green>-й раунд"
+unknown_season: "<red>Неизвестный сезон: %1"
+team_already_registered: "<red>Эта команда итак зарегистрирована"
+you_registered_team: "<green>Вы зарегистрировали свою команду на участие в <white>%1"
+registration_closed: "<red>Регистрация закрыта"
+not_enough_members: "<red>Необходимо иметь хотя бы %1 игрок<end1:а:ов> в команде"
+
+matches:
+  pending_matches: "<green>Предстоящие матчи (<aqua>%1</aqua>):"
+  pending_match: "\n  <green>%1 (МСК): %2 — %3\n  %4 <b><white>VS</b> %5  <hover:show_text:'<b>ЛКМ'><click:run_command:'/matches
+    forceStart %6'><u>Начать сейчас</u>?\n"
+  opponent_notification_error: "<red>Ваш соперник (<white>%1</white>) должен находиться
+    на сервере или иметь привязанный дискорд"
+  opponent_notification_forcestart: "<green>Вы предложили <white>%1</white> сыграть
+    матч прямо сейчас. У него есть <red>%2</red> минут<end2:а:ы:> на ответ"
+  you_got_notified_forcestart: "<green>Ваш соперник <white>%1</white> предложил сыграть
+    матч прямо сейчас: %3 — %4. У Вас есть <red>%2</red> минут<end2:а:ы:>, чтобы согласиться"
+  you_accepted_forcestart: "<green>Вы согласились начать матч прямо сейчас. Подождите
+    около минуты, и он запустится."
+  opponent_accepted_forcestart: "<green>Ваш соперник согласился начать матч прямо
+    сейчас. Подождите около минуты, и он запустится"
+  you_denied: "<red>Вы решили отказаться от такого заманчивого предложения >:("
+  appealable_matches: "<green>Апелляция (<aqua>%1</aqua>):"
+  appealable_match: "\n  <green>%2 — %3\n  %4 <b><white>VS</b> %5  <hover:show_text:'<b>ЛКМ'><click:run_command:'/matches
+    appealConfirm %6'><u>Апеллировать</u>? (осталось <red>%7</red> секунд<end7:а:ы:>)\n"
+  confirm_appeal: "<red>Вы уверены, что хотите обжаловать результат матча? Ложный
+    вызов админа может повлечь за собой наказание\n<hover:show_text:'<b><red>ЛКМ'><click:run_command:'/matches
+    appeal %1'><u>Подать апелляцию</u> (осталось <b>%2</b> секунд<end2:а:ы:>)"
+  appeal: "<yellow><hover:show_text:'<b>ЛКМ</b>, если не согласны с результатом по
+    техническим причинам или подозреваете соперника в использовании читов.\nУ вас
+    есть <red>%2</red> минут<end2:а:ы:>, чтобы нажать на кнопку'><click:run_command:'/matches
+    appealConfirm %1'><u>Обжаловать результат матча</u>\n(у вас <red>%2</red> минут<end2:а:ы:>,
+    чтобы подать апелляцию)"
+  player_appealed: "\n<yellow>Игрок <white>%1</white> подал апелляцию на результат
+    матча. Пожалуйста, не выходите с сервера и дождитесь админа\n"
+  appeal_error: "<red>Время на подачу апелляции вышло или она уже подана"
+  reviewed_appeal_same_score: "<green>В результате аппеляции счет матча остался прежним:
+    %1<white>-</white>%2"
+  reviewed_appeal_changed_score: "<green>В результате апелляции счет матча был <b>изменен</b>:\n\
+    \ %3<white>-</white>%4 -> %1<white>-</white>%2"
+
+kbsync:
+  warning: "\n<hover:show_text:'<yellow><white>KnockbackSync</white> синхронизирует
+    отдачу, которую вы получаете от урона. Эта технология включена по умолчанию для
+    режима %2. Вы можете проголосовать за еe отключение в этой игре, используя команду
+    <white>/togglekbsync'><yellow>KnockbackSync: %1"                                                                                                                                                                                                                                                    # %1 = off/on
+  'off': "<red>ВЫКЛ</red>"
+  'on': "<green>ВКЛ</green>"
+  disable: "<hover:show_text:/togglekbs><click:run_command:/togglekbs><yellow><u>Выключить</u>?\n"
+  vote_off: "%1 <yellow>проголосовал за <red>выключение</red> KnockbackSync (%2/%3)"
+  vote_on: "%1 <yellow>проголосовал за <green>включение</green> KnockbackSync (%2/%3)"
+  vote_cancel: "%1 <yellow>отменил свой голос (%2/%3)"
+  error: "<red>Плагин KnockbackSync отсутствует на сервере"
+
+setscore:
+  vote: "%1 <yellow>проголосовал за изменение счета на %2<white>-</white>%3\n(%4/%5,
+    %6/%7)"
+  vote_btn: "<hover:show_text:'/setscore %1-%2'><click:run_command:'/setscore %1-%2'><yellow><u>Проголосовать</u>?"
+  cancel_btn: "<hover:show_text:'/setscore %1-%2'><click:run_command:'/setscore %1-%2'><yellow><u>Отменить</u>?"
+  vote_cancel: "%1 <yellow>отменил свой голос за изменение счета на %2<white>-</white>%3\n\
+    (%4/%5, %6/%7)"
+  success: "<yellow>Счет игры был изменен на %1<white>-</white>%2"
+  limit_warning: "<yellow>Вы можете изменить счет еще <aqua>%1</aqua> раз<end1::а:>"
+  limit_error: "<red>В этом турнире счет игры можно изменять только %1 раз<end1::а:>"
+  range_error: "<red>Счет должен быть в диапазоне от 0 до %1"
+  same_score: "<red>Счет игры итак является %1-%2"
+  rollback_error: "<red>Нечего откатывать. Или вручную укажите счет в команде"
+  only_rollback: "<red>В этом турнире можно только откатывать раунд с помощью /rollback"
+
+premium:
+  error: "<click:open_url:https://boosty.to/mslsu><hover:show_text:'Нажми'><red>У
+    вас должен быть <premium/> <click:open_url:https://boosty.to/mslsu><hover:show_text:'Нажми'><red>[Нажмите
+    для покупки]"
+  suffix_pattern_error: "<red>Суффикс не должен превышать 18 символов, может состоять
+    только из букв, цифр и следующих знаков: \n ?!.,:;'\"/@[](){}<>#"
+  suffix_set: "<green>Установлен суффикс: %1"
+  suffix_removed: "<green>Суффикс удален"
+  unknown_mob: "<red>Неизвестный моб: %1"
+  you_spawned_mob: "<green>Вы призвали %1"
+  already_max_mobs_spawned: "<red>Вы заспавнили максимальное количество мобов (%1).
+    <u><hover:show_text:/spawnmob removeAll><click:run_command:/spawnmob removeAll>Удалить</u>
+    их?"
+  mobs_removed: "<green>Удалено <yellow>%1 <green>мобов"
+  no_mobs_removed: "<red>Ни одного моба не было удалено"
+  gradient_ad: "<green>Купив <premium/>, вы смогли бы использовать <gradient:blue:red:gold><u>градиент</gradient>
+    вместо обычного <%1>цвета</%1><green>!"
+  got_elytra: "<green>Вы получили <msg:item.lobby.elytra><green>!"
+  already_have_elytra: "<red>У вас уже есть элитры"
+  safe_zone_error_1: "<red>Вы не можете ударить %1, потому что он в сейв-зоне"
+  safe_zone_error_2: "<red>Вы не можете бить игроков, находясь в сейв-зоне"
+
+zakupka:
+  not_enough_currency: "<red>Недостаточно %1 для покупки"
+  you_purchased: "<green>Вы приобрели <yellow>%1 <white>%2"
+  you_cant_sell: "<red>Не удалось продать предмет"
+  you_sold: "<green>Вы продали <yellow>%1 <white>x%2"
+
+discord:
+  info: "<green>Дискорд сервер <msl/>: <discord/>"
+  account_status_0: "<green>Аккаунт: <red>не привязан</red>\nПривяжите аккаунт с помощью
+    <u><hover:show_text:'<b>ЛКМ'><click:run_command:'/discord link'>/discord link"
+  account_status_1: "<green>Аккаунт: <b>привязан</b> (<i>%1</i>)"
+  you_already_registered_code: "<red>Вы уже зарегистрировали код, попробуйте позже"
+  copy_code: "<green><u><hover:show_text:'<b>ЛКМ</b> для копирования\nДля привязки
+    используйте команду /link на <#5865F2>Discord<white> сервере'><click:copy_to_clipboard:%1>[Скопировать
+    код] Используйте /link в Discord-сервере MSL для привязки. Не пишите этот код
+    в чат!"
+  account_linked: "<green>Ваш <#5865F2>Discord<green> аккаунт был привязан: <i>%1"
+
+timeout:
+  you_requested: "<green>Вы запросили тайм-аут (осталось %1)   "
+  teammate_requested: "%1 <green>запросил тайм-аут (осталось %2)"
+  auto_requested: "<green>Автоматически запрошен тайм-аут (осталось %1)"
+  no_timeouts: "<red>У вашей команды не осталось тайм-аутов"
+  other_team_already_requested: "<red>Блин, другая команда уже запросила тайм-аут"
+  cancel_btn: "<green><u><hover:show_text:'<b>ЛКМ</b> или /timeout cancel'><click:run_command:/timeout
+    cancel>ОТМЕНИТЬ"
+  you_canceled: "<green>Запросы на тайм-ауты были отменены (осталось %1)"
+  teammate_canceled: "%1 <green>отменил запросы на тайм-ауты (осталось %2)"
+  nothing_to_cancel: "<red>Ваша команда не запрашивала тайм-ауты"
+  cant_cancel: "<red>Нельзя отменять тайм-аут во время его действия"
+  timeout: "\n<b>Тайм-аут!\n"
+
+zone:
+  warning: "<red>Через 1 минуту зона начнет сужаться"
+  shrinking: "<red>ЗОНА СУЖАЕТСЯ!"
+
+call_admin:
+  success: "<yellow>Вы позвали админа по причине: \"<b>%1</b>\". Он скоро Вам поможет"
+  cooldown: "<red>Админа можно будет вызвать еще раз через %1 секунд<end1:у:ы:>"
+  join: "<gray>Игроку %2 <gray>нужна помощь по причине \"<b>%3</b>\".\n <u><hover:show_text:/assist
+    %1><click:run_command:/assist %1>Присоединиться?"
+assist:
+  admin_joined: "\n<green>%1 зашел, чтобы помочь Вам\n"
+  error: "<red>Этому игроку уже наверное помогли"
+
+gift:
+  success: "<green>Ты получил предметы:%1<br><green>Приходи <green>завтра за новым
+    подарком!"
+  namemc: "<yellow>Чтобы получить подарок, поставь <red>❤</red> нашему серверу!\n\
+    \ <u><gray><hover:show_text:Жмяк><click:open_url:'https://namemc.com/server/msl.su>https://namemc.com/server/msl.su"
+  failure: "<red>Следующий подарок можно будет забрать через %1"
+  open: "<green>ЛОЛОЛОЛ"
+
+language_changed: "<green>Язык изменен на <aqua>%1"
+unknown_role: "<red>Неизвестная роль: %1"
+you_got_role: "<green>Поздравляем! Ты получил новую роль: %1!"
+you_got_roles: "<green>Поздравляем! Ты получил <aqua>%1</aqua> новы<end1:е:e:х> рол<end1:и:и:ей>:"
+you_got_roles_list: "<white>• %1"
+
+prefix_set: "<green>Префикс изменен: %1"
+prefix_removed: "<green>Префикс скрыт"
+
+#   Death messages
+#   If the message doesn't contain "%2", then when a player dies, ", while escaping from %2" will be automatically appended
+#         if the player was in combat at that time
+#   The time after which combat state expires can be configured in the config
+death:
+  escaping: ", спасаясь от %1"
+  default: "%1<white> умер"
+  block_explosion: "%1<white> был взорван"
+  contact:
+    cactus: "%1<white> исколот кактусом"
+    sweet_berry_bush: "%1<white> застрял в кусте"
+  cramming: "%1<white> задохнулся в существах"
+  dragon_breath: "%1<white> был убит рвотой дракона"
+  drowning: "%1<white> задохнулся в воде"
+  dryout: "%1<white> высох"
+  entity_attack: "%1<white> был убит %2"
+  entity_explosion:
+    tnt: "%1<white> был взорван %2"
+    firework: "%1<white> был убит фейерверком %2"
+    creeper: "%1<white> был взорван крипером"
+  entity_sweep_attack: "%1<white> был убит %2"
+  fall: "%1<white> упал и умер"
+  falling_block: "%1<white> был убит падающим блоком"
+  fire: "%1<white> сгорел"
+  fire_tick: "%1<white> сгорел"
+  fly_into_wall: "%1<white> врезался в стену"
+  hot_floor: "%1<white> наступил на магму"
+  lava: "%1<white> сгорел в лаве"
+  lightning: "%1<white> убит молнией"
+  magic: "%1<white> убит зельем %2"
+  projectile:
+    arrow: "%1<white> застрелен %2"
+    trident: "%1<white> был пронзён %2"
+    fireball: "%1<white> был убит файрболом %2"
+  starvation: "%1<white> умер от голода"
+  suffocation: "%1<white> задохнулся в блоке"
+  thorns: "%1<white> умер от шипов %2"
+  void: "%1<white> упал в бездну"
+  wither: "%1<white> умер от иссушения"
+  world_border: "Игрока %1<white> поглотила зона"
+
+#   MOTD
+motd:
+  name: "            <bold><gradient:#fcfc6d:#EDC547>Minecraft Sports League</gradient></bold>\
+    \           <#7d7d7d>1.21+"
+  #description: " <#ffff99><italic>🗡</italic> <gradient:white:#cccccc>ᴍsʟ.sᴜ</gradient><green>  ✔ <italic><gradient:white:white>Various modes! <!i><bold>NEW: <!b><gray>Flint Cart PVP"
+  #description: "            <#ffff99><italic>🗡</italic> <gradient:white:#cccccc>ᴍsʟ.sᴜ</gradient><green>    ✔ <italic><gradient:white:white>Various modes!"
+  maintenance: "       <red>⚠ ТЕХНИЧЕСКИЕ РАБОТЫ"
+  maintenance_time: "     <red>⚠ ТЕХНИЧЕСКИЕ РАБОТЫ до %1 (МСК)"
+  #name: "<#23a18e>MSL Trident Cup <bold><green>LIVE!"
+  description: "    <gradient:#9f8600:#00abb0>Мультидуэль 3x3 Турнир (5000₽) 26.09
+    17:00 МСК"
+
+#   Tab
+tab:
+  lobby:
+    header: "Вы в Лобби"
+    footer: "Выберите режим игры"
+  pvp:
+    header1: "<white>%1\nдо <aqua>%2<white> побед<end2:ы:>"
+    header2: "<white>%5\n<white> Режим %1\nдо <aqua>%2<white> побед<end2:ы:>"
+    header3: "<white>%5\n<white>Режим %1(%3/%4)\nдо <aqua>%2<white> побед<end2:ы:>"
+    footer1: "Карта %1<reset>\n %4<white> : %5<reset>\n Раунд <aqua>%6"
+    footer2: "Карта %1<reset> (%7/%8)\n Общий счет %2<white> : %3<reset>\n Счет %4<white>
+      : %5<reset>\n Раунд <aqua>%6"
+
+#   Kits
+kit:
+  menu_title: "<dark_aqua>Выберите кит-набор"
+  axepvp: "<yellow>Топор и щит"
+  crownpvp: "<#FFD700>Crown SMP PVP"
+  swordpvp: "<yellow>Мечи"
+  nautiluspvp: "<#238885>Nautilus%1"
+  uhcpvp: "<yellow>UHC"
+  shieldlessuhcpvp: "<yellow>UHC Без щитов"
+  macepvp: "<yellow>Булава"
+  diamondmacepvp: "<yellow>Алмазная Булава"
+  smppvp: "<yellow>SMP"
+  modernsmppvp: "<yellow>Modern SMP"
+  nethoppvp: "<yellow>Незеритовая броня"
+  potpvp: "<yellow>Зелья (Pot PVP)"
+  strengthsmppvp: "<#FF8C00>Strength SMP PVP"
+  modernpotpvp: "<yellow>Modern Зелья (Pot PVP)"
+  tridentpvp: "<yellow>Трезубец"
+  diamondsmp: "<yellow>Алмазное SMP"
+  debuffpvp: "<yellow>Debuff"
+  bowpvp: "<yellow>Луки"
+  ogvanillapvp: "<yellow>OG Vanilla"
+  elytra: "<yellow>Elytra (Subtiers)"
+  elytra2: "<yellow>Elytra"
+  creeperpvp: "<yellow>PVP на Криперах"
+  ironuhcpvp: "<yellow>Iron UHC"
+  flintcartpvp: "<gray>Flint Cart PVP"
+  mace: "<red>Пехотинец"
+  sword: "<yellow>Мечник"
+  crossbow: "<yellow>Стрелок"
+  axe: "<yellow>Берсерк"
+  heal: "<yellow>Медик"
+  trident: "<yellow>Страж"
+  speed: "<yellow>Зельевар"
+
+#   Modes
+mode:
+  kits: "<yellow>Киты%1"
+  zakupka: "<gold>Закупка%1"
+  ts: "Tactical Showdown%1"
+  elytra2pvp: "<yellow>Элитры%1"
+  axepvp: "<#ff0000>Топор и щит%1"
+  random: "<gradient:yellow:#cccc00:white>Случайный режим 1v1"
+  spleef: "<#ffffff>Сплиф%1"
+  lokapotpvp: "<#ff474c>Loka Pot Conquest Kit%1"
+  crownpvp: "<#FFD700>Crown SMP PVP%1"
+  swordpvp: "<aqua>Меч%1"
+  nautiluspvp: "<#238885>Наутилус%1"
+  uhcpvp: "<green>UHC%1"
+  mushroompvp: "<#C4A484>Грибные Дуэли%1"
+  pufferfishpvp: "<gradient:#f1c232:#ba6530>Фугу-Дуэли<#ba6530>%1"
+  pufferfishpvppro: "<gradient:#f1c232:#ba6530>Фугу-Дуэли Усложнённый<#ba6530>%1"
+  modernuhcpvp: "<gradient:green:aqua>Modern UHC<aqua>%1"
+  shieldlessuhcpvp: "<gradient:yellow:gold>UHC Без щита<gold>%1"
+  smppvp: "<yellow>SMP%1"
+  modernsmppvp: "<gradient:yellow:aqua>Modern SMP<aqua>%1"
+  cissmppvp: "<white>СНГ <blue>SMP<red>%1"
+  nethoppvp: "<#524566>Незеритовый OP%1"
+  manhuntpvp: "<gold>Manhunt PVP%1"
+  diamondoppvp: "<aqua>Алмазный OP%1"
+  modernpotpvp: "<gradient:light_purple:aqua>Modern Зелья (Pot PVP)<aqua>%1"
+  strengthsmppvp: "<#FF8C00>Strength SMP PVP%1"
+  potpvp: "<light_purple>Зелья (Pot PVP)%1"
+  macepvp: "<gray>Булава%1"
+  flintcartpvp: "<gray>Flint Cart PVP%1"
+  diamondmacepvp: "<gradient:gray:aqua>Алмазная Булава<aqua>%1"
+  axepotionpvp: "<yellow>Топор с зельями%1"
+  speartntpvp: "<#ff474c>Копья с Динамитом%1"
+  macesmppvp: "<gray>Булава SMP%1"
+  tridentpvp: "<#23a18e>Трезубец%1"
+  cartpvp: "<red>Cart PVP%1"
+  procartpvp: "<red>Pro Cart PVP%1"
+  elytrapvp: "<white>Элитры (Subtiers)%1"
+  debuffpvp: "<dark_green>Debuff%1"
+  diamondsmppvp: "<aqua>Алмазное SMP%1"
+  bowpvp: "<#bd6f09>Луки%1"
+  ogvanillapvp: "<dark_blue>Старый Vanilla%1"
+  nethpotpvp: "<dark_purple>Незерит-Зелья%1"
+  crystalsumopvp: "<#e39ff6>Crystal Sumo%1"
+  icesumopvp: "<#00ced1>Ice Sumo%1"
+  spearpvp: "<#7B68EE>Копья%1"
+  spearmacepvp: "<#7B68EE>Копья с Булавой%1"
+  lifestealpvp: "<#b80f0a>Lifesteal PVP%1"
+  ironuhcpvp: "<#a19d94>Железное UHC%1"
+  tridentmacepvp: "<gradient:#7FFFD4:#a19d94>Трезубец-Булава%1"
+  creeperpvp: "<#228B22>PVP на Криперах%1"
+  doorpvp: "<gold>Door PVP%1"
+  modernpvp: "<gradient:#54fa24:#f35cdf>Modern PVP<#f35cdf>%1"
+  mhcpvp: "<green>Multihardcore finals%1"
+  multiduel: "<gradient:#9f8600:#00abb0>Мультидуэль%1"
+
+#   Items
+  moderndiamondsmppvp: <gradient:aqua:yellow>Modern Diamond SMP<yellow>%1
+item:
+  lobby:
+    compass: "<b><yellow>МЕНЮ"
+    bow: "<b><yellow>ЛУК"
+    arrow: "<b><yellow>СТРЕЛА"
+    elytra: "<b>КРЫЛЬЯ"
+    journal: "<b><yellow>ЖУРНАЛ"
+
+#   Holograms
+hologram:
+  npc1: "<gradient:#FFFF54:#EDC547>Режимы MSL"
+  npc2: "<gradient:#FFFF54:#EDC547>Соревновательные дуэли"
+  npc3: "<gradient:#FFFF54:#EDC547>Режимы сообщества"
+  npc4: "<gradient:#FFFF54:#EDC547>Командные режимы"
+  npc5: "<gradient:#FFFF54:#EDC547>Мультидуэль"
+  spectate: "Наблюдать:"
+  online_playing: "<green>●<white> %1 игра<end1:ет:ют>"
+  online_spectating: "<gray>👁<white> %1 наблюда<end1:ет:ют>"
+  online_queuing: "<gold>⌚<white> %1 в очереди"
+  category_online_playing: "<green>●<white> %1"
+  category_online_queuing: "<gold>⌚<white> %1"
+  info1:
+    1: "Создать команду <yellow>/team create <gray>[<white>НАЗВАНИЕ<gray>]"
+    2: "Пригласить/Удалить из команды <yellow>/team invite/kick <gray>[<white>НИК<gray>]"
+    3: "Изменить цвет команды <yellow>/team color <gray>[<white>0-9,a-f<gray>]"
+    4: "Выйти/Удалить команду <yellow>/team leave"
+    5: "Просмотреть участников команды <yellow>/team list <gray>[<white>НАЗВАНИЕ<gray>]"
+    6: "Участвовать в турнирах - <yellow>/team register <gray>[<white>ТУРНИР<gray>]"
+  info2:
+    1: "Пригласить в группу <green>/group invite <gray>[<white>НИК<gray>]"
+    2: "Удалить из группы <green>/group kick <gray>[<white>НИК<gray>]"
+    3: "Выйти/Удалить группу <green>/group leave"
+    4: "Вызвать на бой <green>/duel <gray>[<white>НИК<gray>]"
+    5: "Взять паузу на 30 секунд <green>/timeout"
+    6: "Провести тиртест: <green>/tiertest <gray>[<white>НИК<gray>]"
+  cups:
+    1: "<bold><yellow>Предстоящие Турниры"
+    2: "<red>MSL Axe 2v2 Cup 5 <red>Завершён"
+    3: "<yellow>MSL Kits Cup 7 <red>Завершён"
+    4: "<yellow>MSL Swords 2x2 Cup 5 <red>Завершён"
+    5: "<green>MSL UHC 2x2 Cup 5 <red>Завершён"
+    6: "<gradient:#9f8600:#00abb0>R9 Series Multiduel 3x3 Cup (5000₽) 26.09 17:00
+      МСК"
+    7: "<white>Больше о турнирах: <yellow>ds.msl.su"
+  leaderboard:
+    page: "Стр."
+  parkour:
+    1: "<b><gradient:#FFFF54:#EDC547>MSL ПАРКУР"
+    2: "<yellow>Твой рекорд: <white>%1</white>"
+    3: "<yellow>Глобальный рекорд: <white>%1</white>"
+    4: "<yellow>(от <white>%1</white>)"
+
+#  CET на два часа меньше чем МСК
+#   Displays
+display:
+  ffa: "<yellow>FFA"
+  online_ffa: "<green>●<white> %1"
+  parkour: "<white>Для верификации в топ\nнужна запись забега\n<light_gray>(Видео
+    или Flashback)</light_gray>"
+
+#   Signs
+#   If there are placeholders, then to update them, the cords of the sign must be written in config.yml -> lobby.refreshing_signs
+sign:
+  gift:
+    locations:
+    - world 89 56 -4010
+    lines:
+    - ""
+    - "<b><yellow>Получить"
+    - "<b><yellow>подарок"
+    - "%msl_nextgift%"
+
+#   Menus
+menu:
+  pvp_competitive:
+    title: "<gradient:#9f8600:#00abb0>Соревновательные дуэли"
+  pvp_comic:
+    title: "<gradient:#9f8600:#00abb0>Забавные и нелепые режимы"
+  multiduel:
+    title: "<gradient:#9f8600:#00abb0>Мультидуэль"
+    includes: "Включает <aqua>%1</aqua> из этих режимов:"
+  main:
+    title: "<gradient:#5b552d:#82741f:yellow:#c8c4c4><b><u>Меню сервера          \
+      \  "
+    select_language: "<yellow>Выбрать язык"
+    create_team:
+      name: "<gold>Создать команду"
+      lore: "<green>Создать команду для игры на турнирах"
+    create_group:
+      name: "<gold>Создать группу"
+      lore: "<green>Создать группу для совместной игры"
+  select_language:
+    title: "<b>Выберите язык"
+    author: "<gray>Перевел: %1"
+  create_team:
+    title: '<b>Придумайте название команды'
+    lore:
+      1: '<light_purple>Это будет названием'
+      2: '<light_purple>вашей команды.'
+  ender_chest:
+    title: "Эндер-сундук"
+  ender_chest_premium:
+    title: "<gradient:#477676:#15a8a8>Эндер-сундук"
+
+  # Mode selection menus
+  leave_queue: "<red><b>Покинуть очередь"
+  online_playing_zero: "<red>●<light_gray> 0 в игре"
+  online_playing: "<green>●<light_gray> %1 в игре"
+  online_queuing: "<gold>⌚<light_gray> %1 в очереди"
+  you_in_queue: "<yellow>Вы в очереди!"
+  pvp_msl:
+    title: "<gradient:#9f8600:#00abb0>Эти режимы придумали на MSL"
+  pvp_ranked:
+    title: "<gradient:#9f8600:#00abb0>Дуэли рейтинговых турниров"
+  pvp_community:
+    title: "<gradient:#9f8600:#00abb0>Режимы от сообщества"
+    title2: "<gradient:#9f8600:#00abb0>Режимы, которые вы просили добавить"
+    mhcpvp.lore: "<gray>Примерно так выглядит финальный бой на <green>MHC"
+    modernpvp.lore: "<gray>Кит, на котором сражались <color:#54fa24>Dream<gray> и
+      <gradient:dark_gray:#f35cdf>Daquavis<gray>."
+  addyourmode: "<white>Ваш режим может быть здесь!"
+  addyourmodelore: "<white>Обратись в дискорд, чтобы добавить любимый режим"
+  pvp_teams_ranked:
+    title: "<gradient:#9f8600:#00abb0>Командные вариации дуэлей"
+  leaderboard:
+    title: "<b>Таблица лидеров"
+    find_me:
+      name: "<yellow>Найди меня!"
+  elo_selector:
+    title: "<aqua>Выбрать режим"
+  page_selector:
+    title: "Выбрать страницу"
+  activities:
+    title: "<b>Очереди и Игры"
+    queues: "<gold>Активные очереди"
+    games: "<green>Текущие игры"
+  select_mode_category:
+    title: "<gradient:#9f8600:#00abb0>Выберите категорию режимов"
+  duel:
+    title: "<yellow>🗡 <white>Настройки дуэли"
+    player: "<yellow>Игрок<white>:"
+    maps: "<yellow>Карты"
+    wins: "<yellow>Победы"
+    mode:
+      title: "<yellow>Сменить режим"
+    confirm:
+      title: "<green><b>Отправить"
+      tooltip: "<green>Отправить запрос на дуэль"
+  map_veto:
+    title:
+      your_turn: "<dark_green>Забаньте карту"
+      opponent_captain_turn: "<dark_red>Соперник банит карту..."
+      your_captain_turn: "Ваш капитан банит карту..."
+      finished: " "
+    banned_by_you: "<red>Забанена вашей стороной"
+    banned_by_opponent: "<red>Забанена соперником"
+  mode_veto:
+    title:
+      your_turn: "<dark_green>Забаньте PvP режим"
+      opponent_captain_turn: "<dark_red>Соперник банит режим..."
+      your_captain_turn: "Ваш капитан банит режим..."
+      finished: " "
+    banned_by_you: "<red>Забанен вашей стороной"
+    banned_by_opponent: "<red>Забанен соперником"
+
+prem:
+- "<yellow>Настройте расположение предметов /kitsettings <red>В разработке"
+- "<yellow>Блокируйте карты в поиске /banmaps <red>В разработке"
+- "<yellow>Выбирайте шаблоны для брони в матчах /trim <red>В разработке"
+- "<yellow>Спавните мобов в лобби /spawnmob"
+- "<yellow>Расширенная статистика /stats <red>В разработке"
+- "<yellow>Поставьте тэг в табе /suffix"
+- "<yellow>Бейте игроков в лобби!"
+- "<yellow><b>90RUB в месяц"
+
+#   Action bars
+actionbar:
+  duel:
+    prep:
+      skip: "<yellow><b>SHIFT</b>, чтобы приготовиться %1"
+      ready: "<green>Вы приготовились %1"
+    timeout:
+      skip: "<white><b>SHIFT</b>, чтобы пропустить тайм-аут %1"
+      ready: "<green>Вы приготовились %1"
+  lobby:
+    idle: "[lang]disabled[/lang]"
+    in_queue: "<gray>⌛ В очереди (%1/%2):  %3"
+    accuracy: "<green>Точность: <aqua>%1/%2"
+  veto:
+    open_menu: "<white><b>SHIFT</b>, чтобы открыть меню"
+
+#   Titles
+title:
+  duel:
+    countdown: "<yellow>%1"
+    countdown321: "<green>%1"
+    attack: "<green>В атаку!"
+    timeout: "<white>%1"
+subtitle:
+  duel:
+    timeout: "%3Перерыв<white> %1/%2"
+
+#   Roles
+role:
+  admin: "<gradient:#d7342a:#f15050>Админ"
+  jr-admin: "<gradient:#d76161:#e06969>Мл. Админ"
+  developer: "<gradient:#86c9ff:#a5d4fc>Разработчик"
+  moderator: "<gradient:#64d36d:#7dec86>Модератор"
+  media: "<gradient:#c86cec:#e2abf8>Медиа"
+  builder: "<gradient:#afd07a:#c8dea3>Строитель"
+  premium-plus: "<gradient:#d4d261:#f2f27e>MSL</gradient> <gradient:#ecec99:#d4d261>Премиум<b>%1+"
+  premium: "<gradient:#d4d261:#f2f27e>MSL</gradient> <gradient:#ecec99:#d4d261>Премиум"
+  booster: '<gradient:#cc5dd6:#ef87f8>Бустер'
+
+#   Instructions at the beginning of the game, depending on the mode
+instruction:
+  zakupka:
+    pattern: "zakupka\\dv\\d"
+    message: |
+      <yellow>Позвать админа: <aqua>/calladmin
+      <yellow>Перевыбрать набор: <aqua>/kit
+      <yellow>Взять паузу на 30 секунд: <aqua>/timeout
+      <yellow>Откатить раунд: <aqua>/rollback
+      <white>You are playing on <yellow><b>msl.su
+      <gold>MODE DESCRIPTION
+      <white>Buy items every round using gold in your inventory.
+      <white>Bought items can't be bought twice in a row - every item has a single-round cooldown.
+      <white>You can re-open buy-menu using <gold>/kit<white>.
+  default:
+    # Regex pattern to determine which modes this instruction applies to
+    pattern: ".*" # For any mode
+    message: |
+      <yellow>Позвать администратора: <aqua>/calladmin
+      <yellow>Перевыбрать набор: <aqua>/kit
+      <yellow>Взять паузу на 30 секунд: <aqua>/timeout
+      <yellow>Откатить раунд: <aqua>/rollback
+      <white>Вы играете на <yellow><b>msl.su
+#ranked:
+#  pattern: "pvp-\\dv\\d"  # For modes containing "pvp-1v1", "pvp-2v2", etc.
+#  message: |
+#    <yellow>Ranked mode
+#    <yellow>instruction
+# fdjfdjkdfjkfjkd:
+#   pattern: "axepvp-\\dv\\d|swordpvp-\\dv\\d|uhcpvp-\\dv\\d"  # For all variations of Axe&Shield, Swords, and UHC modes
+#   message: |
+#     <yellow>Axe & Sword & UHC
+#     <yellow>Tutorial
+#zakupka-2v2:
+#  pattern: "zakupka-2v2"  # Specific mode "zakupka-2v2"
+#  message: |
+#    <yellow>Zakupka 2v2 yaaay
+#   Journal pages (defined in journal.yml)
+
+journal:
+- |
+  <b>         <black><u>2025 год<reset>
+
+  <gradient:#b55353:#919144>Ну за этот год произошло много вещей. В частности, было добавлено много режимов и для многих из них был одобрен <black>тир-тестинг</black>. Также сервер был переведен на несколько языков. Ну и много чего.
+- |
+  <b>         <black><u>19.08.2024<reset>
+
+  <black><b> • </black><gradient:#919144:#b55353>Сервер был обновлен до <black>1.21</black>.
+  <black><b> • </black>Теперь во время игры появляется <black>зона</black>, за пределами которой наносится урон.
+  <black><b> • </black>Добавлена команда <black>/calladmin</black>, с помощью которой можно вызвать админа.
+- |
+  <b>          <black><u>11.01.2024<reset>
+
+  <black><b> • </black><gradient:#b55353:#919144>Реализована система <black>тайм-аутов</black> (перерывов) во время игры.
+  <black><b> • </black>Добавлена возможность <black>возвращаться</black> в игру, если вышел из сервера.
+
+  Подробнее в <#7289da>Discord</#7289da>:           <dark_gray><u><i><hover:show_text:Ссылка на новость><click:open_url:https://discord.com/channels/1008694439285370910/1187825467986825329/1194782514829598741>ССЫЛКА
+- |
+  <b>         <black><u>24.12.2023<reset>
+
+  <b> • </b><gradient:#919144:#b55353>На сервер был добавлен <black>журнал</black>, который вы сейчас читаете. В нем будет оповещаться информация о <black>новостях</black> и <black>обновлениях</black> такого крутого и амбициозного сервера, как <b><gradient:#7a6c05:#a69207>MSL</b>!
+                            <black><i>☺
+

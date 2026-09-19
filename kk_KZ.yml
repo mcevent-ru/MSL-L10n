@@ -1,0 +1,506 @@
+#      kk_KZ.yml
+
+#   Хабарламалар
+player_joined: "<yellow>%1 серверге кірді"
+premium_player_joined: "<yellow><b>%1</b> серверге кірді"
+player_first_joined: "<yellow>%1 серверге <b>бірінші рет кірді<!b><yellow>!"
+player_left: "[lang]disabled[/lang]"
+you_cant_build: "<red>Сіз блок қоя алмайсыз"
+you_cant_break: "<red>Сіз блок сындыра алмайсыз"
+you_cant_use_buckets: "<red>Сіз шелек қолдана алмайсыз"
+you_cant_edit_signs: "<red>Сіз тақтаны өзгерте алмайсыз"
+you_cant_use: "<red>Сіз осыны қоладана алмайсыз"
+you_cant_take_book: "<red>Сіз кітапті ұрлай алмайсыз"
+you_must_be_in_lobby: "<red>Сіз лобби да болу керексіз"
+player_not_found: "<red>Ойыншы %1 табылмады"
+player_not_playing: "<yellow>Ойыншы %1 қазір ойнап отқан жоқ"
+player_not_in_lobby: "<yellow>Ойыншы %1 лобби да емес"
+you_spectating: "<green>Сіз бақылап отсыз%1"
+player_spectating: "<gray>Ойыншы %1 бақылап отыр"
+color_parse_error: "<red>Түс HEX форматында болуы керек (#ffffff)"
+non_console_command_error: "<red>Бұл команданы консольде қолдану болмайды"
+non_lobby_command_error: "<red>Бұл команданы лоббиде қолдану болмайды"
+non_pvp_command_error: "<red>Бұл команданы шайқас кезде қолдану болмайды"
+you_cant_go_outside_map: "<red>Сіз карта шекарасынан шыға алмайсыз"
+action_cooldown: "<red>Өтініш, %1 секунд күтіңіз"
+accept_deny: "<green><u><hover:show_text:Қабылдау %1><click:run_command:/%1 accept %2>Қабылдау<reset>  <red><u><hover:show_text:Ауытқу %1><click:run_command:/%1 deny %2>АУЫТҚУ"
+reload: "\n<yellow>Қайта жүктеу...\nӨтініш, күте тұрыңыз!\n"
+reload_kick: "<yellow>Қайта жүктеу<b>MSL</b><br>Қайта кіріңіз"
+reload_kick_progress: "<yellow>Қайта жүктеу<b>MSL</b> <white>(%1%)</white><br>Қайта кіріңіз"
+maintenance_kick: "<yellow>Сервер техникалық қызмет көрсету үшін істен шыққан.\nКейінірек қайтып кіріңіз"
+maintenance_kick_time: "<yellow>Сервер техникалық қызмет көрсету үшін істен шыққан.\nШамамен <b>%1</b> (МСК) келіңіз"
+ac_broadcast: "<gray>[<yellow>Античит</yellow>] <red>Ойыншы %1 %2 (тип %3) күдікті пайдалануы үшін уақытша тыйым салынды"
+ac_ban: "<red>Сіз <i>уақытша</i> античит бойынша уақытша тыйым салындыңыз, себеп бойынша\n<b>%1</b> (тип %2)\n <b>%3</b> секундтан кейін қайта қосыла аласыз <end3::s>"
+perm_ban: "<red>Сіз келесі себеппен бұғаттадыңыз: \n<b>%1</b>\nСіз біздің Discord серверімізде тыйымға шағымдана аласыз:\n<discord><reset> <red>(<light_gray>#сүйеу</light_gray>)"
+temp_ban: "<red>Сіз <i>уақытша</i> келесі себептер бойынша тыйым салынды:\n<b>%1</b>\nТыйымның мерзімі бітеді: <b>%2</b> ()\nСіз біздің Discord серверімізде тыйымға шағымдана аласыз:\n<discord><reset> <red>(<light_gray>#сүйеу</light_gray>)"
+unknown: "Белгісіз"
+mute: "<red>Сіз дыбыссыз және чатта сөйлесе алмайсыз. Себебі: <b>%1</b>. Қалған уақыт: %2"
+#your_rating: "<green>Ваш рейтинг:" TODO
+#player_rating: "<green>Рейтинг игрока <yellow>%1</yellow>:" TODO
+
+moderator:
+  you_banned: "<red>Сіз <aqua>%1</aqua> ойыншысын %2 (UTC+3) дейін бұғаттадыңыз. Себебі: <b>%3</b>"
+  you_muted: "<yellow>Сіз <aqua>%1</aqua> ойыншысын %2 (UTC+3) дейін дыбыссыз еттіңіз. Себебі: <b>%3</b>"
+  you_unmuted: "<yellow>Сіз <aqua>%1</aqua> ойыншысының дыбысын қайта қостыңыз"
+
+you_left_queue: "<yellow>Сіз кезектен шықтыңыз"
+you_cant_leave: "<red>Сіз кезекте немесе ойында болуыңыз керек"
+you_already_in_queue: "<red>Сіз әлдеқашан кезектесіз. Шығу үшін /leave жазыңыз"
+only_party_leader_can_join_queue: "<red>Кезекке тек топ жетекшісі ғана кіре алады"
+only_party_leader_can_leave_queue: "<red>Кезектен тек топ жетекшісі ғана шыға алады"
+you_must_leave_queue: "<red>Алдымен кезектен шығыңыз"
+someone_joined_queue: "<gray>Біреу кезекке кірді (%1/%2)"
+someone_left_queue: "<gray>Біреу кезектен шықты (%1/%2)"
+you_left_game: "<red>Сіз ойынды тастап, <b>%1 <reset><red>рейтинг жоғалттыңыз!"
+no_maps_available: "<red>Қате: Барлық карталар бос емес"
+you_joined_queue: "<gray>Сіз кезекке кірдіңіз (%1/%2)"
+
+current_map_no_builders: "<aqua>Карта: %1\n"
+current_map: "<aqua>Карта: <hover:show_text:'%2'><u>%1\n"
+prepare_for_round: "<yellow>Раундқа дайындалыңыз <aqua>%1"
+kit_selected: "<green>Жиынтық таңдалды: <yellow>%1"
+your_teammate_left: "<yellow>Сіздің командаласыңыз %1 серверден шықты, бірақ қайта кіре алады"
+you_will_respawn_in_next_round: "<green>Қайта қош келдіңіз! Келесі раундта қайта тірілесіз"
+first_team_won_round: "<blue>Көк <green>команда <yellow>%1 <green>раундты жеңді"
+second_team_won_round: "<red>Қызыл <green>команда <yellow>%1 <green>раундты жеңді"
+first_team_won: "<blue>Көк <green>команда <b>жеңді</b><yellow>!"
+second_team_won: "<red>Қызыл <green>команда <b>жеңді</b><yellow>!"
+plus_elo: "<green>%4: +%1 Elo, %2->%3"
+minus_elo: "<red>%4: -%1 Elo, %2->%3"
+game_ended_error: "<red>Ойын аяқталды"
+
+party_created: "<green>Топ сәтті құрылды"
+you_already_in_party: "<red>Сіз әлдеқашан топтасыз"
+you_not_in_party: "<red>Сіз топта емессіз"
+you_cant_invite: "<red>Сіз %1 шақыра алмайсыз"
+you_must_be_party_leader: "<red>Мұны тек топ жетекшісі ғана жасай алады"
+you_already_sent_invite: "<red>Сіз әлдеқашан шақыру жібердіңіз, өтінеміз күтіңіз"
+party_invite_sent_player: "<yellow>%1 <green><yellow>%2 <green>ойыншысын топқа шақырды! Қабылдау үшін <red>60\n   <green>секунд бар"
+party_invite_sent_target: "<yellow>%1 <green>сізді топқа шақырды! Қабылдау үшін <red>60\n   <green>секунд бар"
+party_you_accepted: "<green>Сіз <yellow>%1 <green>жіберген топ шақыруын қабылдадыңыз"
+you_cant_accept: "<green>Сіз шақыруды қабылдай алмайсыз"
+inappropriate_party_size_for_queue: "<red>Сіз бұл ойыншыны шақыра алмайсыз, себебі қазіргі режимдегі кезекте оған орын жеткіліксіз"
+party_you_denied: "<red>Сіз <yellow>%1 <red>жіберген топ шақыруынан бас тарттыңыз"
+party_player_joined: "<green>Ойыншы <yellow>%1 <green>топқа қосылды"
+party_player_left: "<green>Ойыншы <yellow>%1 <red>топтан шықты"
+player_not_in_party: "<red>Ойыншы сіздің тобыңызда емес"
+party_player_got_kicked: "<green>Ойыншы <yellow>%1 <red>топтан шығарылды"
+party_you_got_kicked: "<red>Сіз топтан шығарылдыңыз"
+party_you_left: "<green>Сіз топтан шықтыңыз"
+party_disbanded: "<yellow>Топ таратылды"
+party_list: "<green>Топ мүшелері (<aqua>%1<green>):<yellow>"
+too_big_party_for_queue: "<red>Сіздің тобыңыз бұл режим үшін тым үлкен\n(%1 > %2)"
+party_not_all_members_in_lobby: "<red>Топтың барлық мүшелері лоббиде емес"
+party_elo_difference: "<red>Қате: %1 рейтингі %2 рейтингінен %3-тен артық айырмашылыққа ие.\nБіреуді топтан шығару керек"
+party_message_format: " <gold><i>%1<reset>: %2"
+
+cant_invite_yourself: "<red>Сіз өзіңізді шақыра алмайсыз"
+cant_kick_yourself: "<red>Сіз өзіңізді топтан шығара алмайсыз"
+invitation_expired: "<red>Шақырудың мерзімі өтіп кетті"
+already_invited: "<red>Сіз бұл ойыншыны әлдеқашан шақырдыңыз"
+game_didnt_start_bc_player_left: "<red>Ойын басталмады: %1 ойыншы шығып кетті"
+
+duel:
+  choose_mode: "<green>Режимді таңдаңыз:"
+  choose_map_count: "<green>Карталар санын таңдаңыз:"
+  choose_win_count: "<green><yellow>%1 <green>картаның әрқайсысы үшін қажетті жеңістер санын таңдаңыз:"
+  choose_win_count1: "<green>Қажетті жеңістер санын таңдаңыз:"
+  you_invited: "<green>Сіз <yellow>%1<green> ойыншысын <gold>%2 <green>ойнауға шақырдыңыз \n(<aqua>%4<green> карта<end4::s>, <aqua>%5<green> жеңіске дейін<end5::s>).\n   Қабылдау үшін <red>60 <green>секунд бар"
+  you_got_invited: "<green>Ойыншы <yellow>%1 <green>сізді <gold>%2 <green>ойнауға шақырды \n(<aqua>%4<green> карта<end4::s>, <aqua>%5<green> жеңіске дейін<end5::s>).\n   Қабылдау үшін <red>60 <green>секунд бар"
+  you_denied: "<yellow>Сіз <green>%1 <yellow>ойыншысымен дуэльден бас тарттыңыз"
+  different_party_size: "<red>Сіздің топ өлшеміңіз (%1) шақырушының топ өлшемінен (%2) өзгеше"
+  max_players_in_team: "<red>Командадағы ойыншылардың ең көп саны: %1"
+
+unknown_mode_type: "<red>Белгісіз режим түрі: %1"
+max_win_count: "<red>Мүмкін болатын жеңістердің ең көп саны: %1"
+map_count_must_be_odd: "<red>Карталар саны тақ болуы керек"
+max_map_count: "<red>Карталардың ең көп саны: %1"
+choose_maps_to_remove: "<green>Карталар пулы! Матчтан алып тастау үшін карталарды таңдаңыз"
+
+team_already_exists: "<red>Бұл команда әлдеқашан бар"
+team_created: "<lblue>Команда <white>%1 <lblue>құрылды"
+you_already_in_team: "<red>Сіз әлдеқашан командадасыз"
+player_already_in_team: "<red>Бұл ойыншының өз командасы бар"
+you_not_in_team: "<red>Сіз командада емессіз"
+player_not_in_team: "<red>Бұл ойыншы сіздің командаңызда емес"
+you_not_team_leader: "<red>Сіз команда жетекшісі болуыңыз керек"
+you_cant_leave_team_bc_alone: "<red>Сіз жалғыз болған кезде командадан шыға алмайсыз"
+you_cant_change_team_settings_at_moment: "<red>Қазір команда баптауларын және мүшелерін өзгертуге болмайды"
+you_left_team: "<red>Сіз %1 командасынан шықтыңыз"
+are_you_sure_to_disband_team: "<red>Команданы жойғыңыз келетініне сенімдісіз бе? Статистика өшіріледі"
+team_disbanded: "<red>%1 командасы жойылды"
+teamname_pattern_error: "<red>Команда атауы 16 таңбадан аспауы, саннан басталуы және тек әріптерді, сандарды, дефис пен астыңғы сызуды қамтуы керек"
+team_you_invited: "<lblue>Сіз <yellow>%1<lblue> ойыншысын %2<lblue> командасына шақырдыңыз! Қабылдау үшін <red>60 <lblue>секунд бар"
+team_you_got_invited: "<yellow>%1 <lblue>сізді %2<lblue> командасына шақырды! Қабылдау үшін <red>60 <lblue>секунд бар"
+team_you_denied: "<lblue>Сіз %1 командасына қосылудан бас тарттыңыз"
+accept_error_team_not_exist: "Қосылу қатесі: %1 ойыншысының командасы енді жоқ"
+accept_error_full_team: "<red>Қосылу қатесі: %1 командасы толы"
+you_joined_team: "<lblue>Сіз %1<lblue> командасына қосылдыңыз!"
+player_joined_team: "<lblue>Ойыншы %1 %2<lblue> командасына қосылды!"
+team_player_got_kicked: "<lblue>Ойыншы %1 %2<lblue> командасынан шығарылды :("
+team_you_got_kicked: "<red>Сіз %1 командасынан шығарылдыңыз"
+team_color_changed: "<lblue>Команда түсі өзгертілді: %1"
+team_not_found: "<red>%1 командасы табылмады"
+
+match_minutes_left: "<green>ҚАЛДЫ <red>%1<green> МИНУТ<end1:а:ы:> жоспарланған матчқа дейін:\n %2 <white>VS %3<green>"
+match_not_found: "<red>Матч табылмады. Кейінірек қайта көріңіз"
+match_full_error: "<red>Сіздің командаңыздың %1 ойыншысы(лары) әлдеқашан матчқа қосылған"
+match_expired: "<red>Уақыт аяқталды. Матч кездейсоқ команданың жеңісі ретінде есептеледі"
+match_team_won: "<green>%1 командасы <u>жеңді<reset><yellow>!"
+match_team_won_round: "<green>%1 командасы <green> <yellow>%2<green>-ші раундты жеңді"
+unknown_season: "<red>Белгісіз маусым: %1"
+team_already_registered: "<red>Бұл команда әлдеқашан тіркелген"
+you_registered_team: "<green>Сіз командаңызды <white>%1 үшін тіркедіңіз"
+registration_closed: "<red>Тіркелу жабық"
+not_enough_members: "<red>Командада кемінде %1 ойыншы<end1:а:ов> болуы керек"
+
+premium:
+  error: "<click:open_url:https://boosty.to/mslsu><hover:show_text:'Басыңыз'><red>Сізде <premium/> болуы керек <click:open_url:https://boosty.to/mslsu><hover:show_text:'Басыңыз'><red>[Сатып алу үшін басыңыз]"
+  you_got_premium: "<green>Құттықтаймыз! Сіз <premium/> алдыңыз!"
+  suffix_pattern_error: "<red>Суффикс 18 таңбадан аспауы керек, тек әріптер, сандар және мына белгілерді қамтуы мүмкін: \n ?!.,:;'\"/@[](){}<>#"
+  suffix_set: "<green>Суффикс орнатылды: %1"
+  suffix_removed: "<green>Суффикс өшірілді"
+  unknown_mob: "<red>Белгісіз моб: %1"
+  you_spawned_mob: "<green>Сіз %1 мобын шақырдыңыз"
+  already_max_mobs_spawned: "<red>Сіз максималды моб санын шақырдыңыз (%1). <u><hover:show_text:/spawnmob removeAll><click:run_command:/spawnmob removeAll>Барлығын өшіру</u>?"
+  mobs_removed: "<green>Өшірілді <yellow>%1 <green>моб"
+  no_mobs_removed: "<red>Бірде-бір моб өшірілген жоқ"
+  gradient_ad: "<green><premium/> сатып алсаңыз, әдеттегі <%1>түстің орнына <gradient:blue:red:gold><u>градиент</gradient> қолдана аласыз<green>!"
+  got_elytra: "<green>Сіз <msg:item.lobby.elytra><green> алдыңыз!"
+  already_have_elytra: "<red>Сізде элитра бар"
+
+zakupka:
+  not_enough_currency: "<red>Сатып алу үшін сізде жеткілікті %1 жоқ"
+  you_purchased: "<green>Сіз <yellow>%1 <white>%2 сатып алдыңыз"
+  you_cant_sell: "<red>Бұл затты сату мүмкін емес"
+  you_sold: "<green>Сіз <yellow>%1 <white>x%2 саттыңыз"
+
+discord:
+  info: "<green><msl/> Discord сервері: <discord/>"
+  account_status_0: "<green>Аккаунт: <red>байланыспаған</red>\nАккаунтыңызды <u><hover:show_text:'<b>LMB</b> басып\n/discord link командасын <#5865F2>Discord<white> серверінде қолданыңыз'><click:run_command:'/discord link'>/discord link арқылы байланыстырыңыз"
+  account_status_1: "<green>Аккаунт: <b>байланыстырылған</b> (<i>%1</i>)"
+  you_already_registered_code: "<red>Сіз бұл кодты әлдеқашан тіркедіңіз, кейінірек қайта көріңіз"
+  copy_code: "<green><u><hover:show_text:'Кодты көшіру үшін <b>LMB</b> басыңыз\n<#5865F2>Discord<white> серверінде /link командасын қолданыңыз'><click:copy_to_clipboard:%1>Кодты көшіру"
+  account_linked: "<green>Сіздің <#5865F2>Discord<green> аккаунтыңыз байланыстырылды: <i>%1"
+
+timeout:
+  you_requested: "<green>Сіз тайм-аут сұрадыңыз (%1 қалды)"
+  teammate_requested: "%1 <green>тайм-аут сұрады (%2 қалды)"
+  auto_requested: "<green>Тайм-аут автоматты түрде сұралды (%1 қалды)"
+  no_timeouts: "<red>Сіздің командаңызда тайм-аут қалмады"
+  other_team_already_requested: "<red>Қате, қарсы команда бұрыннан тайм-аут сұрады"
+  cancel_btn: "<green><u><hover:show_text:'<b>LMB</b> немесе /timeout cancel'><click:run_command:/timeout cancel>БАС ТАРТУ"
+  you_canceled: "<green>Сұралған тайм-ауттар қайтарылды (%1 қалды)"
+  teammate_canceled: "%1 <green>тайм-аут сұрауларын қайтарды (%2 қалды)"
+  nothing_to_cancel: "<red>Сіздің командаңыз тайм-аут сұрамаған"
+  cant_cancel: "<red>Тайм-аут белсенді кезінде оны болдырмау мүмкін емес"
+  timeout: "\n<b>ТАЙМ-АУТ!\n"
+
+zone:
+  warning: "<red>Зона 1 минутадан кейін кішірейе бастайды"
+  shrinking: "<red>ЗОНА КІШІРЕЙІП ЖАТЫР!"
+
+call_admin:
+  success: "<yellow>Сіз админді шақырдыңыз, олар матчқа жақын арада қосылады"
+  offline: "<red>Өкінішке орай, админдердің ешқайсысы онлайн емес"
+  cooldown: "<red>Админді қайта шақыруға %1 секунд қалды<end1::s>"
+  join: "<gray>%2 ойыншысына админнің көмегі қажет. <u><hover:show_text:'/spec %1'><click:run_command:/spec %1>Қосылу?"
+
+gift:
+  success: "<green>Сіз сыйлық алдыңыз:%1\n<green>Жаңа сыйлық алу үшін ертең қайтып келіңіз!"
+  namemc: "<yellow>Сыйлық алу үшін біздің серверді <white>NameMC<yellow> сайтында <red>❤</red> басыңыз!\n<u><gray><hover:show_text:'Басу'><click:open_url:'https://namemc.com/server/msl.su'>https://namemc.com/server/msl.su"
+  failure: "<red>Келесі сыйлықты %1 уақыттан кейін ала аласыз"
+  open: "<green>СЫЙЛЫҚТЫ АШУ LOL"
+
+language_changed: "<green>Тіл <aqua>%1<green> деп өзгертілді"
+
+#   Өлім туралы хабарламалар
+#   Егер хабарламада "%2" көрсетілмесе, ойыншы өлімі кезінде хабарламаның соңына автоматты түрде
+#         ", %2-дан құтылуға тырысып" қосылады, егер сол сәтте ойыншы комбатта (соғыс жағдайында) болса
+#   Комбат жағдайының аяқталу уақытын конфигурацияда баптауға болады
+death:
+  escaping: ", %1-дан құтылуға тырысып"
+  default: "%1<white> көз жұмды"
+  block_explosion: "%1<white> жарылудан қаза болды"
+  contact:
+    cactus: "%1<white> кактусқа тиіп жараланды"
+    sweet_berry_bush: "%1<white> бұтаға тұрып қалды"
+  cramming: "%1<white> тіршілік заттарының ішінде тұншығып кетті"
+  dragon_breath: "%1<white> айдаһардың құсынынан өлді"
+  drowning: "%1<white> суда тұншығып кетті"
+  dryout: "%1<white> кеуіп қалды"
+  entity_attack: "%1<white> %2 тарапынан өлтірілді"
+  entity_explosion:
+    tnt: "%1<white> %2 тарапынан жарылды"
+    firework: "%1<white> %2 фейерверкімен өлтірілді"
+    creeper: "%1<white> крипер жарылысынан қаза болды"
+  entity_sweep_attack: "%1<white> %2 тарапынан өлтірілді"
+  fall: "%1<white> құлап, көз жұмды"
+  falling_block: "%1<white> құлап келе жатқан блоктан өлді"
+  fire: "%1<white> өртеніп кетті"
+  fire_tick: "%1<white> өртеніп кетті"
+  fly_into_wall: "%1<white> қабырғаға соғылды"
+  hot_floor: "%1<white> магмаға қадам басты"
+  lava: "%1<white> лавада өртеніп кетті"
+  lightning: "%1<white> найзағайдан қаза болды"
+  magic: "%1<white> %2 зельесінен өлді"
+  projectile:
+    arrow: "%1<white> %2 атты оқпен өлтірді"
+    trident: "%1<white> %2 тарапынан үштілікпен шаншылды"
+    fireball: "%1<white> %2 файрболынан өлді"
+  starvation: "%1<white> аштықтан өлді"
+  suffocation: "%1<white> блок ішінде тұншығып кетті"
+  thorns: "%1<white> %2 тікенінен қаза болды"
+  void: "%1<white> шексіздікке құлады"
+  wither: "%1<white> кеуіп өлді"
+  world_border: "%1<white> зонаға тартып әкетілді"
+
+#   MOTD
+motd:
+  #name: "            <bold><gradient:#fcfc6d:#EDC547>Minecraft Sports League</gradient></bold>           <#7d7d7d>1.21+"
+  #description: "<#ffff99><italic>🗡</italic> <gradient:white:#cccccc>ᴍsʟ.sᴜ</gradient><green> ✔ <italic><gradient:white:white>Әртүрлі режимдер! <!i><bold>ЖАҢА:<gradient:yellow:gold><italic><!b> UHC Қорғанышсыз"
+  #description: "            <#b3fdfd><italic>🗡</italic> <gradient:white:#cccccc>ᴍsʟ.sᴜ</gradient><green>    ✔ <italic><gradient:white:white>Әртүрлі режимдер!"
+  maintenance: "       <red>⚠ ТЕХНИКАЛЫҚ ЖҰМЫСТАР"
+  maintenance_time: "     <red>⚠ ТЕХНИКАЛЫҚ ЖҰМЫСТАР %1 дейін (МСК)"
+  #name: "<#23a18e>MSL Trident Cup <bold><green>LIVE!"
+  #description: ""
+
+#   Таб
+tab:
+  lobby:
+    header: "Сіз Лоббидесіз"
+    footer: "Ойын режимін таңдаңыз"
+  pvp:
+    header1: "<white>%1\n<green>Жеңіске дейін: <aqua>%2<white>"
+    header2: "<white>%1 (%3/%4)\n<green>Жеңіске дейін: <aqua>%2<white>"
+    footer1: "Карта: %1<reset>\n
+      %4<white> : %5<reset>\n
+      Раунд: <aqua>%6"
+    footer2: "Карта: %1<reset> (%7/%8)\n
+      Жалпы есеп: %2<white> : %3<reset>\n
+      Есеп: %4<white> : %5<reset>\n
+      Раунд: <aqua>%6"
+
+#   Киттер
+kit:
+  menu_title: "<dark_aqua>Кит-набор таңдаңыз"
+  axepvp: "<yellow>Балта & қалқан"
+  swordpvp: "<yellow>Қылыштар"
+  uhcpvp: "<yellow>UHC"
+  modernuhcpvp: "<yellow>Заманауи UHC"
+  macepvp: "<yellow>Сақиналы таяқ"
+  diamondmacepvp: "<yellow>Алмаз таяқ"
+  smppvp: "<yellow>SMP"
+  cissmppvp: "<yellow>ТМД SMP"
+  shieldlessuhcpvp: "<yellow>Қалқансыз UHC"
+  modernsmppvp: "<yellow>Заманауи SMP"
+  nethoppvp: "<yellow>Незерит сауыт"
+  modernpotpvp: "<yellow>Заманауи зельелер (Pot PVP)"
+  potpvp: "<yellow>Зельелер (Pot PVP)"
+  tridentpvp: "<yellow>Үштілік (Trident)"
+  diamondsmp: "<yellow>Алмаз SMP"
+  debuffpvp: "<yellow>Дебафф"
+  bowpvp: "<yellow>Жебеші (Bow PVP)"
+  ogvanilla: "<yellow>Ескі Vanilla"
+  elytrapvp: "<yellow>Элитра (Subtiers)"
+  elytra2pvp: "<yellow>Элитра"
+  creeperpvp: "<yellow>Крипер PVP"
+
+  sword: "<yellow>Қылышкер"
+  mace: "<red>Жаяу әскер"
+  crossbow: "<yellow>Жебеші"
+  axe: "<yellow>Берсеркер"
+  heal: "<yellow>Медик"
+  trident: "<yellow>Қорғаушы"
+  speed: "<yellow>Алхимик"
+
+#   Режимдер
+mode:
+  kits: "<yellow>Кит-наборлар%1"
+  zakupka: "<gold>Закупка%1"
+  ts: "Тактикалық Шоудаун%1"
+
+  elytra2pvp: "<white>Элитра%1"
+  axepvp: "<dark_aqua>Балта & қалқан%1"
+  swordpvp: "<aqua>Қылыш%1"
+  uhcpvp: "<blue>UHC%1"
+  modernuhcpvp: "<gradient:blue:aqua>Заманауи UHC<aqua>%1"
+  smppvp: "<yellow>SMP%1"
+  modernsmppvp: "<gradient:yellow:aqua>Заманауи SMP<aqua>%1"
+  cissmppvp: "<white>ТМД <blue>SMP<red>%1"
+  nethoppvp: "<#524566>Незерит сауыт%1"
+  shieldlessuhcpvp: "<gradient:yellow:gold>Қалқансыз UHC<gold>%1"
+  modernpotpvp: "<gradient:light_purple:aqua>Заманауи зельелер (Pot PVP)<aqua>%1"
+  potpvp: "<light_purple>Зельелер (Pot PVP)%1"
+  macepvp: "<gray>Сақиналы таяқ%1"
+  diamondmacepvp: "<gradient:gray:aqua>Алмаз таяқ<aqua>%1"
+
+  tridentpvp: "<#23a18e>Үштілік (Trident)%1"
+  cartpvp: "<red>Cart PVP%1"
+  procartpvp: "<red>Pro Cart PVP%1"
+  elytrapvp: "<white>Элитра (Subtiers)%1"
+  debuffpvp: "<dark_green>Дебафф%1"
+  diamondsmppvp: "<aqua>Алмаз SMP%1"
+  bowpvp: "<#bd6f09>Жебеші%1"
+  ogvanillapvp: "<dark_blue>Ескі Vanilla%1"
+  nethpotpvp: "<dark_purple>Незерит-Зелья%1"
+
+  creeperpvp: "<#228B22>Крипер PVP%1"
+  doorpvp: "<gold>Door PVP%1"
+  modernpvp: "<gradient:#54fa24:#f35cdf>Заманауи PVP<#f35cdf>%1"
+  mhcpvp: "<green>Multihardcore финалы%1"
+
+#   Предметтер
+item:
+  lobby:
+    compass: "<b><yellow>МЕНЮ"
+    bow: "<b><yellow>ЖЕБЕ"
+    arrow: "<b><yellow>ЖЕБЕ ЖЕБЕСІ"
+    elytra: "<b>ҚҰШАҚТАҚША (Элитра)"
+
+#   Голограммалар
+hologram:
+  npc1: "<gradient:#FFFF54:#EDC547>MSL режимдері"
+  npc2: "<gradient:#FFFF54:#EDC547>Дуэль турнирлері"
+  npc3: "<gradient:#FFFF54:#EDC547>Қауымдастық режимдері"
+  npc4: "<gradient:#FFFF54:#EDC547>Командалық режимдер"
+  spectate: "Бақылау:"
+  online_playing: "<green>●<white> %1 ойын<end1:ы:дары>"
+  online_spectating: "<gray>👁<white> %1 бақылауда<end1:ы:дары>"
+  online_queuing: "<gold>⌚<white> %1 кезекте"
+  category_online_playing: "<green>●<white> %1"
+  category_online_queuing: "<gold>⌚<white> %1"
+  info1:
+    1: "Команда жасау <yellow>/team create <gray>[<white>АТАУ<gray>]"
+    2: "Командаға шақыру/шықару <yellow>/team invite/kick <gray>[<white>НИК<gray>]"
+    3: "Команданың түсін өзгерту <yellow>/team color <gray>[<white>0-9,a-f<gray>]"
+    4: "Команданы шығару/жою <yellow>/team leave"
+    5: "Команда мүшелерін көру <yellow>/team list <gray>[<white>АТАУ<gray>]"
+    6: "Турнирге қатысу - <yellow>/team register <gray>[<white>ТУРНИР<gray>]"
+  info2:
+    1: "Топқа шақыру <green>/group invite <gray>[<white>НИК<gray>]"
+    2: "Топтан шығару <green>/group kick <gray>[<white>НИК<gray>]"
+    3: "Топтан шығу/жою <green>/group leave"
+    4: "Дуэльге шақыру <green>/duel <gray>[<white>НИК<gray>]"
+    5: "30 секунд пауза <green>/timeout"
+    6: "Тиер тест өткізу: <green>/tiertest <gray>[<white>НИК<gray>]"
+  cups:
+    1: "<yellow>Келе жатқан турнирлер"
+    2: "<blue>MSL UHC Cup 2 <red>Аяқталды"
+    3: "<aqua>MSL Swords Cup 2 <red>Аяқталды"
+    4: "<#23a18e>MSL Trident Cup 24.01 18:00 МСК"
+    5: "<white>Турнирлер туралы көбірек: <yellow>ds.msl.su"
+
+#   Дисплейлер
+display:
+  ffa: "<yellow>FFA"
+  online_ffa: "<green>●<white> %1"
+
+#   Тақталар
+#   Егер орынбасарлар (placeholders) болса, оларды жаңарту үшін, тақтаның координаттарын config.yml -> lobby.refreshing_signs бөлімінде көрсету керек
+sign:
+  gift:
+    locations: [ world 89 56 -4010 ]
+    lines:
+      - ""
+      - "<b><yellow>Сыйлық алу"
+      - "<b><yellow>сыйлық"
+      - "%msl_nextgift%"
+
+#   Мәзір
+menu:
+  lobby_menu:
+    title: "<gradient:#5b552d:#82741f:yellow:#c8c4c4><b><u>Сервер мәзірі"
+    select_language: "<yellow>Тілді таңдау"
+  select_language:
+    title: "<b>Тілді таңдаңыз"
+    author: "<gray>Автор: %1"
+  # Режим таңдау мәзірі
+  leave_queue: "<red><b>Кезектен шығу"
+  online_playing_zero: "<red>●<light_gray> 0 ойнап отыр"
+  online_playing: "<green>●<light_gray> %1 ойнап отыр"
+  online_queuing: "<gold>⌚<light_gray> %1 кезекте"
+  you_in_queue: "<yellow>Сіз кезектесіз!"
+  pvp_msl:
+    title: "<gradient:#9f8600:#00abb0>Бұл режимдер MSL ойлап тапқан"
+  pvp_ranked:
+    title: "<gradient:#9f8600:#00abb0>Рейтингтік турнир дуэльдері"
+  pvp_community:
+    title: "<gradient:#9f8600:#00abb0>Қауымдастық режимдері"
+    title2: "<gradient:#9f8600:#00abb0>Сіз сұраған режимдер"
+    mhcpvp.lore: "<gray>Мұнда финалдық шайқас <green>MHC-да осылай көрінеді"
+    modernpvp.lore: "<gray>Бұл китте <color:#54fa24>Dream<gray> және <gradient:dark_gray:#f35cdf>Daquavis<gray> шайқасты."
+  pvp_teams_ranked:
+    title: "<gradient:#9f8600:#00abb0>Командалық дуэль вариациялары"
+
+main_menu:
+  createteam:
+    name: "<gold>Команда құру"
+    lore: "<green>Турнирге қатысу үшін команда құру"
+  creategroup:
+    name: "<gold>Топ құру"
+    lore: "<green>Бірге ойнау үшін топ құру"
+teamcreatemenu:
+  title: '<b>Команда аты ойлап табыңыз'
+  lore:
+    1: '<light_purple>Бұл сіздің командаңыздың аты болады'
+    2: '<light_purple>Сіз оны матчтарда көресіз.'
+prem:
+  1: "<yellow>Блоктарды орналастыруды баптаңыз /kitsettings <red>Дайындауда"
+  2: "<yellow>Карталарды іздеуден блоктау /banmaps <red>Дайындауда"
+  3: "<yellow>Броня шаблондары /trim <red>Дайындауда"
+  4: "<yellow>Лоббиде мобтарды шақыру /spawnmob"
+  5: "<yellow>Толық статистика /stats <red>Дайындауда"
+  6: "<yellow>Табта тег қою /suffix"
+  7: "<yellow>Лоббиде ойыншыларға шабуыл жасаңыз!"
+  8: "<yellow><b>90RUB айына"
+
+#   Action bars
+actionbar:
+  duel:
+    prep:
+      skip: "<yellow><b>SHIFT</b> басып дайындықтан өтіңіз %1"
+      ready: "<green>Сіз дайынсыз %1"
+    timeout:
+      skip: "<white><b>SHIFT</b> басып тайм-ауттан өтіңіз %1"
+      ready: "<green>Сіз дайынсыз %1"
+  lobby:
+    idle: "[lang]disabled[/lang]"
+    in_queue: "<gray>⌛ Кезекте (%1/%2):  %3"
+    accuracy: "<green>Дәлдік: <aqua>%1/%2"
+
+#   Titles
+title:
+  duel:
+    countdown: "<yellow>%1"
+    countdown321: "<green>%1"
+    attack: "<green>Шабуыл!"
+    timeout: "<white>%1"
+subtitle:
+  duel:
+    timeout: "%3Үзіліс<white> %1/%2"
+
+#   Ойын басталған кезде көрсетілетін нұсқаулықтар режимге байланысты
+instruction:
+  default:  # (Секция аты әсер етпейді, тек реттілік маңызды)
+    pattern: ".*"  # Барлық режимдерге арналған
+    message: |
+      <yellow>Әкімшіні шақыру: <aqua>/calladmin
+      <yellow>Наборды қайта таңдау: <aqua>/kit
+      <yellow>30 секундқа үзіліс алу: <aqua>/timeout
+      <white>Сіз ойнап отырсыз: <yellow><b>msl.su
+  ranked:
+    pattern: "pvp-\\dv\\d"  # "pvp-1v1", "pvp-2v2" және т.б. атаулары бар режимдерге
+    message: |
+      <yellow>Рейтингтік режим
+      <yellow>Нұсқаулық
+  axepvp_sword_uhc:
+    pattern: "axepvp-\\dv\\d|swordpvp-\\dv\\d|uhcpvp-\\dv\\d"  # Axe&Shield, Swords және UHC барлық түрлеріне
+    message: |
+      <yellow>Топор, Меч және UHC
+      <yellow>Оқыту нұсқаулығы
+  zakupka-2v2:
+    pattern: "zakupka-2v2"  # Нақты "zakupka-2v2" режиміне
+    message: |
+      <yellow>Закупка 2v2, қуаныш! 🎉
+
