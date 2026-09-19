@@ -423,6 +423,8 @@ hologram:
     5: "<white>Больше о туриках: <yellow>ds.msl.su"
 
 #   Дисплеи
+  parkour:
+    2: '<yellow>Твой рекорд: <white>%1</white>'
 display:
   ffa: "<yellow>ффа"
   online_ffa: "<green>●<white> %1"
