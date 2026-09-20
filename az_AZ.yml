@@ -79,8 +79,8 @@ you_will_respawn_in_next_round: "<green>Xoş gəlmisiniz! Siz növbəti raundda 
   diriləcəksiniz"
 first_team_won_round: "<green>Raund <yellow>%1 <blue>mavi <green>komandaya gedir"
 second_team_won_round: "<green>Raund <yellow>%1 <red>qırmızı <green>komandaya gedir"
-first_team_won: "<blue>Mavi <green>komanda <b>qalib gəldi</b><yellow>!"
-second_team_won: "<red>Qırmızı <green>komanda <b>qalib gəldi</b><yellow>!"
+first_team_won: "\n<blue>Mavi <green>komanda <b>qalib gəldi</b><yellow>!\n"
+second_team_won: "\n<red>Qırmızı <green>komanda <b>qalib gəldi</b><yellow>!\n"
 plus_elo: "<green>%4: +%1 Elo, %2->%3"
 minus_elo: "<red>%4: -%1 Elo, %2->%3"
 game_ended_error: "<red>Oyun başa çatdı"
@@ -181,7 +181,7 @@ match_minutes_left: "<green>Planlaşdırılmış matçın başlamasına <red>%1<
 match_not_found: "<red>Matç tapılmadı. Daha sonra yenidən cəhd edin"
 match_full_error: "<red>Komandanızdan %1 oyunçu artıq matça qoşulub"
 match_expired: "<red>Vaxt bitdi. Matç təsadüfi bir komandanın qələbəsi kimi hesablanacaq"
-match_team_won: "<green>%1 komandası <u>qalib gəldi<reset><yellow>!"
+match_team_won: "\n<green>%1 komandası <u>qalib gəldi<reset><yellow>!\n"
 match_team_won_round: "<green>%1 komandası <yellow>%2<green>-ci raundu qazandı"
 unknown_season: "<red>Naməlum mövsüm: %1"
 team_already_registered: "<red>Bu komanda artıq qeydiyyatdan keçib"
@@ -557,3 +557,5 @@ syntax_error: '<red>Invalid syntax: %1'
 veto:
   ban_maps: Test
   ban_modes: TEST
+you_cant_rename: <red>Sizə mobların adlarını dəyişməsi qadağandır
+you_must_be_in_game: <red>Siz oyunda olmalısınız
