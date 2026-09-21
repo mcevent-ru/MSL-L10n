@@ -555,7 +555,7 @@ instruction:
 kit_not_chosen: Test
 syntax_error: '<red>Invalid syntax: %1'
 veto:
-  ban_maps: Test
-  ban_modes: TEST
+  ban_maps: ''
+  ban_modes: ''
 you_cant_rename: <red>Sizə mobların adlarını dəyişməsi qadağandır
 you_must_be_in_game: <red>Siz oyunda olmalısınız
