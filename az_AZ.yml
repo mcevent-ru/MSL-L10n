@@ -23,24 +23,37 @@ non_lobby_command_error: "<red>Bu komandanı lobby-də istifadə etmək olmaz"
 non_pvp_command_error: "<red>Bu komandanı döyüş zamanda istifadə etmək olmaz"
 you_cant_go_outside_map: "<red>Xəritənin sərhədi keçmək olmaz"
 action_cooldown: "<red>Zəhmət olmasa, %1 saniyə gözləyin"
-accept_deny: "<green><u><hover:show_text:Qəbul etmək %1><click:run_command:/%1 accept %2>QƏBUL ETMƏK<reset>  <red><u><hover:show_text: Rədd etmək %1><click:run_command:/%1 deny %2>RƏDD ETMƏK"
+accept_deny: "<green><u><hover:show_text:Qəbul etmək %1><click:run_command:/%1 accept
+  %2>QƏBUL ETMƏK<reset>  <red><u><hover:show_text: Rədd etmək %1><click:run_command:/%1
+  deny %2>RƏDD ETMƏK"
 reload: "\n<yellow>Server yenidən başlayır\nZəhmət olmasa, gözləyin!\n"
 reload_kick: "<yellow><b>MSL</b> yenidən başlayır<br>Serverə yenidən girin"
-reload_kick_progress: "<yellow><b>MSL</b> yenidən başlayır <white>(%1%)</white><br>Serverə yenidən girin"
-maintenance_kick: "<yellow>Serverdə texniki işlər aparılır.\nZəhmət olmasa, bir azdan girin"
-maintenance_kick_time: "<yellow>Serverdə texniki işlər aparılır.\nZəhmət olmasa, saat <b>%1</b>(Moskva)-dan sonra girin"
-ac_broadcast: "<gray>[<yellow>Anticheat</yellow>] <red>Oyunçu %1 şübhəli \"%2 (%3 növü) istifadəsi səbəbindən müvəqqəti olaraq serverdə bloklanıb"
-ac_ban: "<red>Növbəti səbəbdən anti-fırıldaqçı tərəfindən <i>müvəqqəti olaraq</i> bloklandınız:\n<b>%1</b> (%2 növü)\nSiz <b>%3</b> saniyədən sonra yenidən girə bilərsiz"
-perm_ban: "<red>Siz növbəti səbəbdən bloklanmısınız:\n<b>%1</b>\nDiscord serverimizdə apelyasiya verə bilərsiniz:\n<discord><reset> <red>(<light_gray>#support</light_gray>)"
-temp_ban: "<red>Növbəti səbəbdən müvəqqəti olaraq bloklanmısınız:\n<b>%1</b>\nBitmə tarixi: <b>%2</b> (Moskva)\nDiscord serverimizdə apelyasiya verə bilərsiniz:\n<discord><reset> <red>(<light_gray>#support</light_gray>)"
+reload_kick_progress: "<yellow><b>MSL</b> yenidən başlayır <white>(%1%)</white><br>Serverə
+  yenidən girin"
+maintenance_kick: "<yellow>Serverdə texniki işlər aparılır.\nZəhmət olmasa, bir azdan
+  girin"
+maintenance_kick_time: "<yellow>Serverdə texniki işlər aparılır.\nZəhmət olmasa, saat
+  <b>%1</b>(Moskva)-dan sonra girin"
+ac_broadcast: "<gray>[<yellow>Anticheat</yellow>] <red>Oyunçu %1 şübhəli \"%2 (%3
+  növü) istifadəsi səbəbindən müvəqqəti olaraq serverdə bloklanıb"
+ac_ban: "<red>Növbəti səbəbdən anti-fırıldaqçı tərəfindən <i>müvəqqəti olaraq</i>
+  bloklandınız:\n<b>%1</b> (%2 növü)\nSiz <b>%3</b> saniyədən sonra yenidən girə bilərsiz"
+perm_ban: "<red>Siz növbəti səbəbdən bloklanmısınız:\n<b>%1</b>\nDiscord serverimizdə
+  apelyasiya verə bilərsiniz:\n<discord><reset> <red>(<light_gray>#support</light_gray>)"
+temp_ban: "<red>Növbəti səbəbdən müvəqqəti olaraq bloklanmısınız:\n<b>%1</b>\nBitmə
+  tarixi: <b>%2</b> (Moskva)\nDiscord serverimizdə apelyasiya verə bilərsiniz:\n<discord><reset>
+  <red>(<light_gray>#support</light_gray>)"
 unknown: "Naməlum"
-mute: "<red><b>%1</b> səbəbindən səssiz rejimə keçdiniz və çata yaza bilməzsiniz. Qalan: %2"
+mute: "<red><b>%1</b> səbəbindən səssiz rejimə keçdiniz və çata yaza bilməzsiniz.
+  Qalan: %2"
 your_rating: "<green>Reytiqiniz:"
 player_rating: "<green><yellow>%1</yellow> oyunçunun reytinqi:"
 
 moderator:
-  you_banned: "<red>Siz <aqua>%1</aqua> oyunçusunu %2 tarixinədək (Moskva) bu səbəblə ban etdiniz: <b>%3</b>"
-  you_muted: "<yellow>Siz <aqua>%1</aqua> oyunçusunu %2 tarixinədək (Moskva) bu səbəblə susdurdunuz: <b>%3</b>"
+  you_banned: "<red>Siz <aqua>%1</aqua> oyunçusunu %2 tarixinədək (Moskva) bu səbəblə
+    ban etdiniz: <b>%3</b>"
+  you_muted: "<yellow>Siz <aqua>%1</aqua> oyunçusunu %2 tarixinədək (Moskva) bu səbəblə
+    susdurdunuz: <b>%3</b>"
   you_unmuted: "<yellow>Siz <aqua>%1</aqua> oyunçusunun susdurulmasını ləğv etdiniz"
 
 you_left_queue: "<yellow>Siz növbədən çıxdız"
@@ -51,7 +64,8 @@ only_party_leader_can_leave_queue: "<red>Yalnız qrup lideri növbədən çıxa 
 you_must_leave_queue: "<red>Əvvəlcə növbədən çıxın"
 someone_joined_queue: "<gray>Kimsə növbəyə qoşuldu (%1/%2)"
 someone_left_queue: "<gray>Kimsə növbədən çıxdı (%1/%2)"
-you_left_game: "<red>Siz oyunu tərk etdiniz və nəticədə <b>%1 <reset><red>reytinq itirdiniz!"
+you_left_game: "<red>Siz oyunu tərk etdiniz və nəticədə <b>%1 <reset><red>reytinq
+  itirdiniz!"
 no_maps_available: "<red>Xəta: Bütün xəritələr doludur"
 you_joined_queue: "<gray>Siz növbəyə qoşuldunuz (%1/%2)"
 
@@ -59,12 +73,14 @@ current_map_no_builders: "<aqua>Xəritə: %1\n"
 current_map: "<aqua>Xəritə: <hover:show_text:'%2'><u>%1\n"
 prepare_for_round: "<yellow>Raund <aqua>%1 üçün hazırlaşın"
 kit_selected: "<green>Seçilmiş kit: <yellow>%1"
-your_teammate_left: "<yellow>Sizin komanda yoldaşınız %1 serveri tərk etdi, amma o oyuna qayıda bilər"
-you_will_respawn_in_next_round: "<green>Xoş gəlmisiniz! Siz növbəti raundda yenidən diriləcəksiniz"
+your_teammate_left: "<yellow>Sizin komanda yoldaşınız %1 serveri tərk etdi, amma o
+  oyuna qayıda bilər"
+you_will_respawn_in_next_round: "<green>Xoş gəlmisiniz! Siz növbəti raundda yenidən
+  diriləcəksiniz"
 first_team_won_round: "<green>Raund <yellow>%1 <blue>mavi <green>komandaya gedir"
 second_team_won_round: "<green>Raund <yellow>%1 <red>qırmızı <green>komandaya gedir"
-first_team_won: "<blue>Mavi <green>komanda <b>qalib gəldi</b><yellow>!"
-second_team_won: "<red>Qırmızı <green>komanda <b>qalib gəldi</b><yellow>!"
+first_team_won: "\n<blue>Mavi <green>komanda <b>qalib gəldi</b><yellow>!\n"
+second_team_won: "\n<red>Qırmızı <green>komanda <b>qalib gəldi</b><yellow>!\n"
 plus_elo: "<green>%4: +%1 Elo, %2->%3"
 minus_elo: "<red>%4: -%1 Elo, %2->%3"
 game_ended_error: "<red>Oyun başa çatdı"
@@ -75,12 +91,17 @@ you_not_in_party: "<red>Siz qrupda deyilsiniz"
 you_cant_invite: "<red>Siz %1 oyunçusunu dəvət edə bilməzsiniz"
 you_must_be_party_leader: "<red>Bunu yalnız qrup lideri edə bilər"
 you_already_sent_invite: "<red>Siz artıq dəvət göndərmisiniz, gözləyin"
-party_invite_sent_player: "<yellow>%1 <green><yellow>%2 <green>oyunçusunu qrupa dəvət etdi! Oyunçunun <red>60\n   <green>saniyəsi var ki, dəvəti qəbul etsin"
-party_invite_sent_target: "<yellow>%1 <green>Sizi qrupa dəvət etdi! Sizin <red>60\n   <green>saniyəniz var ki, dəvəti qəbul edəsiniz"
-party_you_accepted: "<green>Siz <yellow>%1 <green>oyunçusunun qrupuna dəvəti qəbul etdiniz"
+party_invite_sent_player: "<yellow>%1 <green><yellow>%2 <green>oyunçusunu qrupa dəvət
+  etdi! Oyunçunun <red>60\n   <green>saniyəsi var ki, dəvəti qəbul etsin"
+party_invite_sent_target: "<yellow>%1 <green>Sizi qrupa dəvət etdi! Sizin <red>60\n\
+  \   <green>saniyəniz var ki, dəvəti qəbul edəsiniz"
+party_you_accepted: "<green>Siz <yellow>%1 <green>oyunçusunun qrupuna dəvəti qəbul
+  etdiniz"
 you_cant_accept: "<green>Siz dəvəti qəbul edə bilməzsiniz"
-inappropriate_party_size_for_queue: "<red>Siz bu oyunçunu dəvət edə bilməzsiniz, çünki hazırda növbədə olduğunuz rejimdə onun üçün yer yoxdur"
-party_you_denied: "<red>Siz <yellow>%1 <red>oyunçusunun qrupuna qoşulmaqdan imtina etdiniz"
+inappropriate_party_size_for_queue: "<red>Siz bu oyunçunu dəvət edə bilməzsiniz, çünki
+  hazırda növbədə olduğunuz rejimdə onun üçün yer yoxdur"
+party_you_denied: "<red>Siz <yellow>%1 <red>oyunçusunun qrupuna qoşulmaqdan imtina
+  etdiniz"
 party_player_joined: "<green>Oyunçu <yellow>%1 <green>qrupa qoşuldu"
 party_player_left: "<green>Oyunçu <yellow>%1 <red>qrupu <green>tərk etdi"
 player_not_in_party: "<red>Oyunçu sizin qrupunuzda deyil"
@@ -91,7 +112,8 @@ party_disbanded: "<yellow>Qrup ləğv edildi"
 party_list: "<green>Qrup üzvləri (<aqua>%1<green>):<yellow>"
 too_big_party_for_queue: "<red>Qrupunuz bu rejim üçün çox böyükdür\n(%1 > %2)"
 party_not_all_members_in_lobby: "<red>Qrupun bütün üzvləri lobbidə deyil"
-party_elo_difference: "<red>Xəta: %1 reytinqi %2 reytinqindən %3-dən çox fərqlənir.\nKimisə qovmaq lazımdır"
+party_elo_difference: "<red>Xəta: %1 reytinqi %2 reytinqindən %3-dən çox fərqlənir.\n\
+  Kimisə qovmaq lazımdır"
 party_message_format: " <gold><i>%1<reset>: %2"
 
 cant_invite_yourself: "<red>Siz özünüzü dəvət edə bilməzsiniz"
@@ -103,12 +125,18 @@ game_didnt_start_bc_player_left: "<red>Oyun başladılmadı: %1 oyunçu çıxdı
 duel:
   choose_mode: "<green>Rejimi seçin:"
   choose_map_count: "<green>Xəritələrin sayını seçin:"
-  choose_win_count: "<green><yellow>%1 <green>xəritənin hər biri üçün tələb olunan qələbə sayını seçin:"
+  choose_win_count: "<green><yellow>%1 <green>xəritənin hər biri üçün tələb olunan
+    qələbə sayını seçin:"
   choose_win_count1: "<green>Tələb olunan qələbə sayını seçin:"
-  you_invited: "<green>Siz <yellow>%1<green> oyunçusunu <gold>%2 <green> rejimində oynamağa dəvət etdiniz \n(<aqua>%4<green> xəritə, <aqua>%5<green> qələbəyədək).\n     Oyunçunun <red>60 <green>saniyəsi var ki, qəbul etsin"
-  you_got_invited: "<green>Oyunçu <yellow>%1 <green>sizi <gold>%2 <green> rejimində oynamağa dəvət etdi \n(<aqua>%4<green> xəritə, <aqua>%5<green> qələbəyədək).\n    Sizin <red>60 <green>saniyəniz var ki, qəbul edəsiniz"
+  you_invited: "<green>Siz <yellow>%1<green> oyunçusunu <gold>%2 <green> rejimində
+    oynamağa dəvət etdiniz \n(<aqua>%4<green> xəritə, <aqua>%5<green> qələbəyədək).\n\
+    \     Oyunçunun <red>60 <green>saniyəsi var ki, qəbul etsin"
+  you_got_invited: "<green>Oyunçu <yellow>%1 <green>sizi <gold>%2 <green> rejimində
+    oynamağa dəvət etdi \n(<aqua>%4<green> xəritə, <aqua>%5<green> qələbəyədək).\n\
+    \    Sizin <red>60 <green>saniyəniz var ki, qəbul edəsiniz"
   you_denied: "<yellow>Siz <green>%1 <yellow>ilə dueldən imtina etdiniz"
-  different_party_size: "<red>Qrupunuzdakı iştirakçıların sayı (%1) dəvət edənin sayından (%2) fərqlənir"
+  different_party_size: "<red>Qrupunuzdakı iştirakçıların sayı (%1) dəvət edənin sayından
+    (%2) fərqlənir"
   max_players_in_team: "<red>Komandada maksimum oyunçu sayı: %1"
 
 unknown_mode_type: "<red>Naməlum rejim növü: %1"
@@ -125,15 +153,21 @@ you_not_in_team: "<red>Siz komandada deyilsiniz"
 player_not_in_team: "<red>Bu oyunçu sizin komandada deyil"
 you_not_team_leader: "<red>Siz komandanın lideri olmalısınız"
 you_cant_leave_team_bc_alone: "<red>Komandada tək olduğunuz üçün onu tərk edə bilməzsiniz"
-you_cant_change_team_settings_at_moment: "<red>Hazırda komandanın xüsusiyyətlərini və tərkibini dəyişə bilməzsiniz"
+you_cant_change_team_settings_at_moment: "<red>Hazırda komandanın xüsusiyyətlərini
+  və tərkibini dəyişə bilməzsiniz"
 you_left_team: "<red>Siz %1 komandasını tərk etdiniz"
-are_you_sure_to_disband_team: "<red>Komandanı silmək istədiyinizə əminsinizmi? Statistikalar silinəcək"
+are_you_sure_to_disband_team: "<red>Komandanı silmək istədiyinizə əminsinizmi? Statistikalar
+  silinəcək"
 team_disbanded: "<red>%1 komandası silindi"
-teamname_pattern_error: "<red>Komanda adı 16 simvoldan çox olmamalı və rəqəmlə başlamamalıdır; yalnız hərflərdən, rəqəmlərdən, defisdən və alt xətdən ibarət ola bilər"
-team_you_invited: "<lblue>Siz <yellow>%1<lblue> oyunçusunu %2<lblue> komandasına dəvət etdiniz! Oyunçunun dəvəti qəbul etməsi üçün <red>60 <lblue>saniyə var"
-team_you_got_invited: "<yellow>%1 <lblue>sizi %2<lblue> komandasına dəvət edir! Dəvəti qəbul etmək üçün <red>60 <lblue>saniyəniz var"
+teamname_pattern_error: "<red>Komanda adı 16 simvoldan çox olmamalı və rəqəmlə başlamamalıdır;
+  yalnız hərflərdən, rəqəmlərdən, defisdən və alt xətdən ibarət ola bilər"
+team_you_invited: "<lblue>Siz <yellow>%1<lblue> oyunçusunu %2<lblue> komandasına dəvət
+  etdiniz! Oyunçunun dəvəti qəbul etməsi üçün <red>60 <lblue>saniyə var"
+team_you_got_invited: "<yellow>%1 <lblue>sizi %2<lblue> komandasına dəvət edir! Dəvəti
+  qəbul etmək üçün <red>60 <lblue>saniyəniz var"
 team_you_denied: "<lblue>Siz %1 komandasına qoşulmaqdan imtina etdiniz"
-accept_error_team_not_exist: "Qoşulma xətası: %1 oyunçusunun komandası artıq mövcud deyil"
+accept_error_team_not_exist: "Qoşulma xətası: %1 oyunçusunun komandası artıq mövcud
+  deyil"
 accept_error_full_team: "<red>Qoşulma xətası: %1 komandası artıq doludur"
 you_joined_team: "<lblue>Siz %1<lblue> komandasına qoşuldunuz!"
 player_joined_team: "<lblue>%1 oyunçusu %2<lblue> komandasına qoşuldu!"
@@ -142,30 +176,37 @@ team_you_got_kicked: "<red>Siz %1 komandasından qovuldunuz"
 team_color_changed: "<lblue>Komandanın rəngi dəyişdirildi: %1"
 team_not_found: "<red>%1 komandası tapılmadı"
 
-match_minutes_left: "<green>Planlaşdırılmış matçın başlamasına <red>%1<green> DƏQİQƏ QALDI:\n %2 <white>VS %3<green>"
+match_minutes_left: "<green>Planlaşdırılmış matçın başlamasına <red>%1<green> DƏQİQƏ
+  QALDI:\n %2 <white>VS %3<green>"
 match_not_found: "<red>Matç tapılmadı. Daha sonra yenidən cəhd edin"
 match_full_error: "<red>Komandanızdan %1 oyunçu artıq matça qoşulub"
 match_expired: "<red>Vaxt bitdi. Matç təsadüfi bir komandanın qələbəsi kimi hesablanacaq"
-match_team_won: "<green>%1 komandası <u>qalib gəldi<reset><yellow>!"
+match_team_won: "\n<green>%1 komandası <u>qalib gəldi<reset><yellow>!\n"
 match_team_won_round: "<green>%1 komandası <yellow>%2<green>-ci raundu qazandı"
 unknown_season: "<red>Naməlum mövsüm: %1"
 team_already_registered: "<red>Bu komanda artıq qeydiyyatdan keçib"
-you_registered_team: "<green>Siz komandanızı <white>%1<green> turnirində iştirak üçün qeydiyyatdan keçirdiniz"
+you_registered_team: "<green>Siz komandanızı <white>%1<green> turnirində iştirak üçün
+  qeydiyyatdan keçirdiniz"
 registration_closed: "<red>Qeydiyyat bağlanıb"
 not_enough_members: "<red>Komandada ən azı %1 oyunçu olmalıdır"
 
 premium:
-  error: "<click:open_url:https://boosty.to/mcevent><hover:show_text:show_text:'Kliklə']<red>Sizdə <premium/> olmalıdır <click:open_url:https://boosty.to/mcevent><hover:show_text:'Kliklə'><red>[Almaq üçün klikləyin]"
+  error: "<click:open_url:https://boosty.to/mcevent><hover:show_text:show_text:'Kliklə']<red>Sizdə
+    <premium/> olmalıdır <click:open_url:https://boosty.to/mcevent><hover:show_text:'Kliklə'><red>[Almaq
+    üçün klikləyin]"
   you_got_premium: "<green>Təbrik edirik! Siz <premium/> əldə etdiniz!"
-  suffix_pattern_error: "<red>Suffiks 18 simvoldan çox olmamalıdır, yalnız hərflərdən, rəqəmlərdən və aşağıdakı işarələrdən ibarət ola bilər: \n ?!.,:;'\"/@[](){}<>#"
+  suffix_pattern_error: "<red>Suffiks 18 simvoldan çox olmamalıdır, yalnız hərflərdən,
+    rəqəmlərdən və aşağıdakı işarələrdən ibarət ola bilər: \n ?!.,:;'\"/@[](){}<>#"
   suffix_set: "<green>Suffiks təyin edildi: %1"
   suffix_removed: "<green>Suffiks silindi"
   unknown_mob: "<red>Naməlum mob: %1"
   you_spawned_mob: "<green>Siz %1 çağırdınız"
-  already_max_mobs_spawned: "<red>Siz maksimum sayda mob çağırmısınız (%1). <u><hover:show_text:/spawnmob removeAll><click:run_command:/spawnmob removeAll>Onları silmək</u> istəyirsiniz?"
+  already_max_mobs_spawned: "<red>Siz maksimum sayda mob çağırmısınız (%1). <u><hover:show_text:/spawnmob
+    removeAll><click:run_command:/spawnmob removeAll>Onları silmək</u> istəyirsiniz?"
   mobs_removed: "<green><yellow>%1 <green>mob silindi"
   no_mobs_removed: "<red>Heç bir mob silinmədi"
-  gradient_ad: "<green><premium/> alsaydınız, adi <%1>rəng</%1><green> əvəzinə <gradient:blue:red:gold><u>qradiyent</gradient> istifadə edə bilərdiniz!"
+  gradient_ad: "<green><premium/> alsaydınız, adi <%1>rəng</%1><green> əvəzinə <gradient:blue:red:gold><u>qradiyent</gradient>
+    istifadə edə bilərdiniz!"
   got_elytra: "<green>Siz [msg:item.lobby.elytra]<green> əldə etdiniz!"
   already_have_elytra: "<red>Sizdə artıq qanadüstü var"
 
@@ -177,11 +218,17 @@ zakupka:
 
 discord:
   info: "<green><msl/> Discord serveri: <discord/>"
-  account_status_0: "<green>Hesab: <red>Discordla əlaqəli deyil</red>\nHesabı Discord-lə əlaqə salmaq üçün: <u><hover:show_text:'<b>LMB'><click:run_command:'/discord link'>/discord link"
+  account_status_0: "<green>Hesab: <red>Discordla əlaqəli deyil</red>\nHesabı Discord-lə
+    əlaqə salmaq üçün: <u><hover:show_text:'<b>LMB'><click:run_command:'/discord link'>/discord
+    link"
   account_status_1: "<green>Hesab: <b>bağlanıb</b> (<i>%1</i>)"
-  you_already_registered_code: "<red>Siz artıq kodu qeydiyyatdan keçirmisiniz, daha sonra yenidən cəhd edin"
-  copy_code: "<green><u><hover:show_text:'<b>LMB</b> kopyalamaq üçün\nBağlamaq üçün <#5865F2>Discord<white> serverdə /link yazın'><click:copy_to_clipboard:%1>Kodu kopyala"
-  account_linked: "<green>Sizin <#5865F2>Discord<green> hesabınız serverlə bağlandı: <i>%1"
+  you_already_registered_code: "<red>Siz artıq kodu qeydiyyatdan keçirmisiniz, daha
+    sonra yenidən cəhd edin"
+  copy_code: "<green><u><hover:show_text:'<b>LMB</b> kopyalamaq üçün\nBağlamaq üçün
+    <#5865F2>Discord<white> serverdə /link yazın'><click:copy_to_clipboard:%1>Kodu
+    kopyala"
+  account_linked: "<green>Sizin <#5865F2>Discord<green> hesabınız serverlə bağlandı:
+    <i>%1"
 
 timeout:
   you_requested: "<green>Siz fasiləni istədiniz (qalıb %1)"
@@ -189,7 +236,8 @@ timeout:
   auto_requested: "<green>Avtomatik olaraq fasilə istəndi (qalıb %1)"
   no_timeouts: "<red>Komandanızda artıq fasilə qalmayıb"
   other_team_already_requested: "<red>Təəssüf ki, digər komanda artıq fasilə istəyib"
-  cancel_btn: "<green><u><hover:show_text:'<b>LMB</b> və ya /timeout cancel'><click:run_command:/timeout cancel>LƏĞV ET"
+  cancel_btn: "<green><u><hover:show_text:'<b>LMB</b> və ya /timeout cancel'><click:run_command:/timeout
+    cancel>LƏĞV ET"
   you_canceled: "<green>Fasilə sorğuları ləğv edildi (qalıb %1)"
   teammate_canceled: "%1 <green>fasilə sorğularını ləğv etdi (qalıb %2)"
   nothing_to_cancel: "<red>Komandanız fasilə istəməyib"
@@ -204,10 +252,12 @@ call_admin:
   success: "<yellow>Siz admini çağırdınız, o indi matça daxil olacaq"
   offline: "<red>Təəssüf ki, heç bir admin onlayn deyil"
   cooldown: "<red>Admini yenidən %1 saniyədən sonra çağırmaq olar"
-  join: "<gray>%2 <gray>oyunçusuna admin köməyi lazımdır. <u><hover:show_text:'/spec %1'><click:run_command:/spec %1>Qoşulmaq?"
+  join: "<gray>%2 <gray>oyunçusuna admin köməyi lazımdır. <u><hover:show_text:'/spec
+    %1'><click:run_command:/spec %1>Qoşulmaq?"
 
 gift:
-  success: "<green>Əldə etdiyin əşyalar:%1<br><green>Yeni hədiyyə üçün <green>sabah yenə gəl!"
+  success: "<green>Əldə etdiyin əşyalar:%1<br><green>Yeni hədiyyə üçün <green>sabah
+    yenə gəl!"
   namemc: "<yellow>Hədiyyə almaq üçün serverimizə <red>❤</red> qoy!\n <u><gray><hover:show_text:Kliklə><click:open_url:'https://namemc.com/server/msl.su>https://namemc.com/server/msl.su"
   failure: "<red>Növbəti hədiyyəni %1 sonra ala biləcəksən"
   open: "<green>RİAD ƏFSANƏDİR"
@@ -273,13 +323,9 @@ tab:
   pvp:
     header1: "<white>%1\n<aqua>%2<white> qələbəyə qədər"
     header2: "<white>%1 (%3/%4)\n<aqua>%2<white> qələbəyə qədər"
-    footer1: "Xəritə %1<reset>\n
-      %4<white> : %5<reset>\n
-      Raund <aqua>%6"
-    footer2: "Xəritə %1<reset> (%7/%8)\n
-      Yekün hesab %2<white> : %3<reset>\n
-      Hesab %4<white> : %5<reset>\n
-      Raund <aqua>%6"
+    footer1: "Xəritə %1<reset>\n %4<white> : %5<reset>\n Raund <aqua>%6"
+    footer2: "Xəritə %1<reset> (%7/%8)\n Yekün hesab %2<white> : %3<reset>\n Hesab
+      %4<white> : %5<reset>\n Raund <aqua>%6"
 
 #   Киты
 kit:
@@ -400,17 +446,18 @@ display:
 #   Если присутствуют плейсхолдеры, то для их обновления координаты таблички нужно записать в config.yml -> lobby.refreshing_signs
 sign:
   gift:
-    locations: [ world 89 56 -4010 ]
+    locations: [world 89 56 -4010]
     lines:
-      - ""
-      - "<b><yellow>Hədiyyə"
-      - "<b><yellow>Almaq"
-      - "%msl_nextgift%"
+    - ""
+    - "<b><yellow>Hədiyyə"
+    - "<b><yellow>Almaq"
+    - "%msl_nextgift%"
 
 #   Меню
 menu:
   lobby_menu:
-    title: "<gradient:#5b552d:#82741f:yellow:#c8c4c4><b><u>Server menyusu            "
+    title: "<gradient:#5b552d:#82741f:yellow:#c8c4c4><b><u>Server menyusu        \
+      \    "
     select_language: "<yellow>Dil seçmək"
   select_language:
     title: "<b>Dil seçin"
@@ -429,7 +476,8 @@ menu:
     title: "<gradient:#9f8600:#00abb0>İcma rejimləri"
     title2: "<gradient:#9f8600:#00abb0>Siz əlavə olunmasını istədiyiniz rejimlər"
     mhcpvp.lore: "<gray>Təxminən belə görünür <green>MHC<gray> final döyüşü"
-    modernpvp.lore: "<gray><color:#54fa24>Dream<gray> və <gradient:dark_gray:#f35cdf>Daquavis<gray> arasında baş verdiyi düeldəki kit-dəst"
+    modernpvp.lore: "<gray><color:#54fa24>Dream<gray> və <gradient:dark_gray:#f35cdf>Daquavis<gray>
+      arasında baş verdiyi düeldəki kit-dəst"
   pvp_teams_ranked:
     title: "<gradient:#9f8600:#00abb0>Komanda düellərinin variasiyaları"
 
@@ -504,3 +552,10 @@ instruction:
     pattern: "zakupka-2v2" # Конкретный режим "zakupka-2v2"
     message: |
       <yellow>Zakupka 2v2 vaaay
+kit_not_chosen: Test
+syntax_error: '<red>Invalid syntax: %1'
+veto:
+  ban_maps: ''
+  ban_modes: ''
+you_cant_rename: <red>Sizə mobların adlarını dəyişməsi qadağandır
+you_must_be_in_game: <red>Siz oyunda olmalısınız
