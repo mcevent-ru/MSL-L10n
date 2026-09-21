@@ -556,3 +556,4 @@ kit_not_chosen: Test
 syntax_error: '<red>Invalid syntax: %1'
 veto:
   ban_maps: Test
+  ban_modes: TEST
