@@ -383,15 +383,14 @@ death:
 
 #   MOTD
 motd:
-  name: "            <bold><gradient:#fcfc6d:#EDC547>Minecraft Sports League</gradient></bold>\
-    \           <#7d7d7d>1.21+"
+  name: "            <bold><gradient:#fcfc6d:#EDC547>Minecraft Sports League</gradient></bold>           <#7d7d7d>1.21+"
   #description: " <#ffff99><italic>🗡</italic> <gradient:white:#cccccc>ᴍsʟ.sᴜ</gradient><green>  ✔ <italic><gradient:white:white>Various modes! <!i><bold>NEW: <!b><gray>Flint Cart PVP"
-  #description: "            <#ffff99><italic>🗡</italic> <gradient:white:#cccccc>ᴍsʟ.sᴜ</gradient><green>    ✔ <italic><gradient:white:white>Various modes!"
+  description: "            <#ffff99><italic>🗡</italic> <gradient:white:#cccccc>ᴍsʟ.sᴜ</gradient><green>    ✔ <italic><gradient:white:white>Various modes!"
   maintenance: "       <red>⚠ ТЕХНИЧЕСКИЕ РАБОТЫ"
   maintenance_time: "     <red>⚠ ТЕХНИЧЕСКИЕ РАБОТЫ до %1 (МСК)"
   #name: "<#23a18e>MSL Trident Cup <bold><green>LIVE!"
-  description: "    <gradient:#9f8600:#00abb0>Мультидуэль 3x3 Турнир (5000₽) 26.09
-    17:00 МСК"
+  #description: "    <gradient:#9f8600:#00abb0>Мультидуэль 3x3 Турнир (5000₽) 26.09
+    #17:00 МСК"
 
 #   Tab
 tab:
@@ -649,17 +648,17 @@ menu:
       tooltip: "<green>Отправить запрос на дуэль"
   map_veto:
     title:
-      your_turn: "<dark_green>Забаньте карту"
-      opponent_captain_turn: "<dark_red>Соперник банит карту..."
-      your_captain_turn: "Ваш капитан банит карту..."
+      your_turn: "<dark_green>Забаньте карту (<blue>%1s</blue>)"
+      opponent_captain_turn: "<dark_red>Соперник банит карту (<blue>%1s</blue>)"
+      your_captain_turn: "Ваш капитан банит карту (<blue>%1s</blue>)"
       finished: " "
     banned_by_you: "<red>Забанена вашей стороной"
     banned_by_opponent: "<red>Забанена соперником"
   mode_veto:
     title:
-      your_turn: "<dark_green>Забаньте PvP режим"
-      opponent_captain_turn: "<dark_red>Соперник банит режим..."
-      your_captain_turn: "Ваш капитан банит режим..."
+      your_turn: "<dark_green>Забаньте PvP режим (<blue>%1s</blue>)"
+      opponent_captain_turn: "<dark_red>Соперник банит режим (<blue>%1s</blue>)"
+      your_captain_turn: "Ваш капитан банит режим (<blue>%1s</blue>)"
       finished: " "
     banned_by_you: "<red>Забанен вашей стороной"
     banned_by_opponent: "<red>Забанен соперником"
