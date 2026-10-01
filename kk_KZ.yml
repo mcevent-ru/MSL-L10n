@@ -546,6 +546,6 @@ instruction:
     message: |
       <yellow>Закупка 2v2, қуаныш! 🎉
 
-you_cant_rename: Нысандардың атын өзгерте алмайсыз
+you_cant_rename: <red>Нысандардың атын өзгерте алмайсыз
 you_must_be_in_game: <red>Сіз ойында болуыңыз керек
-your_rating: '<green> Сіздің рейтингіңіз:'
+your_rating: '<green>Сіздің рейтингіңіз:'
