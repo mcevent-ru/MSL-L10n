@@ -137,7 +137,7 @@ duel:
   you_denied: "<yellow>Вы отказались от дуэли с <green>%1"
   different_party_size: "<red>Кол-во участников вашей группы (%1) отличается от кол-ва
     приглащающего (%2)"
-  max_players_in_team: "<red>Маскимальное кол-во игроков в команде: %1"
+  max_players_in_team: "<red>Максимальное кол-во игроков в команде: %1"
 
 unknown_mode_type: "<red>Неизвестный тип режима: %1"
 max_win_count: "<red>Максимально возможное кол-во побед: %1"
@@ -383,9 +383,11 @@ death:
 
 #   MOTD
 motd:
-  name: "            <bold><gradient:#fcfc6d:#EDC547>Minecraft Sports League</gradient></bold>           <#7d7d7d>1.21+"
+  name: "            <bold><gradient:#fcfc6d:#EDC547>Minecraft Sports League</gradient></bold>\
+    \           <#7d7d7d>1.21+"
   #description: " <#ffff99><italic>🗡</italic> <gradient:white:#cccccc>ᴍsʟ.sᴜ</gradient><green>  ✔ <italic><gradient:white:white>Various modes! <!i><bold>NEW: <!b><gray>Flint Cart PVP"
-  description: "            <#ffff99><italic>🗡</italic> <gradient:white:#cccccc>ᴍsʟ.sᴜ</gradient><green>    ✔ <italic><gradient:white:white>Various modes!"
+  description: "            <#ffff99><italic>🗡</italic> <gradient:white:#cccccc>ᴍsʟ.sᴜ</gradient><green>\
+    \    ✔ <italic><gradient:white:white>Various modes!"
   maintenance: "       <red>⚠ ТЕХНИЧЕСКИЕ РАБОТЫ"
   maintenance_time: "     <red>⚠ ТЕХНИЧЕСКИЕ РАБОТЫ до %1 (МСК)"
   #name: "<#23a18e>MSL Trident Cup <bold><green>LIVE!"

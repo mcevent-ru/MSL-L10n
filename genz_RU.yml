@@ -2,15 +2,15 @@
 
 #   Сообщения
 player_joined: "<yellow>%1 зашел на серв"
-premium_player_joined: "<yellow><b>%1</b> зашел на серв"
-player_first_joined: "<yellow>%1 <b>впервые <!b><yellow>заходит на серв!"
+premium_player_joined: "<yellow><b>%1</b> зашел на сервак"
+player_first_joined: "<yellow>%1 <b>впервые <!b><yellow>заходит на сервак!"
 player_left: "[lang]disabled[/lang]"
 you_cant_build: "<red>Нельзя ставить блоки"
 you_cant_break: "<red>Нельзя ломать блоки"
 you_cant_use_buckets: "<red>Ты не можешь юзать ведра"
 you_cant_edit_signs: "<red>Ты не можешь редачить таблички"
 you_cant_use: "<red>Ты не можешь юзать это"
-you_cant_take_book: "<red>Ты не можешь просто взять и украсть книгу"
+you_cant_take_book: "<red>Ты не можешь просто взять и стащить книгу"
 you_must_be_in_lobby: "<red>Тебе надо быть в лобби"
 player_not_found: "<red>Игрок %1 не найден"
 player_not_playing: "<yellow>Игрок %1 щас не играет"
