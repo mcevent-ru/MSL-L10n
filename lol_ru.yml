@@ -187,3 +187,500 @@ team_disbanded: <red>Котманда %1 <red>была стёрта с лица 
 teamname_pattern_error: <red>Кличка котманды не должно превышать 16 символов и 
   начинаться с цифры; может состоять только из букв, цифр, дефиса и нижнего 
   подчеркивания, так же нельзя матерится
+accept_deny: <green><u><hover:show_text:Принять %1><click:run_command:/%1 accept
+  %2>ЛОЖКА<reset>  <red><u><hover:show_text:Отклонить %1><click:run_command:/%1 
+  deny %2>ВИЛКА
+party_message_format: ' <gold><i>%1<reset>: %2'
+player_joined: <yellow>!!!!→ %1 ←!!!! запрыгнул на сервис
+premium_player_joined: <yellow>!!!!→ %1 ←!!!! ПРЕМИАЛЬНО запрыгнул на сервис
+player_first_joined: <yellow><b>%1 первый раз<!b><yellow> на сервисе! 
+  <shadow:red><sprite:"minecraft:items":item/salmon>
+player_left: '[lang]disabled[/lang]'
+you_cant_use_buckets: <red>Незя испаолзавать глубокие тарелки
+team_you_invited: <lblue>Вы все пригласили <yellow>%1<lblue> в котманду 
+  %2<lblue>! У котёникуа примерно <red>60.7 <lblue>времени, чтобы принять 
+  приглАщалку
+team_you_got_invited: <yellow>котёнок %1 <lblue>приглашлкает тя в котманду 
+  %2<lblue>! У вас всех ! есть <red>60.7 <lblue>времени, чтоб принть приглашалку
+team_you_denied: <lblue>ты отказались от приглашалки в %1
+accept_error_team_not_exist: 'Ошипка приглашалки: Котманда котёнка %1 уже не бываает'
+accept_error_full_team: '<red>Ошипка вступлений: Котманда %1 уже заполнения котятками'
+you_joined_team: <lblue>ты присоединилась присоединился в коТманду %1<lblue>!
+player_joined_team: <lblue>котён ок %1 запрыгнул вв %2<lblue>!
+team_player_got_kicked: <lblue>Котёнок %1 был ИИзгнан ис %2<lblue> :<
+team_you_got_kicked: <red>ТЫ были иисгнаны изс %1
+team_color_changed: '<lblue>Свет котманды поменян: %1'
+team_not_found: <red>Котманда %1 не нашллоась
+match_minutes_left: |-
+  <green>ОСТАЛАСЬ <red>%1<green> МИНУТОК)<end1:а:ы:> по начала запланиророванванного матчаа:
+   %2 <white>VЕРSУС %3<green>
+match_not_found: <red>Матч не нащли. по пробуй поже
+match_full_error: <red>%1 котят(-ка) из вашей котманды уже подключилились к 
+  матчу!!!
+match_expired: <red>времяистекло. Матч будет засщчитан как победа для рандомной 
+  котманды, тянем жребий
+match_team_won: |2
+
+  <green>Котманда %1<green> <b>победилкала</b><yellow>!
+match_team_won_round: <green>Котманда %1<green> выграла <yellow>%2<green>-й 
+  кото-раунд
+unknown_season: '<red>Какой-то незнакомый сЕзон: %1'
+team_already_registered: <red>Этаа котманда итак зарегистриорированана
+you_registered_team: <green>Вы зарегистририроровалили свою котманду на игры в 
+  <white>%1
+registration_closed: <red>регистр ация закорыта
+not_enough_members: <red>НАДА иметь хотя бы %1 котёнок<end1:а:ов> в котманде
+matches:
+  pending_matches: '<green>плед стоящие матчи (<aqua>%1</aqua>):'
+  pending_match: |2
+
+      <green>%1 (СПБ): %2 — %3
+      %4 <b><white>VS</b> %5  <hover:show_text:'<b>ЛЛМ'><click:run_command:'/matches forceStart %6'><u>НачАть чичас</u>?
+  opponent_notification_error: <red>коперник (<white>%1</white>) должен 
+    существова на сервере или иметь привязной дисковорд
+  opponent_notification_forcestart: <green>Ты предложил <white>%1</white> 
+    сыграть матч райт ноув сейчас. У НЕГОесть <red>%2</red> минуток<end2:а:ы:> 
+    на кответ
+  you_got_notified_forcestart: '<green>твои коперник<white>%1</white> предлажил сыгр
+    ать матч райт ноув сейчас: %3 — %4. У тя есть <red>%2</red> минуток<end2:а:ы:>,
+    чтобы выразить согласие'
+  you_accepted_forcestart: <green>Вы соглашилкали начать матч райт ноув сейчас. 
+    Подождите около минутыок, и он начнётчся.
+  opponent_accepted_forcestart: <green>Ваш коперник выразил согласие начать матч
+    райт ноув сейчас. ждать около минуткуи, и он нчаёттся
+  you_denied: <red>Вы решили отказаться от такого заманчивого предложения :<
+  appealable_matches: '<green>Апелеллляция (<aqua>%1</aqua>):'
+  appealable_match: |2
+
+      <green>%2 — %3
+      %4 <b><white>VS</b> %5  <hover:show_text:'<b>ЛЛМ'><click:run_command:'/matches appealConfirm %6'><u>Апелеллляцроватьь</u>? (осталось <red>%7</red> времени<end7:а:ы:>)
+  confirm_appeal: |-
+    <red>ты уверен, что хзчоешь оспориь результат матча? Ложный вызов АДМИНА-ВЛАСТЕЛИНА может повлечь за собой стояние в уголку
+    <hover:show_text:'<b><red>ЛЛМ'><click:run_command:'/matches appeal %1'><u>Подать Апелеллляцию</u> (осталось <b>%2</b> секунд<end2:а:ы:>)
+  appeal: |-
+    <yellow><hover:show_text:'<b>ЛКМ</b>, если не согласны с результатом по техническим м причинам или подозреваете соперника в использовании хакер технологий.
+    У тяесть <red>%2</red> минуточек<end2:а:ы:>, чтобы нажать на кнопку'><click:run_command:'/matches appealConfirm %1'><u>Обжаловать результат матча</u>
+    (у тя <red>%2</red> минуточек<end2:а:ы:>, чтобы подать апелеллляцию)
+  player_appealed: |2
+
+    <yellow>Котёнок<white>%1</white> нажаловался на результат матча. ПЛИЗ, не выходите с сервера и дождись АДМИНА-ВЛАДЫКУ
+  appeal_error: <red>ВРЕМмя на подачку апелллляцииии вышло или ты уже 
+    наябедничал
+  reviewed_appeal_same_score: '<green>В результатие аппеляции счетчик матча остался
+    прешним: %1<white>-</white>%2'
+  reviewed_appeal_changed_score: |-
+    <green>В ресультате апелваыляции счетчик матча был <b>поменян</b>:
+     %3<white>-</white>%4 -> %1<white>-</white>%2
+kbsync:
+  warning: |2-
+
+    <hover:show_text:'<yellow><white>KnockbackSync</white> синхронизирует оттталкаивание, которую вы получаете от урона. Эта умная технология включена по умолчанию для режима %2. Вы можете прогололосовать за еe отключение в этой игре, испольсуя хакер строку <white>/togglekbsync'><yellow>KnockbackSync: %1
+  'off': <red>ВЫКЛЕК</red>
+  'on': <green>ВКЛЕК</green>
+  disable: |
+    <hover:show_text:/togglekbs><click:run_command:/togglekbs><yellow><u>кнопка Выключить</u>?
+  vote_off: '%1 <yellow>проголососовал за <red>кнопка  выключение</red> KnockбэкSync
+    (%2/%3)'
+  vote_on: '%1 <yellow>проголосовал за <green>кнопка включение</green> KnockbеckSync
+    (%2/%3)'
+  vote_cancel: '%1 <yellow>отменилка свой мяу (%2/%3)'
+  error: <red>Плугин KnockbackSync отсутствует на кото-сервере
+setscore:
+  vote: |-
+    котёнок %1 <yellow>просит изменение счетчика на %2<white>-</white>%3
+    (%4/%5, %6/%7)
+  vote_btn: <hover:show_text:'/setscore %1-%2'><click:run_command:'/setscore 
+    %1-%2'><yellow><u>плоголососовать</u>?
+  cancel_btn: <hover:show_text:'/setscore %1-%2'><click:run_command:'/setscore 
+    %1-%2'><yellow><u>отменаь</u>?
+  vote_cancel: |-
+    котёнок %1 <yellow>отменил свой мяу за изменение счетчикна на %2<white>-</white>%3
+    (%4/%5, %6/%7)
+  success: <yellow>Счетчик игры была поменян на %1<white>-</white>%2
+  limit_warning: <yellow>ты може поменять счетчик еще милион <aqua>%1</aqua> 
+    раз<end1::а:>
+  limit_error: <red>В этом турнире счетчИК игры можно МЕНЯТЬ только %1 
+    раз<end1::а:>
+  range_error: <red>ЩёТ должен быть в диапазоне от 0 то %1
+  same_score: <red>щет игры итак является %1-%2
+  rollback_error: <red>некого откатывать. Или лапками укажите щет в котманде
+  only_rollback: <red>В на кото-турнире можно только откатывать кото-раунд с 
+    кото-помощью слэшrollback
+premium:
+  error: <click:open_url:https://boosty.to/mslsu><hover:show_text:'Жмяк'><red>У 
+    тебя должен быть <premium/> 
+    <click:open_url:https://boosty.to/mslsu><hover:show_text:'Нажми'><red>[жмяк 
+    для покупки]
+  suffix_pattern_error: |-
+    <red>Сфинкс не должен превышать 18 символов, может состоять только из буков, цифор и этих снаков: 
+     ?!.,:;'🐈"/@[](){}<>#
+  suffix_set: '<green>скачан сфинкс: %1'
+  suffix_removed: <green>Сфинкс стёрт с лица земли
+  unknown_mob: '<red>7незнакомый моб: %1'
+  you_spawned_mob: <green>ты ПРИЗВАЛ %1
+  already_max_mobs_spawned: <red>Ты заспавнили многа мобов (%1). 
+    <u><hover:show_text:/spawnmob removeAll><click:run_command:/spawnmob 
+    removeAll>НАДА УДАЛИТЬ</u> их?
+  mobs_removed: <green>Стёрта с лица земли <yellow>%1 <green>мобов
+  no_mobs_removed: <red>никто не умер и Мир во всём мире
+  gradient_ad: <green>Купив <premium/>, ты смог бы использовать 
+    <gradient:blue:red:gold><u>grrrrrадиент</gradient> вместо обычного 
+    <%1>света</%1><green>!
+  got_elytra: <green>крылошки <msg:item.lobby.elytra><green>!
+  already_have_elytra: '<red>У тебя уже есть крылошки,  напиши: "Я заставил выглядить
+    себя глупо в чате" в чате'
+  safe_zone_error_1: <red>котёнок %1, пот защитвай сейв-зоне !!!
+  safe_zone_error_2: <red>незя бить котяток, нахзодясь в сейв-зоне
+zakupka:
+  not_enough_currency: <red>Мала %1 для котпокупику
+  you_purchased: <green>ты при обрели <yellow>%1 <white>%2
+  you_cant_sell: <red>Не смогли подать предмет
+  you_sold: <green>Вы подали <yellow>%1 <white>x%2
+discord:
+  info: '<green>Дисковод сервер <msl/>: <discord/>'
+  account_status_0: |-
+    <green>Аккаунт: <red>не привязан</red>
+    привяж акккаунт с помащью <u><hover:show_text:'<b>ЛКМ'><click:run_command:'/discord link'>/discord link
+  account_status_1: '<green>аккккаунт: <b>привязан</b> (<i>%1</i>)'
+  you_already_registered_code: <red>уже зарегистрировали кот, попробуйт поже
+  copy_code: |-
+    <green><u><hover:show_text:'<b>ЛКМ</b> для копирррования
+    Для пррривязки используйте хакер-слово /link на <#5865F2>дисковод<white> сервере'><click:copy_to_clipboard:%1>[Скопировать код] Используйте /link в дисковод-сервере MSL для привязки. Не пиши этот кот в чат!!!
+  account_linked: '<green>Ваш <#5865F2>Дисковод<green> аккаунт был прривязан: <i>%1'
+timeout:
+  you_requested: '<green>Т/И запррросили тайм-аут (оста-лось %1)   '
+  teammate_requested: Котёнок %1 <green>запросил тайм-аут (осталась %2)
+  auto_requested: <green>Компьютер запросил тайм-аут (осталась %1)
+  no_timeouts: <red>У вашей котманды нема тайм-аутов
+  other_team_already_requested: <red>ОХ!!! ВОТ ЧОРТ!!! ОЙ ОЙ ОЙ!!!, другая 
+    котманда уже запросила тайм-аут
+  cancel_btn: <green><u><hover:show_text:'<b>ЛЛМ</b> или слэшtimeout 
+    cancel'><click:run_command:/timeout cancel>ОТМЕНИТЬ В ИНТЕРНЕТЕ
+  you_canceled: <green>Попрошайничества на тайм-ауты были отменены в интеррнеет 
+    (осталась %1)
+  teammate_canceled: '%1 <green>отменилкал запросы на тайм-ауты (оста-лось %2)'
+  nothing_to_cancel: <red>Ваша котманда не запрашивала тайм-ауты, смените пароли
+    и почту
+  cant_cancel: <red>Незя отменять тайм-аут во время его ВЛИЯНИЯ
+  timeout: |2
+
+    <b>ВРЕМЯ-СТОП!
+gift:
+  open: <green>LOLCAT ЛОЛКОШКА ЛОЛОЛОЛ
+  success: <green>Ты получил дань с таблички:%1<br><green>Явись <green>через 
+    86400 секунд за новым подарррком!
+  namemc: |-
+    <yellow>Чтобы получить дары, поставь сердешко <red>❤</red> нашему кото-серверу!
+     <u><gray><hover:show_text:Жмяк><click:open_url:'https://namemc.com/server/msl.su>https://namemc.com/server/msl.su
+  failure: <red>Следующий дар мона буде забрать черес %1
+language_changed: <green>Ясык смянен на <aqua>%1 !!! <3
+zone:
+  warning: <red>еще 1 минуткуу и сона начнет сужатся
+  shrinking: <red>КЛАУСТРАФОБИЯ!
+call_admin:
+  success: '<yellow>Вы мяукнули АДМИНА-ВЛАСТЕЛИНА по причине: "<b>%1</b>". Он скоро
+    тебе поможет слезть с дерева'
+  cooldown: <red>АДМИНА-ВЛАСТЕЛИНА можно будет мяукнать еще раз через %1 
+    времени<end1:у:ы:>
+  join: |-
+    <gray>Котёнку %2 <gray>нужна помощь по причине "<b>%3</b>".
+     <u><hover:show_text:/assist %1><click:run_command:/assist %1>Соизволить помочь?
+assist:
+  admin_joined: |2
+
+    <green>котёнок %1 пришёл, чтобы спасти вас
+  error: <red>Этому котёнку уже наверна помогли
+unknown_role: '<red>Незнакомаяя роль: %1'
+you_got_role: '<green>Поздра! Ты получил нью роль кс: %1!'
+you_got_roles: '<green>Поздравляем м! Ты получил <aqua>%1</aqua> новы<end1:е:e:х>
+  рол<end1:и:и:ей>:'
+you_got_roles_list: <white>• %1
+prefix_set: '<green>Префикс помеянен: %1'
+prefix_removed: <green>Префикс скрыт от лишних глазок!!
+death:
+  escaping: ' , спасаясь от когтей %1'
+  default: котёнок %1<white> вмер((
+  block_explosion: котёнок %1<white> ВЗОРВАЛСЯ 🔥
+  contact:
+    cactus: '%1<white> почесался кактусом'
+    sweet_berry_bush: кот %1<white> застрял в кустике ☹
+  cramming: '%1<white> задохнулся в толпучке'
+  dragon_breath: '%1<white> был убит рвотой дракона'
+  drowning: '%1<white> испугался воды ☠'
+  dryout: '%1<white> высох :<'
+  entity_attack: '%1<white> был пойман %2'
+  entity_explosion:
+    tnt: '%1<white> взорвался при виде %2'
+    firework: '%1<white> взорвался фейерверком от %2'
+    creeper: '%1<white> взорвался крипкером'
+  entity_sweep_attack: '%1<white> поймался от т %2'
+  fall: '%1<white> упал и умер! XD'
+  falling_block: '%1<white> был убит падающей коробкой'
+  fire: '%1<white> сгорел('
+  fire_tick: '%1<white> сгорел(('
+  fly_into_wall: '%1<white> разбежался и врезался в стену'
+  hot_floor: '%1<white> вступил на горячие камушки 🔥'
+  lava: '%1<white> ЛАВА → БОЛЬНО → 🔥'
+  lightning: '%1<white> почти как флеш молнией но толькьо умер'
+  magic: '%1<white> убити зеляем %2'
+  projectile:
+    arrow: '%1<white> ПУХ! %2'
+    fireball: '%1<white> был убит огоньшаром %2'
+  starvation: '%1<white> сголодал('
+  suffocation: '%1<white> задохнулся в коробке'
+  thorns: '%1<white> умер от колючек %2'
+  void: '%1<white> упал в коробку Шрёдингера, 50/50 → Смерть!'
+  wither: '%1<white> умер от исскушения'
+  world_border: Игрока %1<white> скушала сона
+motd:
+  maintenance: '                <red>⚠ ТЕХНИЧЕСКИЕ РАБОТЫ И КОТЫ'
+tab:
+  lobby:
+    header: Вы в Лоббе
+    footer: Выбри режим кото-игры
+  pvp:
+    header1: |-
+      <white>%1
+      до <aqua>%2<white> пабед<end2:ы:>
+    header2: |-
+      <white>%5
+      <white> Решим %1
+      до <aqua>%2<white> побед<end2:ы:>
+    header3: |-
+      <white>%5
+      <white>Решим %1(%3/%4)
+      до <aqua>%2<white> побед<end2:ы:>
+    footer1: |-
+      Коробка для бойни %1<reset>
+       %4<white> : %5<reset>
+       Раунт <aqua>%6
+    footer2: |-
+      Карта %1<reset> (%7/%8)
+       Обчий счетчик %2<white> : %3<reset>
+       Счетчик %4<white> : %5<reset>
+       Раунт <aqua>%6
+kit:
+  menu_title: <dark_aqua>Выбрите кит-набор-кот
+  axepvp: <yellow>Лук и арбалет
+  crownpvp: <#FFD700>Коронка SMP PVP
+  swordpvp: <yellow>Коготки
+  nautiluspvp: <#238885>Улитка в панцире%1
+  uhcpvp: <yellow>УФХ
+  shieldlessuhcpvp: <yellow>УФХ Без считов
+  macepvp: <yellow>Палица
+  diamondmacepvp: <yellow>Алмазная Палица
+  smppvp: <yellow>С М П
+  modernsmppvp: <yellow>СОВРЕМЕННОЕ SMP
+  nethoppvp: <yellow>Незеритовая бронька
+  potpvp: <yellow>Зельки (Пот PVP)
+  strengthsmppvp: <#FF8C00>Сила SMP ПВП
+  modernpotpvp: <yellow>СОВРЕМЕННыЕ Зелья (Пот PVP)
+  tridentpvp: <yellow>Вилка
+  diamondsmp: <yellow>Драгоценное SMP
+  debuffpvp: <yellow>Слаболье
+  bowpvp: <yellow>Луки-батуны
+  ogvanillapvp: <yellow>СТАРОСТЬ Vanilla
+  elytra: <yellow>Крылья (Subtiers)
+  elytra2: <yellow>Крылошки
+  creeperpvp: <yellow>БАБАХ СМП криперы
+  ironuhcpvp: <yellow>Каменный век UHC
+  flintcartpvp: <gray>Зажигалка Вагонетка PVP
+  sword: <yellow>Когтистый
+  mace: <red>Пехохотинец
+  crossbow: <yellow>Глаз алмаз
+  axe: <yellow>РУБИТЬ ТОПОРОМ
+  heal: <yellow>*е**к
+  trident: <yellow>Сторожила
+  speed: <yellow>Зельевар
+mode:
+  kits: <yellow>Млекопитающие%1
+  zakupka: <gold>Покупки%1
+  elytra2pvp: <yellow>Крылошки%1
+  axepvp: <#ff0000>Лук и арбалет%1
+  random: <gradient:yellow:#cccc00:white>Жребий режим 1v1
+  spleef: <#ffffff>Снегопад%1
+  lokapotpvp: <#ff474c>Лока Горшок конгьюст набор%1
+  moderndiamondsmppvp: <gradient:aqua:yellow>Современное драгоценнноое 
+    СМП<yellow>%1
+  crownpvp: <#FFD700>Корона SMP КПК (кот против кота)%1
+  swordpvp: <aqua>Коготок%1
+  nautiluspvp: <#238885>Улитка в панцире%1
+  uhcpvp: <green>УХХ%1
+  mushroompvp: <#C4A484>Грибные Дуэлянты%1
+  pufferfishpvp: <gradient:#f1c232:#ba6530>Кото-Фугу-Шипы-Дуэли<#ba6530>%1
+  pufferfishpvppro: <gradient:#f1c232:#ba6530>Фугу-Дуэли ХАРДКОРНОЕ 
+    HT1<#ba6530>%1
+  modernuhcpvp: <gradient:green:aqua>Современное УХХХ<aqua>%1
+  shieldlessuhcpvp: <gradient:yellow:gold>УХХ Без щиткаа<gold>%1
+  smppvp: <yellow>МУЛЬТИПЛЕЕР%1
+  modernsmppvp: <gradient:yellow:aqua>Современный МУЛЬТИПЛЕЕР<aqua>%1
+  cissmppvp: <white>СНГ <blue>МУЛЬТИПЛЕЕР<red>%1
+  nethoppvp: <#524566>Чёрный алмаз OP%1
+  manhuntpvp: <gold>манйхант КПК%1
+  diamondoppvp: <aqua>Драгоценный OP%1
+  modernpotpvp: <gradient:light_purple:aqua>Современные Зелья (Pot PVP)<aqua>%1
+  strengthsmppvp: <#FF8C00>СИЛА МУЛЬТИПЛЕЕР КПК%1
+  potpvp: <light_purple>Зельки (ПОТ PVP)%1
+  macepvp: <gray>Палица%1
+  flintcartpvp: <gray>Зажигалка Вагонетка КПК%1
+  diamondmacepvp: <gradient:gray:aqua>Драгоценннннннная Палица<aqua>%1
+  axepotionpvp: <yellow>Лапка с зельями%1
+  speartntpvp: <#ff474c>Длинная палка с БАБАХ%1
+  macesmppvp: <gray>Палица МУЛЬЬТИПЛЕЕРЕРИ И%1
+  tridentpvp: <#23a18e>Вмилка%1
+  cartpvp: <red>Вагонетка КПК%1
+  procartpvp: <red>Профисеалнеальный Вагонетка КПК%1
+  elytrapvp: <white>Крылашки(Subtiers)%1
+  debuffpvp: <dark_green>Слабость%1
+  diamondsmppvp: <aqua>Драгоценный Мультиплеер%1
+  bowpvp: <#bd6f09>Луки-батуты%1
+  ogvanillapvp: <dark_blue>Древний Vanilla%1
+  nethpotpvp: <dark_purple>Незирит-Напитки%1
+  crystalsumopvp: <#e39ff6>Кристально Sumo%1
+  icesumopvp: <#00ced1>Лапки мёрзнуть Sumo%1
+  spearpvp: <#7B68EE>Длинные палки%1
+  spearmacepvp: <#7B68EE>Длинные палки с Палицей%1
+  lifestealpvp: <#b80f0a>9 жизней КПК%1
+  ironuhcpvp: <#a19d94>Каменный веек УХХ%1
+  tridentmacepvp: <gradient:#7FFFD4:#a19d94>Вилка-Ложка%1
+  creeperpvp: <#228B22>КПК на БАБАХ Крипкерах%1
+  doorpvp: <gold>Лоток КПК%1
+  modernpvp: <gradient:#54fa24:#f35cdf>Современное КПК<#f35cdf>%1
+  mhcpvp: <green>МутимХардкор окончание%1
+  multiduel: <gradient:#9f8600:#00abb0>Топоры и УХХ и Палица и Зелья и Коготки 
+    %1
+item:
+  lobby:
+    compass: <b><yellow>РЕСТОРАННОЕ МЕНЮ
+    bow: <b><yellow>ЛУКБАТУТ
+    arrow: <b><yellow>СТРЕЛКА
+    elytra: <b>КРЫЛАШКИ
+    journal: <b><yellow>МАГАЗИН
+hologram:
+  npc1: <gradient:#FFFF54:#EDC547>Режимы котокафе - MSL
+  npc2: <gradient:#FFFF54:#EDC547>Соревновательные коты
+  npc3: <gradient:#FFFF54:#EDC547>Решимы кошатника
+  npc4: <gradient:#FFFF54:#EDC547>Комантные решимы
+  npc5: <gradient:#FFFF54:#EDC547>МутимДуэль
+  spectate: 'Шпионить:'
+  online_playing: <green>●<white> %1 игранька<end1:ет:ют>
+  online_spectating: <gray>👁<white> %1 шпионька<end1:ет:ют>
+  online_queuing: <gold>⌚<white> %1 в очереди за кормом
+  category_online_playing: <green>●<white> %1
+  category_online_queuing: <gold>♬<white> %1
+  info1:
+    1: Созедать котманду <yellow>/team create <gray>[<white>КЛИЧКА<gray>]
+    2: Пригласить/Стереть с лица котманды <yellow>/team invite/kick 
+      <gray>[<white>КЛИКУХА<gray>]
+    3: Меняйте свет котманды <yellow>/team color <gray>[<white>0-9,a-f<gray>]
+    4: Выйти/Стереть котманду с лица земли <yellow>слэшteam leave
+    5: Просмотреть котят команды <yellow>/team list <gray>[<white>КЛИЧКА<gray>]
+    6: Участвованиеть в турнирах - <yellow>/team register 
+      <gray>[<white>ТУРНИР<gray>]
+  info2:
+    1: Пригласить в grrrупппппу <green>/group invite <gray>[<white>НИК<gray>]
+    2: Удалить из группппппы <green>/group kick <gray>[<white>НИК<gray>]
+    3: Выти/Удалити групппппу <green>слэшgroup leave
+    4: Позвать на кошачьий бой <green>/duel <gray>[<white>НИК<gray>]
+    5: Взять паусу на 30 времени <green>/timeout
+    6: 'Провести оценку скиллухи: <green>/tiertest <gray>[<white>НИК<gray>]'
+  cups:
+    1: <bold><yellow>Предстоящие Турнирррры
+    2: <red>MSL Арбалеты и луки 2н а2 Кубок 5 <red> - ВСЁ
+    3: <yellow>MSL Наборы Кубок 7 <red> - ВСЁ
+    4: <yellow>MSL Коготки 2x2 Cup 5 <red> - ВСЁ
+    5: <green>MSL УХХ 2x2 КУБОК 5 <red> - ВСЁ
+    6: <gradient:#9f8600:#00abb0>R9 Series Multiduel 3x3 Cup (5.000.000₽) 26.09 
+      17:00 МСК
+    7: '<white>Больше о турррнирах: <yellow>ds.msl.su'
+  leaderboard:
+    page: Кот.
+  parkour:
+    1: <b><gradient:#FFFF54:#EDC547>MSL КОШАЧИЙ ДОМИК С ПАРКУРОМ
+    2: '<yellow>Твой rrrrекорд: <white>%1</white>'
+    3: '<yellow>Всемирный rrrекорд: <white>%1</white>'
+    4: <yellow>(от <white>%1</white>)
+display:
+  ffa: <yellow>ФФА
+  online_ffa: <green>мяу<white> %1
+  parkour: |-
+    <white>Для верификации в топ
+    нужна запись забега
+    <light_gray>(Видео, картинки слайд шоу 20сек/в секунду или чит Flashback)</light_gray>
+sign:
+  gift:
+    locations:
+    - мир 89 56 -4010
+    lines:
+    - ' '
+    - <b><yellow>Принять дары
+    - <b><yellow>коробка сюрприз
+    - '%msl_nextgift%'
+menu:
+  pvp_competitive:
+    title: <gradient:#9f8600:#00abb0>Жёсткие кото-дуэли
+  pvp_comic:
+    title: <gradient:#9f8600:#00abb0>Забавные и нелепые режимы как котики
+  multiduel:
+    title: <gradient:#9f8600:#00abb0>МультиМдуэль
+    includes: 'ВКЛ <aqua>%1</aqua> из этих решимов:'
+  main:
+    title: '<gradient:#5b552d:#82741f:yellow:#c8c4c4><b><u>Мяу сервера            '
+    select_language: <yellow>Выбрать язычок
+    create_team:
+      name: <gold>Сделать котманду
+      lore: <green>Сосдать котманду для икры на мурррнирах
+    create_group:
+      name: <gold>Создать групппппу
+      lore: <green>Сосдать группппу для совместного просмотра
+  select_language:
+    title: <b>Выберите язычок
+    author: '<gray>Перевел и озвучил: %1'
+  create_team:
+    title: <b>Придумате кличку котманды
+    lore:
+      1: <light_purple>Это будет кличкой
+      2: <light_purple>вашей котманды!
+  ender_chest:
+    title: Мистический-кото-сундук
+  ender_chest_premium:
+    title: <gradient:#477676:#15a8a8>Мистический-кото-сундук
+  leave_queue: <red><b>котёнок сдался и покинуть очеред
+  online_playing: <green>●<light_gray> %1 в игре!
+  online_queuing: <gold>⌚<light_gray> %1 в очереди за кормм
+  you_in_queue: <yellow>МЯУ МЯУ МЯУ
+  pvp_msl:
+    title: <gradient:#9f8600:#00abb0>Вот эти решимы надумали на MSL
+  pvp_ranked:
+    title: <gradient:#9f8600:#00abb0>Дуэли премиальных муррррниров
+  pvp_community:
+    title: <gradient:#9f8600:#00abb0>Решимы от котяток
+    title2: <gradient:#9f8600:#00abb0>Решимы, которые вы все просили добавить
+    mhcpvp.lore: <gray>Примерно так выглядит финальный бой на <green>современном
+      УХХ
+    modernpvp.lore: <gray>Кит, на котором сражались 
+      <color:#54fa24>Мечтатель<gray> и 
+      <gradient:dark_gray:#f35cdf>даквивас<gray>.
+  addyourmode: <white>Ваш решим может быт сдесь!
+  addyourmodelore: <white>Обратись в дисковод, чтоб добавить лавки лавки решим
+  pvp_teams_ranked:
+    title: <gradient:#9f8600:#00abb0>Котмандные муррриации дуэлей
+  leaderboard:
+    title: <b>Таблица круцтыъ
+    find_me:
+      name: <yellow>Найди меня! ^^
+  elo_selector:
+    title: <aqua>выпрать решим
+  page_selector:
+    title: выпрать страничку
+  activities:
+    title: <b>Очереди и Игрушки
+    queues: <gold>Активные очерёдки
+    games: <green>Текусчие кото-игры
+  select_mode_category:
+    title: <gradient:#9f8600:#00abb0>выперите котегорию решимов
+  duel:
+    title: <yellow>🗡 <white>Шестерёнки и пружины дуэли
+    player: '<yellow>Котёнок<white>:'
+    maps: <yellow>Коробки для боёв
+    wins: <yellow>Победилки
