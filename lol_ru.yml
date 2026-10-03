@@ -351,7 +351,7 @@ timeout:
   you_requested: '<green>Т/И запррросили тайм-аут (оста-лось %1)   '
   teammate_requested: Котёнок %1 <green>запросил тайм-аут (осталась %2)
   auto_requested: <green>Компьютер запросил тайм-аут (осталась %1)
-  no_timeouts: <red>У вашей котманды нема тайм-аутов
+  no_timeouts: <red>У вашей котманды неМЕ тайм-аутов
   other_team_already_requested: <red>ОХ!!! ВОТ ЧОРТ!!! ОЙ ОЙ ОЙ!!!, другая 
     котманда уже запросила тайм-аут
   cancel_btn: <green><u><hover:show_text:'<b>ЛЛМ</b> или слэшtimeout 
@@ -426,6 +426,7 @@ death:
   projectile:
     arrow: '%1<white> ПУХ! %2'
     fireball: '%1<white> был убит огоньшаром %2'
+    trident: '%1<white> БЫЛ заколот %2'
   starvation: '%1<white> сголодал('
   suffocation: '%1<white> задохнулся в коробке'
   thorns: '%1<white> умер от колючек %2'
@@ -684,3 +685,111 @@ menu:
     player: '<yellow>Котёнок<white>:'
     maps: <yellow>Коробки для боёв
     wins: <yellow>Победилки
+    mode:
+      title: <yellow>Менять решим
+    confirm:
+      title: <green><b>Отправить кораблик  в свободное плавание
+      tooltip: <green>Отправки сапрос на кото-дуэль
+  map_veto:
+    title:
+      your_turn: <dark_green>Запломбируйте коробку для боёв(<blue>%1s</blue>)
+      opponent_captain_turn: <dark_red>Соперник пломбирует коробку для 
+        боёв(<blue>%1s</blue>)
+      your_captain_turn: Ваш капитан пломбирует коробку для 
+        боёв(<blue>%1s</blue>)
+    banned_by_you: <red>Мур-Мяу вашей сторонкой
+    banned_by_opponent: <red>Запломбирована коперником
+  mode_veto:
+    title:
+      your_turn: <dark_green>Запломбируйте КпК решим (<blue>%1s</blue>)
+      opponent_captain_turn: <dark_red>Коперник пломбирует решим 
+        (<blue>%1s</blue>)
+      your_captain_turn: Ваш вожак пломбирует решим (<blue>%1s</blue>)
+    banned_by_you: <red>Запломбирован вашей сторонкой
+    banned_by_opponent: <red>Запломбирован коперником
+prem:
+- <yellow>Шестерёнки и пружинки фантиков /kitsettings <red>В расработке
+- <yellow>Пломбир коробок в поиске /banmaps <red>В расработке
+- <yellow>Вбираите каляки-маляки для броньки в матчах /trim <red>В расработке
+- <yellow>Созедаите мобов в лоббе слэшspawnmob
+- <yellow>Расширенная статистика /stats <red>В расработке
+- <yellow>Ставьте СФИНКС в списке котят /suffix
+- <yellow>не бейте котят в лоббе!!!!
+- <yellow><b>10.000 Мяу в месяц
+actionbar:
+  duel:
+    prep:
+      skip: <yellow><b>SHIFT</b>, чтобы мяу мяу мяу%1
+      ready: <green>🔥 Ты приготовил 🔥 %1
+    timeout:
+      skip: <white><b>SHIFT</b>, чтобы умолять пропустить ВРЕМЯ-СТОП %1
+      ready: <green>🔥 Ты приготовил 🔥%1
+  lobby:
+    in_queue: '<gray>⌛ В опереди (%1/%2):  %3'
+  veto:
+    open_menu: <white><b>SHIFT</b>, чтобы открыть мяню
+title:
+  duel:
+    countdown: <yellow>%1
+    countdown321: <green>%1
+    attack: <green>Мяу мяу мяу!
+    timeout: <white>%1
+subtitle:
+  duel:
+    timeout: '%3Перерыв<white> %1/%2'
+role:
+  admin: <gradient:#d7342a:#f15050>АДМИН-ВЛАДЫКА
+  jr-admin: <gradient:#d76161:#e06969>Мл. АДМИН-ПЛАСТЕЛИН
+  developer: <gradient:#86c9ff:#a5d4fc>Расработщик
+  moderator: <gradient:#64d36d:#7dec86>Мобераторрр
+  media: <gradient:#c86cec:#e2abf8>Мёд-ия
+  builder: <gradient:#afd07a:#c8dea3>Каска
+  premium-plus: <gradient:#d4d261:#f2f27e>MSL</gradient> 
+    <gradient:#ecec99:#d4d261>Premium<b>%1+
+  premium: <gradient:#d4d261:#f2f27e>MSL</gradient> 
+    <gradient:#ecec99:#d4d261>Премиально
+  booster: <gradient:#cc5dd6:#ef87f8>Бу! стер
+instruction:
+  zakupka:
+    pattern: zakupka\dv\d
+    message: |
+      <yellow>мяукнуть АДИНА-ВЛАДЫКУ: <aqua>/calladmin
+      <yellow>Перевыпрать кiт: <aqua>слэшkit
+      <yellow>пауза за 30 времени: <aqua>/timeout
+      <yellow>Откат мяунта: <aqua>/rollback
+      <white>You are playing on <yellow><b>msl.su
+      <gold>MODE DESCRIPTION
+      <white>Buy items every round using gold in your inventory.
+      <white>Bought items can't be bought twice in a row - every item has a single-round cooldown.
+      <white>You can re-open buy-menu using <gold>/kit<white>.
+  default:
+    pattern: .*
+    message: |
+      <yellow>мяукнуть АДИНА-ВЛАДЫКУ: <aqua>/calladmin
+      <yellow>Перевыпрать кiт: <aqua>/kit
+      <yellow>пауза за 30 времени: <aqua>/timeout
+      <yellow>Откат мяунта: <aqua>/rollback
+      <white>Вы играете на <yellow><b>msl.su
+journal:
+- |
+  <b>         <black><u>2025 год<reset>
+
+  <gradient:#b55353:#919144>Ну за этот год произошло много вещей. В частности, было добавлено много режимов и для многих из них был одобрен <black>тир-тестинг</black>. Также сервер был переведен на мяу мяу язык. Ну и много чего.
+- |
+  <b>         <black><u>19.08.2024<reset>
+
+  <black><b> • </black><gradient:#919144:#b55353>Сервер был обновлен до <black>1.21</black>.
+  <black><b> • </black>Теперь во время игры появляется <black>зона</black>, за пределами которой наносится урон.
+  <black><b> • </black>Добавлена команда <black>/calladmin</black>, с помощью которой можно вызвать админа.
+- |
+  <b>          <black><u>11.01.2024<reset>
+
+  <black><b> • </black><gradient:#b55353:#919144>Реализована система <black>тайм-аутов</black> (перерывов) во время игры.
+  <black><b> • </black>Добавлена возможность <black>возвращаться</black> в игру, если вышел из сервера.
+
+  Подробнее в <#7289da>Discord</#7289da>:           <dark_gray><u><i><hover:show_text:Ссылка на новость><click:open_url:https://discord.com/channels/1008694439285370910/1187825467986825329/1194782514829598741>ССЫЛКА
+- |
+  <b>         <black><u>24.12.2023<reset>
+
+  <b> • </b><gradient:#919144:#b55353>На сервер был добавлен <black>журнал</black>, который вы сейчас читаете. В нем будет оповещаться информация о <black>новостях</black> и <black>обновлениях</black> такого крутого и амбициозного сервера, как <b><gradient:#7a6c05:#a69207>MSL</b>!
+                            <black><i>☺
