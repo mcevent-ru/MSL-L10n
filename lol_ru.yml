@@ -435,6 +435,7 @@ death:
   world_border: Игрока %1<white> скушала сона
 motd:
   maintenance: '                <red>⚠ ТЕХНИЧЕСКИЕ РАБОТЫ И КОТЫ'
+  maintenance_time: '    <red>⚠ ТЕХНИЧЕСКИЕ РАБОТЫ до %1 (МСК)'
 tab:
   lobby:
     header: Вы в Лоббе
