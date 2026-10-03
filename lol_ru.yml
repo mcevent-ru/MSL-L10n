@@ -1,1 +1,189 @@
-{}
+you_cant_build: <red>Незя ставить тута коробки
+you_cant_break: <red>Незя ломать коробки
+you_cant_edit_signs: <red>Незя писать, у тебя лапки...
+you_cant_use: <red>Незя, у тебя лапки
+you_cant_take_book: <red>Незя ворвать книжки
+you_cant_rename: <red>Незя биркой делать эта
+you_must_be_in_lobby: <red>Над быть в лоббе
+you_must_be_in_game: <red>Нужна быть в игреах
+kit_not_chosen: <red>сначала вбери кiт <color:#A12312>(кот)
+player_not_found: <red>Котёнок %1 потерялся
+player_not_playing: <yellow>Котёнок %1 не играется сечас
+player_not_in_lobby: <yellow>Котёнок %1 ни в лоббе
+you_spectating: <green>ты следиш за %1
+player_spectating: <gray>%1 следит!!
+color_parse_error: '<red>Свет нада в HЕХ (#ffffff #Котята #ВернитеМнеМой2007)'
+non_console_command_error: <red>Эти слова незя писат в хакер-строку
+non_lobby_command_error: <red>эти /слова незя в лоббе
+non_pvp_command_error: <red>НЕТ! кыш, незя хакер-слова в бойне
+you_cant_go_outside_map: <red>Кыш!!!
+action_cooldown: <red>Осталось ждат ь %1 времени
+reload: |2
+
+  <yellow>Перегруска...
+  Секунду, подожди чут чут!
+reload_kick: <yellow>перезагруска <b>MSL</b><br>Пересайди
+reload_kick_progress: <yellow>перезагруска <b>MSL</b> 
+  <white>(%1%)</white><br>Пересайди
+maintenance_kick: |-
+  <yellow>На кото-сервере ведуться кото-тех работы.
+  Задите попоже
+maintenance_kick_time: |-
+  <yellow>на кото-сервере ведутЬся кото-тех работы.
+  Задите поближе к <b>%1</b> (СПБ)
+ac_broadcast: <gray>[<yellow>Античит</yellow>] <red>Котёнок %1 был времена 
+  запломбирован За подозрение в магии %2 (тип %3) ((типо читы))
+ac_ban: |-
+  <red>Ты <i>времена</i> запломбирован античитом по причине:
+  <b>%1</b> (типо %2)
+  Вы можите перезати через <b>%3</b> секунд<end3:у:ы:> 
+  ((Удалить при отправке кото-перевода на сервер))
+perm_ban: |-
+  <red>Вы заблокированы по причине:
+  <b>%1</b>
+  Вы можете обжаловать наказание на нашем Discord сервере:
+  <discord><reset> <red>(<light_gray>#поддержка</light_gray>)
+temp_ban: |-
+  <red>Вы <i>временно</i> заблокированы по причине:
+  <b>%1</b>
+  Срок истекает: <b>%2</b> (МСК)
+  Вы можете обжаловать наказание на нашем Discord сервере:
+  <discord><reset> <red>(<light_gray>#поддержка</light_gray>)
+unknown: <red>неЗнакомая ошиб ка
+syntax_error: '<red>ошипка синтиксаса: %1'
+mute: '<red>тебя заставили молчать (>.<) по приказу: <b>%1</b>. Осталось: %2 времени'
+your_rating: '<green>Твой кото-рейтинг:'
+player_rating: '<green>Кото-рейтинг котёнка<yellow>%1</yellow>:'
+moderator:
+  you_banned: '<red>ты забанили котёнка <aqua>%1</aqua> до %2 (СПБ) по приказу: <b>%3</b>'
+  you_muted: '<yellow>ты саглушили игрока <aqua>%1</aqua> до %2 (СПБ) по приказу:
+    <b>%3</b>'
+  you_unmuted: <yellow>Ты расмяутил игрока <aqua>%1</aqua>
+you_left_queue: <yellow>Ты (ты) покинул очередь за кормом
+you_cant_leave: <red>Так тебе надо существовать в очереди или играт
+you_already_in_queue: <red>ты УЖЕ находишься в кото-очереди за кормом. чтоб 
+  выйти, веди слэшleave
+only_party_leader_can_join_queue: <red>Тока вожак группппы может заняттть 
+  кото-очередь
+only_party_leader_can_leave_queue: <red>Тока вожак групппы можетттт выйтттти с 
+  очереди
+you_must_leave_queue: <red>сНАЧАЛА покИНТЕЬ кото-очередь
+someone_joined_queue: <gray>Котёнок-АНОНИМ проскальзнул в кото-очередь (%1/%2)
+someone_left_queue: <gray>Котёнок-АНОНИМ выскользнул из кото-очереди (%1/%2)
+you_left_game: <red>Ты кото-покинул кото-игру, вследствие чего потерял много 
+  <b>%1 <reset><red>кото-рейтинга!
+no_maps_available: '<red>Ошипка: Все коробки для боёв заняты'
+you_joined_queue: <gray>Ты проскользнул в кото-очередь (%1/%2)
+current_map_no_builders: |
+  <aqua>Коробка для боёв: %1
+current_map: |
+  <aqua>Коробка для боёв: <hover:show_text:'%2'><u>%1
+prepare_for_round: <yellow>подготовьсь к <aqua>%1-му<yellow> раунду мЯЯЯу
+kit_selected: '<green>Вбран кот: <yellow>%1'
+your_teammate_left: <yellow>Твой кот-друг %1 покинул кошачьий сервер, но он 
+  может вернутся в в кото-игру
+you_will_respawn_in_next_round: <green>С реинконрацией! Ты зареспавнитшс в 
+  следующем кото-раунде
+first_team_won_round: <red>Синя <green>котманда выграла <yellow>%1<green>-й 
+  раунд
+second_team_won_round: <blue>Красная <green>котманда выграла 
+  <yellow>%1<green>-йй раунд
+first_team_won: |2
+
+  <red>Синя <green>команда <b>победилкала</b><yellow>!
+second_team_won: |2
+
+  <blue>Красна <green>команда <b>победилкала</b><yellow>!
+plus_elo: '<green>%4: +%1 Eлo, %2->%3'
+minus_elo: '<red>%4: -%1 Eлo, %2->%3'
+game_ended_error: <red>Игры закончились, тепер сё серьфвз-но
+party_created: <green>Групппппппппа былаааа успешнааа созданаааа
+you_already_in_party: <red>Ты уже в группппппппппе
+you_not_in_party: <red>вы НЕ сосоиТе в группппппе
+you_cant_invite: <red>вы все не можее пригласит котёнка %1
+you_must_be_party_leader: <red>Тока властелин групппппппы может делать ЭТО
+you_already_sent_invite: <red>в вы уже отправляли приглашлку, погодите
+party_invite_sent_player: |-
+  <yellow>%1 <green>пригласил <yellow>%2 <green>в группппу! У котёнка есть <red>60
+     <green>времени, чтобы принять приглашалку
+party_invite_sent_target: |-
+  <yellow>%1 <green>пригласил вась в группппппу! У Вас есть <red>60
+     <green>времени, чтобы принять приглашалку
+party_you_accepted: <green>ты приняля приглашалку в группу котёнка<yellow>%1
+you_cant_accept: <green>Вы не можешь приня приглашалку
+inappropriate_party_size_for_queue: <red>Ты не можешь пригласить данного 
+  котёнка, так как для него не хватит места в режиме, в очереди которого т ы 
+  сейчас находишс яс0ш- ясь
+party_you_denied: <red>Ты отказал групппппу котёнка <yellow>%1
+party_player_joined: <green>Котёнок<yellow>%1 <green>примнкнул к группппппппе
+party_player_left: <green>Котёнок<yellow>%1 <red>вышел <green>из групппппппы
+player_not_in_party: <red>Котёнок не сосоит в в ввашей групппппппе
+party_player_got_kicked: <green>Котёнок<yellow>%1 <red>был изгнан <green>ис 
+  групппппппы
+party_you_got_kicked: <red>Тебя изгнали из групппппппы :((
+party_you_left: <green>Вы бросили кото-друзей в группппе
+party_disbanded: <yellow>Группппппа была подавлена
+party_list: <green>Котятки группы (<aqua>%1<green>):<yellow>
+too_big_party_for_queue: |-
+  <red>В вашей группппе слишком много котят для этого режима
+  (%1 > %2)
+party_not_all_members_in_lobby: <red>Не все миллые котятки групппппы находятся в
+  лоббе
+party_elo_difference: |-
+  <red>Ошибка: Ретинг %1 отличается от рейтинга %2 более, чем на %3.
+  Нужно кого-то гнать метлой и кикать и КЫШ
+cant_invite_yourself: <red>Глупый самовлёбленный котёнок захотел раздвоить себя 
+  и играит!!
+cant_kick_yourself: <red>Глупый самовлёбленный котёнок захотел раздвоить себя и 
+  изгнать!!!
+invitation_expired: <red>Приглашалка, по всей видимости кошачьего мировозрения, 
+  прошла даром и времяистекло
+already_invited: <red>Вы уже пригласили! этого котёнка
+game_didnt_start_bc_player_left: '<red>Игра не початка: котёнок %1 покинул'
+duel:
+  choose_mode: '<green>Выбрите кото-режим:'
+  choose_map_count: '<green>Выбрите количест-во коробок для боёв:'
+  choose_win_count: '<green>Выбрите необх.одмое количест-во побед на каждой из <yellow>%1
+    <green>кошка-карт:'
+  choose_win_count1: '<green>Выбрите необх.одимое количест-во кошко-побед:'
+  you_invited: |-
+    <green>Вы пригласили котёнка <yellow>%1<green> пограть в режим <gold>%2 <green> 
+    (<aqua>%4<green> кошкарт<end4:а:ы:>, до <aqua>%5<green> кото-побед<end5:ы::>).
+       У котёнка есть <red>60 <green>времени, чтобы принять
+  you_got_invited: |-
+    <green>Котёнок<yellow>%1 <green>пригласил вас поиграть в режим <gold>%2 <green> 
+    (<aqua>%4<green> кошкарт<end4:а:ы:>, до <aqua>%5<green> кото-побед<end5:ы::>).
+       У вас есть <red>60 <green>времени, чтобы принять
+  you_denied: <yellow>Ты отказал от дуэли с котёнком <green>%1
+  different_party_size: <red>Количест-во участников вашей групппппппы (%1) 
+    отличаетЬся от количест-ва приглащающеающащего (%2)
+  max_players_in_team: '<red>Маскимальное количест-во котят в кото-команде: %1'
+unknown_mode_type: '<red>Неизданный ый тип решима: %1'
+max_win_count: '<red>Маскимально возможное кол-во кошкопобед: %1'
+map_count_must_be_odd: <red>Количество кошкарт должно быть нечетным делённым на 
+  квадратный корень 3х с половиной e^{i\pi }=?
+max_map_count: '<red>Маскимальное количест-во кошкарт: %1'
+veto:
+  ban_maps: <yellow>Запломбируйте <aqua>%1</aqua> кошкарт<end1:у:ы:> от 
+    кото-режима %2
+  ban_modes: <yellow>Запломбируйте<aqua>%1</aqua> кото-пвп-режим<end1::а:ов>
+  chosen_modes: <green>Выбран<end1::ы> кото-режим<end1::ы> %2
+  chosen_maps: <green>Выбран<end1:а:ы> кошкарт<end1:а:ы:> %2 для кото-режима %3
+team_already_exists: <red>Такая -> команда <- уЖЕ ЕСТЬ
+team_created: <lblue>Котманда <white>%1 <lblue>была сформировано
+you_already_in_team: <red>Ты уже находишс в котманде
+player_already_in_team: <red>Этот котёнок уже имеет котманду
+you_not_in_team: <red>Ты не в котманде
+player_not_in_team: <red>Этого котёнка нет в вашей котманде
+you_not_team_leader: <red>ТЫ должен быть властелином коТманды
+you_cant_leave_team_bc_alone: <red>ТЫ не можеш покинуть коТманду, будучи одним 
+  одиноким котёнком в ней :(((
+you_cant_change_team_settings_at_moment: <red>В конкретнный данный момент 
+  времени ты не може изменять химические свойства воды и состав котманды
+you_left_team: <red>Ьы вышлки из котманды %1
+are_you_sure_to_disband_team: <red>Ты уверен, что желаете стреть котманду? 
+  Статистика будет стерта с лица земли
+team_disbanded: <red>Котманда %1 <red>была стёрта с лица земли
+teamname_pattern_error: <red>Кличка котманды не должно превышать 16 символов и 
+  начинаться с цифры; может состоять только из букв, цифр, дефиса и нижнего 
+  подчеркивания, так же нельзя матерится
