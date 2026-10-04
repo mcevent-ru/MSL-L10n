@@ -80,8 +80,8 @@ current_map: |
   <aqua>Коробка для боёв: <hover:show_text:'%2'><u>%1
 prepare_for_round: <yellow>подготовьсь к <aqua>%1-му<yellow> раунду мЯЯЯу
 kit_selected: '<green>Вбран кот: <yellow>%1'
-your_teammate_left: <yellow>Твой кот-друг %1 покинул кошачьий сервер, но он 
-  может вернутся в в кото-игру
+your_teammate_left: <yellow>Твой котик %1 покинул кошачьий сервер, но он может 
+  вернутся в в кото-игру
 you_will_respawn_in_next_round: <green>С реинконрацией! Ты зареспавнитшс в 
   следующем кото-раунде
 first_team_won_round: <red>Синя <green>котманда выграла <yellow>%1<green>-й 
@@ -435,7 +435,7 @@ death:
   world_border: Игрока %1<white> скушала сона
 motd:
   maintenance: '                <red>⚠ ТЕХНИЧЕСКИЕ РАБОТЫ И КОТЫ'
-  maintenance_time: '    <red>⚠ ТЕХНИЧЕСКИЕ РАБОТЫ до %1 (МСК)'
+  maintenance_time: '    <red>⚠ ТЕХНИЧЕСКИЕ КОТЫ до %1 (СПБ)'
 tab:
   lobby:
     header: Вы в Лоббе
@@ -606,16 +606,16 @@ display:
   ffa: <yellow>ФФА
   online_ffa: <green>мяу<white> %1
   parkour: |-
-    <white>Для верификации в топ
+    <white>Для котификации в топ
     нужна запись забега
-    <light_gray>(Видео, картинки слайд шоу 20сек/в секунду или чит Flashback)</light_gray>
+    <light_gray>(Видео, слайд шоу 20сек/в секунду или чит Flashback)</light_gray>
 sign:
   gift:
     locations:
-    - мир 89 56 -4010
+    - world 89 56 -4010
     lines:
     - ' '
-    - <b><yellow>Принять дары
+    - <b><yellow>Забрать
     - <b><yellow>коробка сюрприз
     - '%msl_nextgift%'
 menu:
@@ -627,7 +627,7 @@ menu:
     title: <gradient:#9f8600:#00abb0>МультиМдуэль
     includes: 'ВКЛ <aqua>%1</aqua> из этих решимов:'
   main:
-    title: '<gradient:#5b552d:#82741f:yellow:#c8c4c4><b><u>Мяу сервера            '
+    title: '<gradient:#5b552d:#82741f:yellow:#c8c4c4><b><u>Мяуню сервера            '
     select_language: <yellow>Выбрать язычок
     create_team:
       name: <gold>Сделать котманду
@@ -728,7 +728,7 @@ actionbar:
   lobby:
     in_queue: '<gray>⌛ В опереди (%1/%2):  %3'
   veto:
-    open_menu: <white><b>SHIFT</b>, чтобы открыть мяню
+    open_menu: <white><b>SHIFT</b>, чтобы открыть мяуню
 title:
   duel:
     countdown: <yellow>%1
