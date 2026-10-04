@@ -671,8 +671,6 @@ menu:
 
 
 prem:
-- "<yellow>Make unique kit layouts /kitsettings <red>In developement"
-- "<yellow>Block maps in queue /banmaps <red>In developement"
 - "<yellow>Select unique trims for armor /trim <red>In developement"
 - "<yellow>Spawn mobs in lobby!!! /spawnmob"
 - "<yellow>Advanced stats /stats <red>In developement"
