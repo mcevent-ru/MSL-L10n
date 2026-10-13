@@ -540,4 +540,4 @@ instruction:
     pattern: "zakupka-2v2" # Конкретный режим "zakupka-2v2"
     message: |
       <yellow>Zakupka 2v2 yaaay
-player_left: ggffg
+player_left: '[lang]disabled[/lang]'
