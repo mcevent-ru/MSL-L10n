@@ -50,17 +50,17 @@ moderator:
     <b>%3</b>"
   you_unmuted: "<yellow>Вы размутили игрока <aqua>%1</aqua>"
 
-you_left_queue: "<yellow>Вы изыдоста изъ очереди"
+you_left_queue: "<yellow>Вы изыдоста изъ очереди: %1"
 you_cant_leave: "<red>Ты долженъ быти въ очередь альбо въ игрѣ"
 you_already_in_queue: "<red>Ты ѹже находишися въ очередь. Да изыдети, въведи /leave"
 only_party_leader_can_join_queue: "<red>Токмо вождь дружины може стати въ очередь"
 only_party_leader_can_leave_queue: "<red>Токмо вождь дружины може изыдети изъ очереди"
 you_must_leave_queue: "<red>Сначала изыдите изъ очереди"
-someone_joined_queue: "<gray>Кто то прилѣпися къ очередь (%1/%2)"
-someone_left_queue: "<gray>Кто то изыде изъ очереди (%1/%2)"
+someone_joined_queue: "<gray>Кто то прилѣпися къ очередь: %3 <gray>(%1/%2)"
+someone_left_queue: "<gray>Кто то изыде изъ очереди: %3 <gray>(%1/%2)"
 you_left_game: "<red>Ты изыде изъ игры, по сему потерялъ <b>%1 <reset><red>рейтинга!"
 no_maps_available: "<red>Карты вси полны, ошꙋбка"
-you_joined_queue: "<gray>Вы прилѣпишася къ очередь (%1/%2)"
+you_joined_queue: "<gray>Вы прилѣпишася къ очередь: %3 <gray>(%1/%2)"
 
 current_map_no_builders: "<aqua>Поле битвы: %1\n"
 current_map: "<aqua>Поле битвы: <hover:show_text:'%2'><u>%1\n"
@@ -452,7 +452,7 @@ menu:
   select_language:
     title: "<b>Избираи ѧзыкъ"
   # Меню выбора режимов
-  leave_queue: "<red><b>Оставы черѣ"
+  leave_queue: "<red><b>Оставы вся очереди"
   online_playing_zero: "<red>●<light_gray> 0 в игре"
   online_playing: "<green>●<light_gray> %1 в игре"
   online_queuing: "<gold>⌚<light_gray> %1 Въ черѣ"

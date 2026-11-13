@@ -58,17 +58,18 @@ moderator:
     <b>%3</b>"
   you_unmuted: "<yellow>You have unmuted player <aqua>%1</aqua>"
 
-you_left_queue: "<yellow>You left the queue"
+you_left_queue: "<yellow>You left the queue: %1"
 you_cant_leave: "<red>You must be in queue or in a game"
 you_already_in_queue: "<red>You are already in queue. To leave, type /leave"
 only_party_leader_can_join_queue: "<red>Only the party leader can join the queue"
 only_party_leader_can_leave_queue: "<red>Only the party leader can leave the queue"
 you_must_leave_queue: "<red>Leave the queue first"
-someone_joined_queue: "<gray>Someone joined the queue (%1/%2)"
-someone_left_queue: "<gray>Someone left the queue (%1/%2)"
+queue_limit_reached: "<red>You can queue for at most %1 modes at once"
+someone_joined_queue: "<gray>Someone joined the queue: %3 <gray>(%1/%2)"
+someone_left_queue: "<gray>Someone left the queue: %3 <gray>(%1/%2)"
 you_left_game: "<red>You left the game and lost <b>%1 <reset><red>rating!"
 no_maps_available: "<red>Error: All maps are occupied"
-you_joined_queue: "<gray>You joined the queue (%1/%2)"
+you_joined_queue: "<gray>You joined the queue: %3 <gray>(%1/%2)"
 
 current_map_no_builders: "<aqua>Map: %1\n"
 current_map: "<aqua>Map: <hover:show_text:'%2'><u>%1\n"
@@ -397,7 +398,7 @@ tab:
   pvp:
     header1: "<white>%1\nfirst to <aqua>%2<white> win<end2::s>"
     header2: "<white>%5\n<white> Mode %1\nfirst to <aqua>%2<white> win<end2::s>"
-    header3: "<white>%5\n<white>Mode %1(%3/%4)\nfirst to <aqua>%2<white> win<end2::s>"
+    header3: "<white>%5\n<white>Mode %1 (%3/%4)\nfirst to <aqua>%2<white> win<end2::s>"
     footer1: "Map %1<reset>\n %4<white> : %5<reset>\n Round <aqua>%6"
     footer2: "Map %1<reset> (%7/%8)\n Global score %2<white> : %3<reset>\n Score %4<white>
       : %5<reset>\n Round <aqua>%6"
@@ -616,6 +617,13 @@ menu:
     create_group:
       name: "<gold>Create a group"
       lore: "<green>Create group to play together"
+  previous_modes:
+    name: "<gold>Previous modes"
+    queued_name: "<gold>Chosen modes"
+    hint: "<gray>Click to queue for these modes:"
+    leave: "<red>Click to leave all queues:"
+    empty: "<gray>No previous modes yet"
+    entry: "<white>• %1"
   select_language:
     title: "<b>Choose language"
     author: "<gray>Translated by %1"
@@ -630,7 +638,7 @@ menu:
     title: "<gradient:#477676:#15a8a8>Ender Chest"
 
   # Mode selection menus
-  leave_queue: "<red><b>Leave queue"
+  leave_queue: "<red><b>Leave all queues"
   online_playing_zero: "<red>●<light_gray> 0 playing"
   online_playing: "<green>●<light_gray> %1 playing"
   online_queuing: "<gold>⌚<light_gray> %1 in queue"
@@ -714,7 +722,9 @@ actionbar:
       ready: "<green>You are ready %1"
   lobby:
     idle: "[lang]disabled[/lang]"
-    in_queue: "<gray>⌛ In queue (%1/%2):  %3"
+    in_queue: "<gray>⌛ In queue: %1"
+    in_queue_entry: "<gray>%3 <gray>(%1/%2)"
+    in_queue_more: "<gray> +%1 more"
     accuracy: "<green>Accuracy: <aqua>%1/%2"
   veto:
     open_menu: "<white><b>SHIFT</b> to open menu"

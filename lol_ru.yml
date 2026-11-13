@@ -59,7 +59,7 @@ moderator:
   you_muted: '<yellow>ты саглушили игрока <aqua>%1</aqua> до %2 (СПБ) по приказу:
     <b>%3</b>'
   you_unmuted: <yellow>Ты расмяутил игрока <aqua>%1</aqua>
-you_left_queue: <yellow>Ты (ты) покинул очередь за кормом
+you_left_queue: "<yellow>Ты (ты) покинул очередь за кормом: %1"
 you_cant_leave: <red>Так тебе надо существовать в очереди или играт
 you_already_in_queue: <red>ты УЖЕ находишься в кото-очереди за кормом. чтоб 
   выйти, веди слэшleave
@@ -68,12 +68,12 @@ only_party_leader_can_join_queue: <red>Тока вожак группппы мо
 only_party_leader_can_leave_queue: <red>Тока вожак групппы можетттт выйтттти с 
   очереди
 you_must_leave_queue: <red>сНАЧАЛА покИНТЕЬ кото-очередь
-someone_joined_queue: <gray>Котёнок-АНОНИМ проскальзнул в кото-очередь (%1/%2)
-someone_left_queue: <gray>Котёнок-АНОНИМ выскользнул из кото-очереди (%1/%2)
+someone_joined_queue: "<gray>Котёнок-АНОНИМ проскальзнул в кото-очередь: %3 <gray>(%1/%2)"
+someone_left_queue: "<gray>Котёнок-АНОНИМ выскользнул из кото-очереди: %3 <gray>(%1/%2)"
 you_left_game: <red>Ты кото-покинул кото-игру, вследствие чего потерял много 
   <b>%1 <reset><red>кото-рейтинга!
 no_maps_available: '<red>Ошипка: Все коробки для боёв заняты'
-you_joined_queue: <gray>Ты проскользнул в кото-очередь (%1/%2)
+you_joined_queue: "<gray>Ты проскользнул в кото-очередь: %3 <gray>(%1/%2)"
 current_map_no_builders: |
   <aqua>Коробка для боёв: %1
 current_map: |
@@ -649,7 +649,7 @@ menu:
     title: Мистический-кото-сундук
   ender_chest_premium:
     title: <gradient:#477676:#15a8a8>Мистический-кото-сундук
-  leave_queue: <red><b>котёнок сдался и покинуть очеред
+  leave_queue: "<red><b>котёнок сдался и покинуть все очереди"
   online_playing: <green>●<light_gray> %1 в игре!
   online_queuing: <gold>⌚<light_gray> %1 в очереди за кормм
   you_in_queue: <yellow>МЯУ МЯУ МЯУ

@@ -57,17 +57,18 @@ moderator:
     <b>%3</b>"
   you_unmuted: "<yellow>Вы размутили игрока <aqua>%1</aqua>"
 
-you_left_queue: "<yellow>Вы покинули очередь"
+you_left_queue: "<yellow>Вы покинули очередь: %1"
 you_cant_leave: "<red>Ты должен быть в очереди или в игре"
 you_already_in_queue: "<red>Ты уже находишься в очереди. Чтобы покинуть, введи /leave"
 only_party_leader_can_join_queue: "<red>Только лидер группы может занять очередь"
 only_party_leader_can_leave_queue: "<red>Только лидер группы может выйти из очереди"
 you_must_leave_queue: "<red>Сначала покиньте очередь"
-someone_joined_queue: "<gray>Кто-то присоединился в очередь (%1/%2)"
-someone_left_queue: "<gray>Кто-то вышел из очереди (%1/%2)"
+queue_limit_reached: "<red>Можно встать в очередь не более чем на %1 режимов одновременно"
+someone_joined_queue: "<gray>Кто-то присоединился к очереди: %3 <gray>(%1/%2)"
+someone_left_queue: "<gray>Кто-то вышел из очереди: %3 <gray>(%1/%2)"
 you_left_game: "<red>Ты покинул игру, вследствие чего потерял <b>%1 <reset><red>рейтинга!"
 no_maps_available: "<red>Ошибка: Все карты заняты"
-you_joined_queue: "<gray>Вы присоединились к очереди (%1/%2)"
+you_joined_queue: "<gray>Вы присоединились к очереди: %3 <gray>(%1/%2)"
 
 current_map_no_builders: "<aqua>Карта: %1\n"
 current_map: "<aqua>Карта: <hover:show_text:'%2'><u>%1\n"
@@ -402,7 +403,7 @@ tab:
   pvp:
     header1: "<white>%1\nдо <aqua>%2<white> побед<end2:ы:>"
     header2: "<white>%5\n<white> Режим %1\nдо <aqua>%2<white> побед<end2:ы:>"
-    header3: "<white>%5\n<white>Режим %1(%3/%4)\nдо <aqua>%2<white> побед<end2:ы:>"
+    header3: "<white>%5\n<white>Режим %1 (%3/%4)\nдо <aqua>%2<white> побед<end2:ы:>"
     footer1: "Карта %1<reset>\n %4<white> : %5<reset>\n Раунд <aqua>%6"
     footer2: "Карта %1<reset> (%7/%8)\n Общий счет %2<white> : %3<reset>\n Счет %4<white>
       : %5<reset>\n Раунд <aqua>%6"
@@ -611,6 +612,13 @@ menu:
     create_group:
       name: "<gold>Создать группу"
       lore: "<green>Создать группу для совместной игры"
+  previous_modes:
+    name: "<gold>Предыдущие режимы"
+    queued_name: "<gold>Выбранные режимы"
+    empty: "<gray>Пока нет предыдущих режимов"
+    hint: "<gray>Нажмите, чтобы встать в очередь снова:"
+    leave: "<red>Нажмите, чтобы выйти из всех очередей:"
+    entry: "<white>• %1"
   select_language:
     title: "<b>Выберите язык"
     author: "<gray>Перевел: %1"
@@ -625,7 +633,7 @@ menu:
     title: "<gradient:#477676:#15a8a8>Эндер-сундук"
 
   # Mode selection menus
-  leave_queue: "<red><b>Покинуть очередь"
+  leave_queue: "<red><b>Покинуть все очереди"
   online_playing_zero: "<red>●<light_gray> 0 в игре"
   online_playing: "<green>●<light_gray> %1 в игре"
   online_queuing: "<gold>⌚<light_gray> %1 в очереди"
@@ -704,7 +712,9 @@ actionbar:
       ready: "<green>Вы приготовились %1"
   lobby:
     idle: "[lang]disabled[/lang]"
-    in_queue: "<gray>⌛ В очереди (%1/%2):  %3"
+    in_queue: "<gray>⌛ В очереди: %1"
+    in_queue_entry: "<gray>%3 <gray>(%1/%2)"
+    in_queue_more: "<gray> и еще %1"
     accuracy: "<green>Точность: <aqua>%1/%2"
   veto:
     open_menu: "<white><b>SHIFT</b>, чтобы открыть меню"
