@@ -434,6 +434,8 @@ death:
   wither: '%1<white> умер от исскушения'
   world_border: Игрока %1<white> скушала сона
 motd:
+  name: "                   <bold><gradient:#fcfc6d:#EDC547>MeowwwSL</gradient></bold>\
+    \           <#7d7d7d>1.21+"
   maintenance: '                <red>⚠ ТЕХНИЧЕСКИЕ РАБОТЫ И КОТЫ'
   maintenance_time: '    <red>⚠ ТЕХНИЧЕСКИЕ КОТЫ до %1 (СПБ)'
 tab:

@@ -446,6 +446,8 @@ mode:
 
   elytra2pvp: "<white>Elytra%1"
   axepvp: "<#ff0000>Axe&Shield%1"
+  netheriteaxepvp: "<gradient:#524566:#ff0000>Netherite Axe&Shield%1"
+  spearaxepvp: "<gradient:#ff0000:gray>Spear-Axe PVP%1"
   random: "<gradient:yellow:#cccc00:white>Random mode 1v1"
   spleef: "<#ffffff>Spleef%1"
   lokapotpvp: "<#ff474c>Loka Pot Conquest Kit%1"
@@ -462,6 +464,7 @@ mode:
   smppvp: "<yellow>SMP%1"
   modernsmppvp: "<gradient:yellow:aqua>Modern SMP<aqua>%1"
   cissmppvp: "<white>CIS <blue>SMP<red>%1"
+  cavesmppvp: "<gray>Cave SMP<gray>%1"
   nethoppvp: "<#524566>Netherite OP%1"
   manhuntpvp: "<gold>Manhunt Duels%1"
   diamondoppvp: "<aqua>Diamond OP%1"
@@ -493,6 +496,8 @@ mode:
   tridentmacepvp: "<gradient:#7FFFD4:#a19d94>Trident-Mace PVP%1"
 
   creeperpvp: "<#228B22>Creeper PVP%1"
+  diamondcreeperpvp: "<gradient:aqua:#228B22>Diamond Creeper PVP%1"
+  lightspeedmacepvp: "<gradient:aqua:gray>Lightspeed Mace%1"
   doorpvp: "<gold>Door PVP%1"
   modernpvp: "<gradient:#54fa24:#f35cdf>Modern PVP<#f35cdf>%1"
   mhcpvp: "<green>Multihardcore finals%1"
@@ -576,6 +581,25 @@ sign:
 
 #   Menus
 menu:
+  premium:
+    elytra:
+      name: "<red>Test"
+      lore: "<gradient:#fcfc6d:#EDC547>Test"
+    spawnmob:
+      name: "<gradient:#fcfc6d:#EDC547>Test"
+      lore: "<gradient:#fcfc6d:#EDC547>Test"
+    trim:
+      name: "<gradient:#fcfc6d:#EDC547>Test"
+      lore: "<gradient:#fcfc6d:#EDC547>Test"
+    suffix:
+      name: "<gradient:#fcfc6d:#EDC547>Test"
+      lore: "<gradient:#fcfc6d:#EDC547>Test"
+    pvp:
+      name: "<gradient:#fcfc6d:#EDC547>Test"
+      lore: "<gradient:#fcfc6d:#EDC547>Test"
+    gradient:
+      name: "<gradient:#fcfc6d:#EDC547>Test"
+      lore: "<gradient:#fcfc6d:#EDC547>Test"
   pvp_competitive:
     title: "<gradient:#9f8600:#00abb0>Competitive duels"
   pvp_comic:

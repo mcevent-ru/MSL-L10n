@@ -387,7 +387,7 @@ motd:
     \           <#7d7d7d>1.21+"
   #description: " <#ffff99><italic>🗡</italic> <gradient:white:#cccccc>ᴍsʟ.sᴜ</gradient><green>  ✔ <italic><gradient:white:white>Various modes! <!i><bold>NEW: <!b><gray>Flint Cart PVP"
   description: "            <#ffff99><italic>🗡</italic> <gradient:white:#cccccc>ᴍsʟ.sᴜ</gradient><green>\
-    \    ✔ <italic><gradient:white:white>Various modes!"
+    \    ✔ <italic><gradient:white:white>Разные режимы!"
   maintenance: "       <red>⚠ ТЕХНИЧЕСКИЕ РАБОТЫ"
   maintenance_time: "     <red>⚠ ТЕХНИЧЕСКИЕ РАБОТЫ до %1 (МСК)"
   #name: "<#23a18e>MSL Trident Cup <bold><green>LIVE!"
@@ -464,6 +464,7 @@ mode:
   smppvp: "<yellow>SMP%1"
   modernsmppvp: "<gradient:yellow:aqua>Modern SMP<aqua>%1"
   cissmppvp: "<white>СНГ <blue>SMP<red>%1"
+  cavesmppvp: "<gray>Пещерное SMP<gray>%1"
   nethoppvp: "<#524566>Незеритовый OP%1"
   manhuntpvp: "<gold>Manhunt PVP%1"
   diamondoppvp: "<aqua>Алмазный OP%1"
@@ -574,6 +575,25 @@ sign:
 
 #   Menus
 menu:
+  premium:
+    elytra:
+      name: "<gradient:#fcfc6d:#EDC547>Test"
+      lore: "<gradient:#fcfc6d:#EDC547>Test"
+    spawnmob:
+      name: "<gradient:#fcfc6d:#EDC547>Test"
+      lore: "<gradient:#fcfc6d:#EDC547>Test"
+    trim:
+      name: "<gradient:#fcfc6d:#EDC547>Test"
+      lore: "<gradient:#fcfc6d:#EDC547>Test"
+    suffix:
+      name: "<gradient:#fcfc6d:#EDC547>Test"
+      lore: "<gradient:#fcfc6d:#EDC547>Test"
+    pvp:
+      name: "<gradient:#fcfc6d:#EDC547>Test"
+      lore: "<gradient:#fcfc6d:#EDC547>Test"
+    gradient:
+      name: "<gradient:#fcfc6d:#EDC547>Test"
+      lore: "<gradient:#fcfc6d:#EDC547>Test"
   pvp_competitive:
     title: "<gradient:#9f8600:#00abb0>Соревновательные дуэли"
   pvp_comic:
