@@ -502,7 +502,9 @@ actionbar:
       ready: "<green>Уготовистеся ли? %1"
   lobby:
     idle: "[lang]disabled[/lang]"
-    in_queue: "<gray>⌛ В чредѣ (%1/%2):  %3"
+    in_queue: "<gray>⌛ В чредѣ: %1"
+    in_queue_entry: "<gray>%3 <gray>(%1/%2)"
+    in_queue_more: "<gray> и еще %1"
     accuracy: "<green>Истинность: <aqua>%1/%2"
 
 #   Titles

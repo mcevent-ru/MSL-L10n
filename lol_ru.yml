@@ -728,7 +728,9 @@ actionbar:
       skip: <white><b>SHIFT</b>, чтобы умолять пропустить ВРЕМЯ-СТОП %1
       ready: <green>🔥 Ты приготовил 🔥%1
   lobby:
-    in_queue: '<gray>⌛ В опереди (%1/%2):  %3'
+    in_queue: '<gray>⌛ В опереди: %1'
+    in_queue_entry: '<gray>%3 <gray>(%1/%2)'
+    in_queue_more: '<gray> и исчо %1'
   veto:
     open_menu: <white><b>SHIFT</b>, чтобы открыть мяуню
 title:

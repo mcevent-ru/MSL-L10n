@@ -500,7 +500,9 @@ actionbar:
       ready: "<green>Ты реди %1"
   lobby:
     idle: "[lang]disabled[/lang]"
-    in_queue: "<gray>⌛ В очереди (%1/%2):  %3"
+    in_queue: "<gray>⌛ В очереди: %1"
+    in_queue_entry: "<gray>%3 <gray>(%1/%2)"
+    in_queue_more: "<gray> и ещё %1"
     accuracy: "<green>Точность: <aqua>%1/%2"
 
 #   Titles
