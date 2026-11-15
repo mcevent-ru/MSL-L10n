@@ -678,7 +678,7 @@ menu:
   page_selector:
     title: выпрать страничку
   activities:
-    title: <b>Очереди и Игрушки
+    title: <gradient:#9f8600:#00abb0>Очереди и Игрушки
     queues: <gold>Активные очерёдки
     games: <green>Текусчие кото-игры
   select_mode_category:

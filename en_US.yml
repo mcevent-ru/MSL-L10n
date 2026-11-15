@@ -668,9 +668,26 @@ menu:
   page_selector:
     title: "Choose page"
   activities:
-    title: "<b>Queues & Games"
+    title: "<gradient:#9f8600:#00abb0>Queues & Games"
     queues: "<gold>Active queues"
     games: "<green>Current games"
+    queues_prev: "<gray>Previous page"
+    queues_next: "<gray>Next page"
+    games_prev: "<gray>Previous page"
+    games_next: "<gray>Next page"
+    click_join: "<green>Click to join the queue"
+    party_bundle: "%1 <gray>(party of %2)"
+    bundle_member: "<gray>• <white>%1"
+    bundle_more: "<gray>... and %1 more"
+    click_spectate: "<green>Click to spectate"
+    game_map: "<gray>Map: <white>%1"
+    game_score: "<gray>Score: %1 <gray>: %2"
+    game_global_score: "<gray>Score: %1 <gray>: %2 <dark_gray>- %3 <gray>: %4"
+    game_loading: "<gray>Preparing..."
+  queue_bundle:
+    title: "<b>%1"
+    random: "<light_purple>Choose random"
+    all_queued: "<yellow>You're already queued for all these modes"
   select_mode_category:
     title: "<gradient:#9f8600:#00abb0>Select mode category"
   duel:

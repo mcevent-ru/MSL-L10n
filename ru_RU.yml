@@ -661,9 +661,26 @@ menu:
   page_selector:
     title: "Выбрать страницу"
   activities:
-    title: "<b>Очереди и Игры"
+    title: "<gradient:#9f8600:#00abb0>Очереди и Игры"
     queues: "<gold>Активные очереди"
     games: "<green>Текущие игры"
+    queues_prev: "<gray>Предыдущая страница"
+    queues_next: "<gray>Следующая страница"
+    games_prev: "<gray>Предыдущая страница"
+    games_next: "<gray>Следующая страница"
+    click_join: "<green>Нажмите, чтобы встать в очередь"
+    party_bundle: "%1 <gray>(группа из %2)"
+    bundle_member: "<gray>• <white>%1"
+    bundle_more: "<gray>... и еще %1"
+    click_spectate: "<green>Нажмите, чтобы наблюдать"
+    game_map: "<gray>Карта: <white>%1"
+    game_score: "<gray>Счет: %1 <gray>: %2"
+    game_global_score: "<gray>Счет: %1 <gray>: %2 <dark_gray>- %3 <gray>: %4"
+    game_loading: "<gray>Подготовка..."
+  queue_bundle:
+    title: "<b>%1"
+    random: "<light_purple>Выбрать случайно"
+    all_queued: "<yellow>Вы уже в очереди на все эти режимы"
   select_mode_category:
     title: "<gradient:#9f8600:#00abb0>Выберите категорию режимов"
   duel:
