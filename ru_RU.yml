@@ -57,6 +57,15 @@ moderator:
     <b>%3</b>"
   you_unmuted: "<yellow>Вы размутили игрока <aqua>%1</aqua>"
 
+vanish:
+  vanished: "<green>Игрок <aqua>%1</aqua> теперь невидим для других"
+  vanished_offline: "<green>Игрок <aqua>%1</aqua> станет невидимым при следующем входе"
+  unvanished: "<green>Игрок <aqua>%1</aqua> снова видим для других"
+  already_vanished: "<red>Игрок <aqua>%1</aqua> уже невидим"
+  not_vanished: "<red>Игрок <aqua>%1</aqua> не находится в режиме невидимости"
+  you_are_vanished: "<yellow>Вы в режиме невидимости: другие игроки вас не видят. Введите <aqua>/unvanish</aqua>, чтобы стать видимым"
+  you_are_unvanished: "<green>Вы вышли из режима невидимости: другие игроки снова вас видят"
+
 you_left_queue: "<yellow>Вы покинули очередь: %1"
 you_cant_leave: "<red>Ты должен быть в очереди или в игре"
 you_already_in_queue: "<red>Ты уже находишься в очереди. Чтобы покинуть, введи /leave"

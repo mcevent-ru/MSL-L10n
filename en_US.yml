@@ -58,6 +58,15 @@ moderator:
     <b>%3</b>"
   you_unmuted: "<yellow>You have unmuted player <aqua>%1</aqua>"
 
+vanish:
+  vanished: "<green>Player <aqua>%1</aqua> is now vanished"
+  vanished_offline: "<green>Player <aqua>%1</aqua> will be vanished on their next join"
+  unvanished: "<green>Player <aqua>%1</aqua> is no longer vanished"
+  already_vanished: "<red>Player <aqua>%1</aqua> is already vanished"
+  not_vanished: "<red>Player <aqua>%1</aqua> is not vanished"
+  you_are_vanished: "<yellow>You are currently vanished: other players cannot see you. Use <aqua>/unvanish</aqua> to become visible"
+  you_are_unvanished: "<green>You are no longer vanished: other players can see you again"
+
 you_left_queue: "<yellow>You left the queue: %1"
 you_cant_leave: "<red>You must be in queue or in a game"
 you_already_in_queue: "<red>You are already in queue. To leave, type /leave"
