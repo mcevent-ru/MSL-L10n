@@ -458,6 +458,7 @@ mode:
   axepvp: "<#ff0000>Axe&Shield%1"
   netheriteaxepvp: "<gradient:#524566:#ff0000>Netherite Axe&Shield%1"
   spearaxepvp: "<gradient:#ff0000:gray>Spear-Axe PVP%1"
+  bedpvp: "<gradient:white:#ff0000>Bed PVP%1"
   random: "<gradient:yellow:#cccc00:white>Random mode 1v1"
   spleef: "<#ffffff>Spleef%1"
   lokapotpvp: "<#ff474c>Loka Pot Conquest Kit%1"
@@ -530,6 +531,7 @@ hologram:
   npc3: "<gradient:#FFFF54:#EDC547>Community modes"
   npc4: "<gradient:#FFFF54:#EDC547>Team modes"
   npc5: "<gradient:#FFFF54:#EDC547>Multiduel"
+  npc6: "<gradient:#FFFF54:#EDC547>Queues & Games"
   spectate: "Spectate:"
   online_playing: "<green>●<white> %1 playing"
   online_spectating: "<gray>👁<white> %1 spectating"
@@ -582,7 +584,7 @@ display:
 #   If there are placeholders, then to update them, the cords of the sign must be written in config.yml -> lobby.refreshing_signs
 sign:
   gift:
-    locations: [world 89 56 -4010]
+    locations: [world 100 56 -4019]
     lines:
     - " "
     - "<b><yellow>Recieve"

@@ -526,6 +526,7 @@ hologram:
   npc3: "<gradient:#FFFF54:#EDC547>Режимы сообщества"
   npc4: "<gradient:#FFFF54:#EDC547>Командные режимы"
   npc5: "<gradient:#FFFF54:#EDC547>Мультидуэль"
+  npc6: "<gradient:#FFFF54:#EDC547>Очереди и Игры"
   spectate: "Наблюдать:"
   online_playing: "<green>●<white> %1 игра<end1:ет:ют>"
   online_spectating: "<gray>👁<white> %1 наблюда<end1:ет:ют>"
@@ -576,7 +577,7 @@ display:
 sign:
   gift:
     locations:
-    - world 89 56 -4010
+    - world 100 56 -4019
     lines:
     - " "
     - "<b><yellow>Получить"

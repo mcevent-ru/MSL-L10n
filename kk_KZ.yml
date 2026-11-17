@@ -441,7 +441,7 @@ display:
 #   Егер орынбасарлар (placeholders) болса, оларды жаңарту үшін, тақтаның координаттарын config.yml -> lobby.refreshing_signs бөлімінде көрсету керек
 sign:
   gift:
-    locations: [world 89 56 -4010]
+    locations: [world 100 56 -4019]
     lines:
     - ""
     - "<b><yellow>Сыйлық алу"

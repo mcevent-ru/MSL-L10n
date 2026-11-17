@@ -436,7 +436,7 @@ display:
 #   Если присутствуют плейсхолдеры, то для их обновления координаты таблички нужно записать в config.yml -> lobby.refreshing_signs
 sign:
   gift:
-    locations: [world 89 56 -4010]
+    locations: [world 100 56 -4019]
     lines:
     - ""
     - "<b><yellow>Получить"

@@ -566,6 +566,7 @@ hologram:
   npc3: <gradient:#FFFF54:#EDC547>Решимы кошатника
   npc4: <gradient:#FFFF54:#EDC547>Комантные решимы
   npc5: <gradient:#FFFF54:#EDC547>МутимДуэль
+  npc6: <gradient:#FFFF54:#EDC547>Очереди и Игрушки
   spectate: 'Шпионить:'
   online_playing: <green>●<white> %1 игранька<end1:ет:ют>
   online_spectating: <gray>👁<white> %1 шпионька<end1:ет:ют>
