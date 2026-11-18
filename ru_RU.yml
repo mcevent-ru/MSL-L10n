@@ -83,6 +83,49 @@ current_map_no_builders: "<aqua>Карта: %1\n"
 current_map: "<aqua>Карта: <hover:show_text:'%2'><u>%1\n"
 prepare_for_round: "<yellow>Подготовьтесь к <aqua>%1-му<yellow> раунду"
 kit_selected: "<green>Выбран кит: <yellow>%1"
+player_busy: "<red>Этот игрок сейчас занят"
+you_are_busy: "<red>Вы сейчас заняты"
+kit_editor:
+  title: "<dark_gray>Редактор кита: <yellow>%1"
+  select_kit: "<dark_gray>Выберите кит"
+  saved: "<green>Раскладка кита сохранена"
+  reset_done: "<green>Раскладка сброшена к стандартному киту"
+  inventory_full: "<red>Ваш инвентарь заполнен"
+  no_modes: "<red>Категории режимов не настроены"
+  mode_has_no_kits: "<red>У этого режима нет редактируемых китов"
+  not_configured: "<red>Меню редактора китов не настроены"
+  invalid_armor: "<red>Этот предмет нельзя положить в этот слот брони"
+  button:
+    reset:
+      name: "<red>Сбросить раскладку"
+      lore: "<gray>Вернуть стандартный кит"
+    exit:
+      name: "<green>Сохранить и выйти"
+      lore: "<gray>Сохранить раскладку и вернуться в лобби"
+    trash:
+      name: "<red>Удалить"
+      lore: "<gray>Нажмите с предметом на курсоре, чтобы удалить его"
+    prev: "<gray>Предыдущая страница"
+    next: "<gray>Следующая страница"
+    back: "<gray>Назад"
+  info:
+    title: "<yellow>Редактор кита"
+    items: "<gray>Нажмите на категорию, чтобы взять предметы"
+    enchant: "<gray>Shift+ПКМ по предмету - зачарования"
+  enchant:
+    title: "<dark_gray>Зачарования"
+    current: "<gray>Уровень: <yellow>%1<gray>/<yellow>%2"
+    controls: "<dark_gray>ЛКМ: +1, ПКМ: -1, Shift: сброс"
+    unavailable: "<red>Этот предмет нельзя зачаровать"
+    preview: "<yellow>Зачарованный предмет"
+  category:
+    weapons: "Оружие"
+    armor: "Броня"
+    blocks: "Блоки"
+    food: "Еда"
+    potions: "Зелья"
+    tools: "Инструменты"
+    misc: "Разное"
 your_teammate_left: "<yellow>Ваш тиммейт %1 покинул сервер, однако он сможет вернуться
   в игру"
 you_will_respawn_in_next_round: "<green>С возвращением! Вы зареспавнитесь в следующем
@@ -648,6 +691,7 @@ menu:
   online_playing: "<green>●<light_gray> %1 в игре"
   online_queuing: "<gold>⌚<light_gray> %1 в очереди"
   you_in_queue: "<yellow>Вы в очереди!"
+  rmb_edit_kit: "<dark_gray>ПКМ, чтобы изменить кит"
   pvp_msl:
     title: "<gradient:#9f8600:#00abb0>Эти режимы придумали на MSL"
   pvp_ranked:

@@ -84,6 +84,49 @@ current_map_no_builders: "<aqua>Map: %1\n"
 current_map: "<aqua>Map: <hover:show_text:'%2'><u>%1\n"
 prepare_for_round: "<yellow>Prepare for round <aqua>%1"
 kit_selected: "<green>Kit selected: <yellow>%1"
+player_busy: "<red>This player is busy right now"
+you_are_busy: "<red>You are busy right now"
+kit_editor:
+  title: "<dark_gray>Kit editor: <yellow>%1"
+  select_kit: "<dark_gray>Select a kit"
+  saved: "<green>Kit layout saved"
+  reset_done: "<green>Layout reset to the default kit"
+  inventory_full: "<red>Your inventory is full"
+  no_modes: "<red>Mode categories are not configured"
+  mode_has_no_kits: "<red>This mode has no editable kits"
+  not_configured: "<red>The kit editor menus are not configured"
+  invalid_armor: "<red>This item cannot be placed in that armor slot"
+  button:
+    reset:
+      name: "<red>Reset layout"
+      lore: "<gray>Restore the default kit"
+    exit:
+      name: "<green>Save & exit"
+      lore: "<gray>Save the layout and return to the lobby"
+    trash:
+      name: "<red>Trash"
+      lore: "<gray>Click with an item on the cursor to delete it"
+    prev: "<gray>Previous page"
+    next: "<gray>Next page"
+    back: "<gray>Back"
+  info:
+    title: "<yellow>Kit editor"
+    items: "<gray>Click a category to take items"
+    enchant: "<gray>Shift+RMB an item to edit its enchantments"
+  enchant:
+    title: "<dark_gray>Enchantments"
+    current: "<gray>Level: <yellow>%1<gray>/<yellow>%2"
+    controls: "<dark_gray>LMB: +1, RMB: -1, Shift: reset"
+    unavailable: "<red>This item cannot be enchanted"
+    preview: "<yellow>Enchanted item"
+  category:
+    weapons: "Weapons"
+    armor: "Armor"
+    blocks: "Blocks"
+    food: "Food"
+    potions: "Potions"
+    tools: "Tools"
+    misc: "Misc"
 your_teammate_left: "<yellow>Your teammate %1 left the server, but they can rejoin"
 you_will_respawn_in_next_round: "<green>Welcome back! You will respawn in the next
   round"
@@ -654,6 +697,7 @@ menu:
   online_playing: "<green>●<light_gray> %1 playing"
   online_queuing: "<gold>⌚<light_gray> %1 in queue"
   you_in_queue: "<yellow>You're in queue!"
+  rmb_edit_kit: "<dark_gray>RMB to edit kit"
   pvp_msl:
     title: "<gradient:#9f8600:#00abb0>Modes created by MSL"
   pvp_ranked:
